@@ -1,0 +1,615 @@
+{
+  "url": "http://waocon.com",
+  "domain": "waocon.com",
+  "timestamp": "2025-05-28 18:08:55",
+  "analysis_duration": 0.0,
+  "search_performance": {
+    "summary": {
+      "clicks": 1341,
+      "impressions": 15245,
+      "ctr": 8.8,
+      "position": 11.4
+    },
+    "trends": {
+      "clicks": 56.9,
+      "impressions": 120.9,
+      "position": -1.6
+    },
+    "rating": "非常に良好",
+    "top_queries": [
+      {
+        "dimension_type": "query",
+        "dimension_value": "メタタグ最適化",
+        "clicks": 45,
+        "impressions": 450,
+        "ctr": 10.0,
+        "position": 17.6
+      },
+      {
+        "dimension_type": "query",
+        "dimension_value": "waocon.com 評判",
+        "clicks": 44,
+        "impressions": 308,
+        "ctr": 14.29,
+        "position": 26.3
+      },
+      {
+        "dimension_type": "query",
+        "dimension_value": "waocon.com 料金",
+        "clicks": 43,
+        "impressions": 516,
+        "ctr": 8.33,
+        "position": 28.5
+      },
+      {
+        "dimension_type": "query",
+        "dimension_value": "waocon.com",
+        "clicks": 40,
+        "impressions": 560,
+        "ctr": 7.14,
+        "position": 29.2
+      },
+      {
+        "dimension_type": "query",
+        "dimension_value": "ウェブサイト最適化",
+        "clicks": 40,
+        "impressions": 400,
+        "ctr": 10.0,
+        "position": 7.0
+      },
+      {
+        "dimension_type": "query",
+        "dimension_value": "構造化データ",
+        "clicks": 40,
+        "impressions": 240,
+        "ctr": 16.67,
+        "position": 12.9
+      },
+      {
+        "dimension_type": "query",
+        "dimension_value": "waocon.com 使い方",
+        "clicks": 38,
+        "impressions": 494,
+        "ctr": 7.69,
+        "position": 23.2
+      },
+      {
+        "dimension_type": "query",
+        "dimension_value": "SEO対策",
+        "clicks": 38,
+        "impressions": 228,
+        "ctr": 16.67,
+        "position": 2.0
+      },
+      {
+        "dimension_type": "query",
+        "dimension_value": "モバイルフレンドリー",
+        "clicks": 35,
+        "impressions": 455,
+        "ctr": 7.69,
+        "position": 9.3
+      },
+      {
+        "dimension_type": "query",
+        "dimension_value": "キーワード分析",
+        "clicks": 33,
+        "impressions": 462,
+        "ctr": 7.14,
+        "position": 11.0
+      }
+    ],
+    "top_pages": [
+      {
+        "dimension_type": "page",
+        "dimension_value": "http://waocon.comabout/",
+        "clicks": 48,
+        "impressions": 384,
+        "ctr": 12.5,
+        "position": 8.3
+      },
+      {
+        "dimension_type": "page",
+        "dimension_value": "http://waocon.comproducts/",
+        "clicks": 41,
+        "impressions": 451,
+        "ctr": 9.09,
+        "position": 6.3
+      },
+      {
+        "dimension_type": "page",
+        "dimension_value": "http://waocon.comcontact/",
+        "clicks": 40,
+        "impressions": 320,
+        "ctr": 12.5,
+        "position": 5.8
+      },
+      {
+        "dimension_type": "page",
+        "dimension_value": "http://waocon.comblog/keyword-research/",
+        "clicks": 39,
+        "impressions": 429,
+        "ctr": 9.09,
+        "position": 16.4
+      },
+      {
+        "dimension_type": "page",
+        "dimension_value": "http://waocon.comblog/seo-tips/",
+        "clicks": 37,
+        "impressions": 296,
+        "ctr": 12.5,
+        "position": 13.4
+      },
+      {
+        "dimension_type": "page",
+        "dimension_value": "http://waocon.comblog/content-marketing/",
+        "clicks": 26,
+        "impressions": 182,
+        "ctr": 14.29,
+        "position": 3.9
+      },
+      {
+        "dimension_type": "page",
+        "dimension_value": "http://waocon.comservices/",
+        "clicks": 21,
+        "impressions": 294,
+        "ctr": 7.14,
+        "position": 15.4
+      },
+      {
+        "dimension_type": "page",
+        "dimension_value": "http://waocon.comfaq/",
+        "clicks": 19,
+        "impressions": 190,
+        "ctr": 10.0,
+        "position": 19.7
+      },
+      {
+        "dimension_type": "page",
+        "dimension_value": "http://waocon.comblog/",
+        "clicks": 15,
+        "impressions": 165,
+        "ctr": 9.09,
+        "position": 17.6
+      },
+      {
+        "dimension_type": "page",
+        "dimension_value": "http://waocon.com",
+        "clicks": 8,
+        "impressions": 112,
+        "ctr": 7.14,
+        "position": 4.8
+      }
+    ],
+    "device_data": [
+      {
+        "dimension_type": "device",
+        "dimension_value": "MOBILE",
+        "clicks": 804,
+        "impressions": 9147,
+        "ctr": 8.79,
+        "position": 16.3
+      },
+      {
+        "dimension_type": "device",
+        "dimension_value": "DESKTOP",
+        "clicks": 469,
+        "impressions": 5335,
+        "ctr": 8.79,
+        "position": 18.5
+      },
+      {
+        "dimension_type": "device",
+        "dimension_value": "TABLET",
+        "clicks": 67,
+        "impressions": 762,
+        "ctr": 8.79,
+        "position": 1.4
+      }
+    ],
+    "country_data": [
+      {
+        "dimension_type": "country",
+        "dimension_value": "jp",
+        "clicks": 938,
+        "impressions": 10671,
+        "ctr": 8.79,
+        "position": 4.9
+      },
+      {
+        "dimension_type": "country",
+        "dimension_value": "us",
+        "clicks": 44,
+        "impressions": 508,
+        "ctr": 8.66,
+        "position": 13.7
+      },
+      {
+        "dimension_type": "country",
+        "dimension_value": "cn",
+        "clicks": 44,
+        "impressions": 508,
+        "ctr": 8.66,
+        "position": 7.0
+      },
+      {
+        "dimension_type": "country",
+        "dimension_value": "kr",
+        "clicks": 44,
+        "impressions": 508,
+        "ctr": 8.66,
+        "position": 16.0
+      },
+      {
+        "dimension_type": "country",
+        "dimension_value": "gb",
+        "clicks": 44,
+        "impressions": 508,
+        "ctr": 8.66,
+        "position": 4.4
+      },
+      {
+        "dimension_type": "country",
+        "dimension_value": "fr",
+        "clicks": 44,
+        "impressions": 508,
+        "ctr": 8.66,
+        "position": 7.9
+      },
+      {
+        "dimension_type": "country",
+        "dimension_value": "de",
+        "clicks": 44,
+        "impressions": 508,
+        "ctr": 8.66,
+        "position": 12.9
+      },
+      {
+        "dimension_type": "country",
+        "dimension_value": "ca",
+        "clicks": 44,
+        "impressions": 508,
+        "ctr": 8.66,
+        "position": 9.9
+      },
+      {
+        "dimension_type": "country",
+        "dimension_value": "au",
+        "clicks": 44,
+        "impressions": 508,
+        "ctr": 8.66,
+        "position": 19.0
+      },
+      {
+        "dimension_type": "country",
+        "dimension_value": "sg",
+        "clicks": 44,
+        "impressions": 508,
+        "ctr": 8.66,
+        "position": 7.8
+      }
+    ],
+    "date_data": [
+      {
+        "date": "2025-04-30",
+        "clicks": 47,
+        "impressions": 329,
+        "ctr": 14.29,
+        "position": 5.8
+      },
+      {
+        "date": "2025-05-01",
+        "clicks": 10,
+        "impressions": 130,
+        "ctr": 7.69,
+        "position": 15.1
+      },
+      {
+        "date": "2025-05-02",
+        "clicks": 15,
+        "impressions": 255,
+        "ctr": 5.88,
+        "position": 3.7
+      },
+      {
+        "date": "2025-05-03",
+        "clicks": 36,
+        "impressions": 576,
+        "ctr": 6.25,
+        "position": 15.9
+      },
+      {
+        "date": "2025-05-04",
+        "clicks": 42,
+        "impressions": 504,
+        "ctr": 8.33,
+        "position": 8.5
+      },
+      {
+        "date": "2025-05-05",
+        "clicks": 93,
+        "impressions": 465,
+        "ctr": 20.0,
+        "position": 2.9
+      },
+      {
+        "date": "2025-05-06",
+        "clicks": 55,
+        "impressions": 495,
+        "ctr": 11.11,
+        "position": 16.5
+      },
+      {
+        "date": "2025-05-07",
+        "clicks": 18,
+        "impressions": 162,
+        "ctr": 11.11,
+        "position": 13.1
+      },
+      {
+        "date": "2025-05-08",
+        "clicks": 80,
+        "impressions": 400,
+        "ctr": 20.0,
+        "position": 15.2
+      },
+      {
+        "date": "2025-05-09",
+        "clicks": 32,
+        "impressions": 512,
+        "ctr": 6.25,
+        "position": 4.3
+      },
+      {
+        "date": "2025-05-10",
+        "clicks": 11,
+        "impressions": 66,
+        "ctr": 16.67,
+        "position": 7.9
+      },
+      {
+        "date": "2025-05-11",
+        "clicks": 16,
+        "impressions": 96,
+        "ctr": 16.67,
+        "position": 12.3
+      },
+      {
+        "date": "2025-05-12",
+        "clicks": 13,
+        "impressions": 221,
+        "ctr": 5.88,
+        "position": 19.2
+      },
+      {
+        "date": "2025-05-13",
+        "clicks": 54,
+        "impressions": 540,
+        "ctr": 10.0,
+        "position": 7.9
+      },
+      {
+        "date": "2025-05-14",
+        "clicks": 19,
+        "impressions": 342,
+        "ctr": 5.56,
+        "position": 17.6
+      },
+      {
+        "date": "2025-05-15",
+        "clicks": 75,
+        "impressions": 1350,
+        "ctr": 5.56,
+        "position": 15.5
+      },
+      {
+        "date": "2025-05-16",
+        "clicks": 69,
+        "impressions": 621,
+        "ctr": 11.11,
+        "position": 6.0
+      },
+      {
+        "date": "2025-05-17",
+        "clicks": 70,
+        "impressions": 1050,
+        "ctr": 6.67,
+        "position": 16.4
+      },
+      {
+        "date": "2025-05-18",
+        "clicks": 57,
+        "impressions": 855,
+        "ctr": 6.67,
+        "position": 3.4
+      },
+      {
+        "date": "2025-05-19",
+        "clicks": 23,
+        "impressions": 115,
+        "ctr": 20.0,
+        "position": 17.4
+      },
+      {
+        "date": "2025-05-20",
+        "clicks": 80,
+        "impressions": 880,
+        "ctr": 9.09,
+        "position": 14.6
+      },
+      {
+        "date": "2025-05-21",
+        "clicks": 71,
+        "impressions": 1136,
+        "ctr": 6.25,
+        "position": 5.6
+      },
+      {
+        "date": "2025-05-22",
+        "clicks": 13,
+        "impressions": 78,
+        "ctr": 16.67,
+        "position": 14.3
+      },
+      {
+        "date": "2025-05-23",
+        "clicks": 91,
+        "impressions": 1183,
+        "ctr": 7.69,
+        "position": 16.8
+      },
+      {
+        "date": "2025-05-24",
+        "clicks": 91,
+        "impressions": 455,
+        "ctr": 20.0,
+        "position": 6.6
+      },
+      {
+        "date": "2025-05-25",
+        "clicks": 31,
+        "impressions": 434,
+        "ctr": 7.14,
+        "position": 18.4
+      },
+      {
+        "date": "2025-05-26",
+        "clicks": 16,
+        "impressions": 96,
+        "ctr": 16.67,
+        "position": 9.7
+      },
+      {
+        "date": "2025-05-27",
+        "clicks": 91,
+        "impressions": 1547,
+        "ctr": 5.88,
+        "position": 11.8
+      },
+      {
+        "date": "2025-05-28",
+        "clicks": 22,
+        "impressions": 352,
+        "ctr": 6.25,
+        "position": 8.7
+      }
+    ]
+  },
+  "index_coverage": {
+    "summary": {
+      "total_urls": 287,
+      "valid": {
+        "count": 261,
+        "percentage": 90.9
+      },
+      "error": {
+        "count": 3,
+        "percentage": 1.0,
+        "types": [
+          {
+            "type": "server_error",
+            "count": 0
+          },
+          {
+            "type": "redirect_error",
+            "count": 0
+          },
+          {
+            "type": "not_found",
+            "count": 1
+          },
+          {
+            "type": "other",
+            "count": 2
+          }
+        ]
+      },
+      "excluded": {
+        "count": 17,
+        "percentage": 5.9,
+        "types": [
+          {
+            "type": "robots_txt",
+            "count": 8
+          },
+          {
+            "type": "noindex",
+            "count": 5
+          },
+          {
+            "type": "canonical",
+            "count": 1
+          },
+          {
+            "type": "other",
+            "count": 3
+          }
+        ]
+      },
+      "warning": {
+        "count": 6,
+        "percentage": 2.1,
+        "types": [
+          {
+            "type": "duplicate_content",
+            "count": 2
+          },
+          {
+            "type": "soft_404",
+            "count": 1
+          },
+          {
+            "type": "mobile_usability",
+            "count": 1
+          },
+          {
+            "type": "other",
+            "count": 2
+          }
+        ]
+      }
+    },
+    "rating": "非常に良好"
+  },
+  "mobile_usability": {
+    "summary": {
+      "total_pages": 137,
+      "valid": {
+        "count": 117,
+        "percentage": 85.4
+      },
+      "issues": {
+        "count": 20,
+        "percentage": 14.6,
+        "types": [
+          {
+            "type": "viewport_not_set",
+            "count": 4
+          },
+          {
+            "type": "content_wider_than_screen",
+            "count": 6
+          },
+          {
+            "type": "text_too_small",
+            "count": 5
+          },
+          {
+            "type": "clickable_elements_too_close",
+            "count": 3
+          },
+          {
+            "type": "other",
+            "count": 2
+          }
+        ]
+      }
+    },
+    "rating": "普通"
+  },
+  "recommendations": [
+    "検索順位が低いため、コンテンツの質と関連性を向上させてください",
+    "インデックスエラーが3件あります。これらを修正してください",
+    "インデックス警告が6件あります。これらを確認してください",
+    "モバイルユーザビリティの問題が20件あります。モバイル対応を改善してください"
+  ]
+}

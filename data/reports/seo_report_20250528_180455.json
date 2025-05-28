@@ -1,0 +1,1798 @@
+{
+  "url": "http://waocon.com",
+  "domain": "waocon.com",
+  "analysis_date": "2025-05-28 18:04:55",
+  "content_analysis": {
+    "title": "株式会社WAOCON ｜ おもわず「ワオ！」と唸る提案を。",
+    "meta_description": "",
+    "word_count": 3406,
+    "paragraph_count": 102,
+    "image_count": 56,
+    "heading_count": 13,
+    "headings": [
+      {
+        "level": 1,
+        "text": ""
+      },
+      {
+        "level": 1,
+        "text": ""
+      },
+      {
+        "level": 3,
+        "text": "Philosophy"
+      },
+      {
+        "level": 3,
+        "text": "News&Column"
+      },
+      {
+        "level": 3,
+        "text": "Service"
+      },
+      {
+        "level": 3,
+        "text": "Contents"
+      },
+      {
+        "level": 3,
+        "text": "SNS"
+      },
+      {
+        "level": 3,
+        "text": "waocon_office"
+      },
+      {
+        "level": 3,
+        "text": "lacola_official"
+      },
+      {
+        "level": 3,
+        "text": "Contact"
+      },
+      {
+        "level": 4,
+        "text": "Creative"
+      },
+      {
+        "level": 4,
+        "text": "Marketing"
+      },
+      {
+        "level": 4,
+        "text": "Franchise"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/logo.png",
+        "alt": "TOPロゴ",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-line02_white.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-send.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/logo.png",
+        "alt": "TOPロゴ",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-line02_white.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-send.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/logo-wh.png",
+        "alt": "loading",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/blog/wp-content/uploads/2025/03/freepik__the-style-is-modern-and-it-is-a-detailed-illustrat__8733.jpeg",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/blog/wp-content/uploads/2025/03/okawawaocon_Master_the_basic_concept_of_framing_-chaos_20_-_97dabd50-9e6e-44f2-8f32-6e4d2c8a57d3_0.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/blog/wp-content/uploads/2025/04/okawawaocon_Choosing_a_tool_to_organize_project_dependencies__9ff23110-4b83-4e31-8ef7-a9459b70287b_2.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/blog/wp-content/uploads/2025/03/okawawaocon_10_common_mistakes_beginners_make_when_making_vid_dbb47c52-2d24-4c9d-bfeb-d63dbdd8009f_2.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/blog/wp-content/uploads/2025/03/freepik__a-customer-journey-map-visualized-as-a-winding-roa__8732.jpeg",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/blog/wp-content/uploads/2025/04/okawawaocon_How_to_customize_your_IDE_to_maximize_your_work_e_11c16738-2965-43bb-858e-c5cde58118b5_1.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/blog/wp-content/uploads/2025/03/okawawaocon_Ideas_for_getting_started_on_a_budget_-chaos_20__734e5c72-50d3-48a2-b349-fbf5e146a003_0.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/blog/wp-content/uploads/2025/03/freepik__a-row-of-antique-books-with-leatherbound-covers-di__8731.jpeg",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/service/service-creative.jpg",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/service/service-marketing.jpg",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/service/service-franchise.jpg",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/contents/contents-photo.webp",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/contents/contents-movie.webp",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/advertisement/contents-streaming.webp",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/contents/contents-design.webp",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/contents/contents-webpage.webp",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/contents/contents-system.webp",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/advertisement/contents-advertisement.webp",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/contents/contents-ownedinfluencer.webp",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/contents/contents-influencer.webp",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/contents/contents-realaffiliate.webp",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/contents/contents-marketing.webp",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/advertisement/contents-construction.webp",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/sns/sns-waocon_office.jpg",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "【Adobe Premiere ProとAdobe After Effects プロはどう使い分ける？】今回は、プロがよく使用する映像編集ソフト「Adobe Premiere Pro」と「Adobe After Effects」をご紹介します。「映像編集ソフトの特徴と違いは？」と気になっている方はぜひご覧ください📝動画編集に興味がある方やこれから挑戦してみたい方にとって、必見の内容です！アカウントをフォローして最新情報をチェックしてくださいね✔✔---------------------------------------------＃動画編集 がもっと気になる！(@waocon )がもっと知りたい！そんな方はプロフのリンクからお気軽にご連絡ください〜！---------------------------------------------#DX戦略 #事業戦略 #マーケティング戦略 #ブランディング戦略 #仕組み作り #パートナー募集 #業務提携募集中 ＃動画 ＃動画制作 ＃動画編集 #思わずワオと唸る提案を",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "【プロにWEB制作を任せるメリットーその2ー】WEB制作において、プロに任せるメリット③～⑤をご紹介します！「そもそもWEBサイトは必要なの？」と、気になっている方は前回の投稿をチェックしてくださいね✔︎✔︎WEBサイト自体やサイトの運営に、不安があるという方も必読の内容です！アカウントをフォローしてチェックしてくださいね📝---------------------------------------------#web制作 がもっと気になる！(@waocon )がもっと知りたい！そんな方はプロフのリンクからお気軽にご連絡ください〜！---------------------------------------------#DX戦略 #事業戦略 #マーケティング戦略 #ブランディング戦略 #仕組み作り #パートナー募集 #業務提携募集中 #ホームページ制作 #コーディング #コーダー #HTML #CSS #webデザイン #webdesign #webマーケティング #思わずワオと唸る提案を",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "【プロに任せるWEBサイト制作のメリット-その1-】今回は、WEBサイト制作をプロに任せるメリットをご紹介します！そもそもWEBサイトは必要なのか、WEBサイトを持つことの効果などお知らせいたします📣※次週、『プロに任せるWEBサイト制作のメリット-その2-』をお届けします。アカウントをフォローして今回の投稿と併せてチェックしてくださいね📝---------------------------------------------#web制作 がもっと気になる！(@waocon )がもっと知りたい！そんな方はプロフのリンクからお気軽にご連絡ください〜！--------------------------------------------#DX戦略 #事業戦略 #マーケティング戦略 #ブランディング戦略 #仕組み作り #パートナー募集 #業務提携募集中 #ホームページ制作 #コーディング #コーダー #HTML #CSS #webデザイン #webdesign #webマーケティング #思わずワオと唸る提案を",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "【SEO対策の基本とは？ー後編ー】SEO対策の基本ポイント③〜⑤をご紹介します！「そもそもSEO対策ってなに？」と、気になっている方は前回の投稿をチェックしてくださいね✔︎✔︎マーケティングについて、まだ初心者という方も、学び直したいという方にも必読な内容です！アカウントをフォローしてチェックしてくださいね📝--------------------------------------------- #SEO対策 がもっと気になる！(@waocon_office )がもっと知りたい！そんな方はプロフのリンクからお気軽にご連絡ください〜！---------------------------------------------#DX戦略 #事業戦略 #マーケティング戦略 #ブランディング戦略 #仕組み作り #パートナー募集 #業務提携募集中#マーケティング #marketing #seo対策 #高品質なコンテンツ #内部リンク構造の最適化 #モバイルフレンドリーなデザイン #思わずワオと唸る提案を",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "【SEO対策の基本とは？ー前編ー】そもそもSEO対策とは？SEO対策の基本ポイントもまとめてご紹介します。※次回もSEO対策の基本ポイント③〜⑤をご紹介します。マーケティングについて、まだ初心者という方も、学び直したいという方にも必読な内容です！アカウントをフォローしてチェックしてくださいね📝---------------------------------------------#SEO対策 がもっと気になる！(@waocon_office )がもっと知りたい！そんな方はプロフのリンクからお気軽にご連絡ください〜！---------------------------------------------#DX戦略 #事業戦略 #マーケティング戦略 #ブランディング戦略 #仕組み作り #パートナー募集 #業務提携募集中#マーケティング #marketing  #seo対策 #キーワードリサーチ #メタタグの最適化 #思わずワオと唸る提案を",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "【ユーザーエクスペリエンス（UX）を重視したシステム開発とは？ ーその2ー】今回は、前回の続きでシステム開発において重視すべきポイント③〜⑤をご紹介します！そもそもUX(ユザーエクスペリエンス)ってなに？と、気になっている方は前回の投稿をチェックしてくださいね✔︎✔︎アカウントのフォロー、コメントもお待ちしております📝--------------------------------------------- #システム開発 がもっと気になる！(@waocon_office )がもっと知りたい！そんな方はプロフのリンクからお気軽にご連絡ください〜！---------------------------------------------#DX戦略 #事業戦略 #マーケティング戦略 #ブランディング戦略 #仕組み作り #パートナー募集 #業務提携募集中#システム開発 #システム構築 #systemdevelop #ユーザーエクスペリエンス #UX #ユーザーフォーカス #フィードバック #イテレーション #思わずワオと唸る提案を",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "【ユーザーエクスペリエンス（UX）を重視したシステム開発とは？ ーその1ー】そもそもUX(ユザーエクスペリエンス)とは？そして、システム開発において重視すべきポイントもご紹介します！※次回、システム開発において重視すべきポイント③〜⑤をご紹介しますのでアカウントをフォローして今回の投稿と併せてチェックしてくださいね📝--------------------------------------------- #システム開発 がもっと気になる！(@waocon_office )がもっと知りたい！そんな方はプロフのリンクからお気軽にご連絡ください〜！---------------------------------------------#DX戦略 #事業戦略 #マーケティング戦略 #ブランディング戦略 #仕組み作り #パートナー募集 #業務提携募集中#システム開発 #システム構築 #systemdevelop #ユーザーエクスペリエンス #UX #ユーザーセンタード #ユーザーリサーチ #思わずワオと唸る提案を",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "【実績📝】今回は、推し活・オタ活のための投票プラットフォーム【ファボる】のロゴ制作の実績をご紹介いたします！ロゴ制作のポイントは以下の３つ！✔︎ポップさと視認性の両立を取るために、シンプルな「いいね」の手のデザインを採用✔︎「ファボ」と「る」のカラーを分けることで、より「ファボ」（＝いいね）を強調✔︎親しみやすいフォントを採用担当デザイナーより・・〜🖌️「ファボ」（＝いいね）を繋げることで、ファンとの繋がりを表現しました。「応援する」というイメージを資金からチケットに変換し、チケットのような視認性の高いデザインにしました。---------------------------------------------#ロゴ制作 がもっと気になる！(@waocon_office )がもっと知りたい！そんな方はプロフのリンクからお気軽にご連絡ください〜！---------------------------------------------#DX戦略 #事業戦略 #マーケティング戦略 #ブランディング戦略 #仕組み作り #パートナー募集 #業務提携募集中#制作実績 #ロゴ制作 #デザイン制作 #動画制作 #webサイト制作 #システム開発 #補助金サポート #webマーケティング #思わずワオと唸る提案を",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "【実績📝】今回は、自社の人材紹介サービス【Likley】のロゴ制作の実績をご紹介いたします！ロゴ制作のポイントは以下の３つ！✔︎「i」を人に見立てて「職業を選ぶ」という帰路に立つシーンを表しています。✔︎「k」のフォントは独特さとインパクトを兼ね備えたものを選んでいます。✔︎三本線で表すことでオリジナリティ且つシンプルな印象を与えるロゴに仕上げています。担当デザイナーより・・〜🖌️「自分らしさ」からさまざまな個性や人格をイメージし、複数のフォントを組み合わせました。小文字の「i」は人にも見えるように楕円形と長方形を組み合わせ、Lの上に立たせることで、「職業を選ぶ」という岐路に立つシーンを表現しています。---------------------------------------------#ロゴ制作 がもっと気になる！(@waocon_office )がもっと知りたい！そんな方はプロフのリンクからお気軽にご連絡ください〜！---------------------------------------------#DX戦略 #事業戦略 #マーケティング戦略 #ブランディング戦略 #仕組み作り #パートナー募集 #業務提携募集中#制作実績 #ロゴ制作 #デザイン制作 #動画制作 #webサイト制作 #システム開発 #補助金サポート #webマーケティング #思わずワオと唸る提案を",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/sns/sns-lacola_official.jpg",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "更新担当の那由多です✨﻿ポートレート撮影もリスタートしてきました📷﻿﻿今回のモデルさんは、﻿ボーカリストand和楽ユニットでご活躍の﻿MIAKAさん→@miaka.jp﻿﻿MIAKAさんのプロフィールからYouTubeでMVも見れるのでぜひぜひご確認ください😊﻿﻿﻿﻿🖋定型告知🖋﻿﻿いい感じに撮影してほしい方﻿作品撮影にご協力頂ける方﻿インフルエンサーになりたい方﻿このアカウントおよびwebで紹介して欲しい方﻿何かしらコラボレーションしたい方﻿﻿を募集しています。﻿﻿ご関心をお持ち頂けた方、DMお待ちしてます😊﻿﻿﻿#ポトレ﻿#ポートレート﻿#被写体募集﻿#カメラマンと繋がりたい﻿#渋谷﻿#lacola﻿#写真好きな人と繋がりたい ﻿#カメラ男子 ﻿#ポートレート撮影 ﻿#撮影﻿#ファインダー越しの私の世界 ﻿#ファインダー越の風景 ﻿#人物撮り ﻿#無料で撮影します﻿#いい写真を撮りたい﻿#モデル撮り",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "お久しぶりです😆﻿更新担当の那由多です✨﻿﻿少しずつ撮影を再開しています(^｡^)﻿こちらは不動産リノベーションのクライアント様の撮影素材から🏠﻿﻿﻿🖋定型告知🖋﻿﻿いい感じに撮影してほしい方﻿作品撮影にご協力頂ける方﻿インフルエンサーになりたい方﻿このアカウントおよびwebで紹介して欲しい方﻿何かしらコラボレーションしたい方﻿﻿を募集しています。﻿﻿DMお待ちしてます😊﻿﻿﻿#ポトレ﻿#ポートレート﻿#被写体募集﻿#カメラマンと繋がりたい﻿#渋谷﻿#lacola﻿#写真好きな人と繋がりたい ﻿#カメラ男子 ﻿#ポートレート撮影 ﻿#撮影﻿#ファインダー越しの私の世界 ﻿#ファインダー越の風景 ﻿#人物撮り ﻿#無料で撮影します﻿#いい写真を撮りたい﻿#モデル撮り",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "こんばんは、更新担当の那由多です✨﻿﻿またまた寒くなってきましたね。。﻿﻿少々風邪気味なので安静にしてます🛏﻿﻿﻿さてさて、前任者が溜めていた画像素材。﻿﻿もったいないものばかりなのでご紹介していきます🎞﻿﻿﻿まずはこちらから💁‍♂️﻿﻿ 《被写体》﻿ゆかさん﻿﻿《カメラマン》﻿kenさん/@ken_pics﻿﻿﻿✨定型告知✨﻿﻿いい感じに撮影してほしい方﻿作品撮影にご協力頂ける方﻿インフルエンサーになりたい方﻿このアカウントおよびwebで紹介して欲しい方﻿何かしらコラボレーションしたい方﻿﻿を募集しています。﻿﻿DMお待ちしてます😊﻿﻿﻿#ポトレ﻿#ポートレート﻿#被写体募集﻿#カメラマンと繋がりたい﻿#渋谷﻿#lacola﻿#写真好きな人と繋がりたい ﻿#カメラ男子 ﻿#ポートレート撮影 ﻿#撮影﻿#ファインダー越しの私の世界 ﻿#ファインダー越の風景 ﻿#人物撮り ﻿#無料で撮影します﻿#いい写真を撮りたい﻿#モデル撮り﻿",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "こんばんは、更新担当の那由多です✨﻿﻿今日は春らしい陽気🌸﻿﻿街はコロナの影響が人が少なめです。﻿﻿皆様もご健康にはお気をつけください🙇‍♂️﻿﻿﻿#ポトレ﻿#ポートレート﻿#被写体募集﻿#カメラマンと繋がりたい﻿#渋谷﻿#lacola﻿#写真好きな人と繋がりたい ﻿#カメラ男子 ﻿#ポートレート撮影 ﻿#撮影﻿#ファインダー越しの私の世界 ﻿#ファインダー越の風景 ﻿#人物撮り ﻿#花粉症﻿#プール﻿﻿",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "こんばんは、更新担当の那由多です✨﻿﻿今日はとても寒いですね❄️﻿﻿といいつつ、寒そうなイメージカット失礼します🙇‍♂️﻿﻿﻿﻿#ポトレ﻿#ポートレート﻿#被写体募集﻿#カメラマンと繋がりたい﻿#渋谷﻿#lacola﻿#写真好きな人と繋がりたい ﻿#カメラ男子 ﻿#ポートレート撮影 ﻿#撮影﻿#ファインダー越しの私の世界 ﻿#ファインダー越の風景 ﻿#人物撮り ﻿#花粉症﻿#プール﻿﻿",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "気付いたら写真だけが溜まってしまっていた。。﻿﻿ということで更新担当の那由多です✨﻿﻿改めて更新していきますのでよろしくお願いします（＾ν＾）﻿﻿﻿早速ですがポートレート撮りたい方、募集してます。﻿﻿そして、提携頂けるカメラマンの方も募集してます。﻿﻿﻿改めまして、﻿これからもよろしくお願い申し上げます🙇‍♂️﻿﻿﻿#ポトレ﻿#ポートレート﻿#被写体募集﻿#カメラマンと繋がりたい﻿#渋谷﻿#lacola﻿#写真好きな人と繋がりたい ﻿#カメラ男子 ﻿#ポートレート撮影 ﻿#撮影﻿#ファインダー越しの私の世界 ﻿#ファインダー越の風景 ﻿#人物撮り ﻿#花粉症﻿﻿",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "夏ポートレート﻿﻿﻿被写体はモデルやダンサーの﻿Ainaさん/@yonjia52﻿﻿カメラマンはおなじみの﻿kenさん/@ken_pics﻿﻿﻿========================﻿Lacolaでは﻿﻿いい感じに撮影してほしい方﻿作品撮影にご協力頂ける方﻿インフルエンサーになりたい方﻿このアカウントおよびwebで紹介して欲しい方﻿何かしらコラボレーションしたい方﻿﻿を募集しています。﻿﻿﻿ご興味がある方は﻿﻿・DM﻿・info@waocon.com﻿﻿までご連絡ください。﻿========================﻿﻿#ポートレート﻿#ポートレート女子﻿#被写体﻿#被写体募集﻿#モデル﻿#モデル募集中﻿#lacola﻿#waocon﻿#portrait﻿#ファインダー越しの私の世界﻿#銀座﻿#shibuya﻿#きれいめカジュアル﻿#きれい﻿#オシャレさんと繋がりたい﻿#おしゃれさんと繋がりたい﻿#おしゃれ﻿#インフルエンサー﻿#インフルエンサーになりたい﻿#スタイル﻿#スタイル抜群﻿#かわいい﻿#フォロワー増やしたい﻿#フォロワー募集中﻿#インスタ映えする写真﻿#アー写﻿#原宿﻿#アーティスト﻿",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "＊浅草ポートレート＊﻿﻿﻿被写体はECサイトも運営してる﻿ファンファン/@laliluleloooooo﻿﻿カメラマンはおなじみの﻿kenさん/@ken_pics﻿﻿﻿========================﻿Lacolaでは﻿﻿いい感じに撮影してほしい方﻿作品撮影にご協力頂ける方﻿インフルエンサーになりたい方﻿このアカウントおよびwebで紹介して欲しい方﻿何かしらコラボレーションしたい方﻿﻿を募集しています。﻿﻿﻿ご興味がある方は﻿﻿・DM﻿・info@waocon.com﻿﻿までご連絡ください。﻿========================﻿﻿#ポートレート﻿#ポートレート女子﻿#被写体﻿#被写体募集﻿#モデル﻿#モデル募集中﻿#lacola﻿#waocon﻿#portrait﻿#ファインダー越しの私の世界﻿#浅草﻿#shibuya﻿#きれいめカジュアル﻿#きれい﻿#オシャレさんと繋がりたい﻿#おしゃれさんと繋がりたい﻿#おしゃれ﻿#インフルエンサー﻿#インフルエンサーになりたい﻿#スタイル﻿#スタイル抜群﻿#かわいい﻿#フォロワー増やしたい﻿#フォロワー募集中﻿#インスタ映えする写真﻿#アーティスト﻿",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/plugins/instagram-feed/img/placeholder.png",
+        "alt": "銀座ポートレート﻿﻿﻿被写体はモデルのなぎささん﻿﻿カメラマンはおなじみの﻿kenさん/@ken_pics﻿﻿﻿========================﻿Lacolaでは﻿﻿いい感じに撮影してほしい方﻿作品撮影にご協力頂ける方﻿インフルエンサーになりたい方﻿このアカウントおよびwebで紹介して欲しい方﻿何かしらコラボレーションしたい方﻿﻿を募集しています。﻿﻿﻿ご興味がある方は﻿﻿・DM﻿・info@waocon.com﻿﻿までご連絡ください。﻿========================﻿﻿#ポートレート﻿﻿#ポートレート女子﻿﻿#被写体﻿﻿#被写体募集﻿﻿#モデル﻿﻿#モデル募集中﻿﻿#lacola﻿﻿#waocon﻿﻿#portrait﻿﻿#ファインダー越しの私の世界﻿﻿#銀座﻿#shibuya﻿﻿#きれいめカジュアル﻿﻿#きれい﻿﻿#オシャレさんと繋がりたい﻿﻿#おしゃれさんと繋がりたい﻿﻿#おしゃれ﻿#インフルエンサー﻿﻿#インフルエンサーになりたい﻿﻿#スタイル﻿#スタイル抜群﻿﻿#かわいい﻿#フォロワー増やしたい﻿﻿#フォロワー募集中﻿﻿#インスタ映えする写真﻿#アー写﻿#原宿﻿#アーティスト﻿",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-tel_mainColor.png",
+        "alt": "電話アイコン",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-send_black.png",
+        "alt": "メールアイコン",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-line02_green.png",
+        "alt": "LINEアイコン",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-line02_white.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/qr-contact.jpg",
+        "alt": "LINE@",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://waocon.com/wp-content/themes/waocon/assets/img/logo-wh.png",
+        "alt": "下部ロゴ",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "paragraphs": [
+      "Philosophy",
+      "企業理念",
+      "クライアントの課題にこだわり抜いた企画力とやり過ぎるほどの実行力をもって臨みます。",
+      "News&Column",
+      "お知らせ&コラム",
+      "2025.04.30",
+      "Marketing",
+      "プライミング効果を活かした広告戦略",
+      "2025.04.28",
+      "Creative",
+      "動画制作で使われる基本的な「フレーミング」の概念をマスターし……",
+      "2025.04.27",
+      "Tech",
+      "プロジェクトの依存関係を整理するためのツール選び",
+      "2025.04.26",
+      "Creative",
+      "動画制作初心者にありがちな失敗とその回避法10選",
+      "2025.04.25",
+      "Marketing",
+      "カスタマージャーニーを最適化する5つのステップ",
+      "2025.04.22",
+      "Tech",
+      "IDEをカスタマイズして作業効率を最大化する方法",
+      "2025.04.20",
+      "Creative",
+      "動画制作にかかる実際のコスト—低予算で始めるためのアイデア集",
+      "2025.04.19",
+      "Marketing",
+      "ショート動画の台頭とマーケティングの変化",
+      "Service",
+      "事業内容",
+      "Creative",
+      "制作",
+      "こだわり抜いた素材と磨き上げた技術が組み合わさって、顧客に響くクリエイティブは出来上がります。弊社ではクリエイティブの素材となる撮影・動画制作から始まり、撮影素材を活かしたデザインやwebページ/LP制作、さらには構築が複雑なシステム制作まで網羅しています。また、クリエイティブ制作をビジネスの起点と捉え、クライアントのご要望やステージ、ご予算に沿った「マーケティングまで見越した制作」のご提案をさせて頂きます。",
+      "Marketing",
+      "顧客創造",
+      "マーケティングのゴールは「売らずに売れていく仕組み」を作り上げることです。そのゴールに向けてKPIを設定し、マーケットプランを作り、実行していきます。無理のないご予算設計からスタートし、目標に対する結果のレビューと改善を繰り返しながら広告予算価値を最大化していきます。伝統的な広告手法から新しいトレンドまで幅広く網羅し、時にはアライアンス先とも連携しながらクライアントにとって最適な広告プランを遂行していきます。",
+      "Franchise",
+      "フランチャイズ",
+      "フランチャイズ展開は、フライチャイザーとフランチャイジーの双方にメリットを見出す仕組みを作ることが必須条件となります。購入層に喜ばれるコンテンツを時流に沿った然るべき広告で展開し、加盟検討者のニードを喚起する役割を弊社にて担います。フランチャイズ加盟契約後の立地開発や人材育成、さらにはオープン後のアフターフォローもサポートします。スタートからゴールまで、時には出資も行いながらクライアントのFC展開を支援して参ります。",
+      "Contents",
+      "コンテンツ",
+      "Photo",
+      "良質な素材がコンテンツの完成度を高める",
+      "仕上がりにこだわりを持ったカメラマンを選定した「撮影」に関するコンテンツとなります。",
+      "Movie",
+      "”視覚”と”聴覚”にメッセージを伝える動画制作",
+      "使用用途や目的に沿った映像作品を生み落とす「動画制作」に関するコンテンツとなります。",
+      "Streaming",
+      "緊張感まで届けたい動画配信に新たな切り⼝を",
+      "その場の細部の臨場感まで伝わり、視聴者が積極的に動き出す「動画配信代⾏」に関するコンテンツとなります。",
+      "Design",
+      "引き込まれるデザインの追求 × 変幻自在のスタイル",
+      "多様なニーズを汲み取り、ターゲットの視座に立ち創造する「デザイン」に関するコンテンツです。",
+      "Webpage",
+      "俯瞰したUI/UX戦略 × 細部への拘りを宿したクオリティ",
+      "第一印象と使いやすさに拘ったweb戦略を意識した「web 制作」に関するコンテンツです。",
+      "System",
+      "多様なニーズを最高のコストパフォーマンスで満たす",
+      "制作費用の価値を最大化させ、作って終わりではない「システム制作」に関するコンテンツです。",
+      "Advertisement",
+      "不要な広告は「ノイズ」になるONLYONEの広告運⽤サービス",
+      "全ての広告費⽤対効果を最⼤限まで⾼め、クライアント様に貢献する圧倒的な「広告運⽤代⾏」に関するコンテンツです。",
+      "OwnedInfluencer",
+      "自社SNSアカウントをインフルエンサーにする",
+      "「探す」から「選ぶ」ツールとなったSNSで負けない「自社アカウント運用」に関するコンテンツです。",
+      "Influencer",
+      "他律的行動を制するインフルエンサーマーケティング",
+      "影響力を持つインフルエンサーを選別してPRを行う「インフルエンサーPR」に関するコンテンツです。",
+      "RealAffiliate",
+      "行列効果とマーケティングリサーチを兼ね備えた送客支援",
+      "SNS訴求やリサーチ業務も兼ねた来店を成果対象とした「送客支援」に関するコンテンツとなります。",
+      "御社マーケティング部",
+      "マーケティングコンテンツのBPOサービス",
+      "1つ1つのマーケティングコンテンツを突き詰めた「BPOサービス」に関するコンテンツです。",
+      "フランチャイズ構築",
+      "戦略的フランチャイズ展開の専⾨家",
+      "マーケティングのノウハウを活かし計画的且つ合理的に進める「フランチャイズ構築」に関するコンテンツです。",
+      "SNS",
+      "弊社SNSアカウント",
+      "WAOCON OFFICIAL",
+      "FacebookPage",
+      "Official Account",
+      "WAOCON",
+      "Portrait Account",
+      "Lacola",
+      "WAOCON OFFICIAL",
+      "Twitter",
+      "CEO",
+      "Twitter",
+      "Contact",
+      "お問い合わせ",
+      "電話によるお問い合わせ",
+      "03-4405-3988",
+      "営業時間：平日 11:00-20:00",
+      "メールによるお問い合わせ",
+      "info@waocon.com",
+      "または以下のお問い合わせより",
+      "お問い合わせフォームへ",
+      "LINEでお問い合わせ",
+      "友だち追加",
+      "© 株式会社WAOCON"
+    ],
+    "content_quality": {
+      "title_score": 100,
+      "description_score": 20,
+      "heading_score": 20,
+      "paragraph_score": 100,
+      "overall_score": 60.0
+    }
+  },
+  "link_analysis": {
+    "internal": [
+      {
+        "url": "https://waocon.com/",
+        "text": "",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/privacy/",
+        "text": "▶︎個人情報保護方針",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/legal/",
+        "text": "▶︎特定商取引法に基づく表記",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/sitemap/",
+        "text": "▶︎サイトマップ",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/",
+        "text": "Topトップ",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/blog/",
+        "text": "News&Columnニュース&コラム",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/about/",
+        "text": "About会社概要",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/creative/",
+        "text": "Creative制作",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/photo/",
+        "text": "Photo写真",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/movie/",
+        "text": "Movie動画",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/streaming/",
+        "text": "Streaming動画配信",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/design/",
+        "text": "Designデザイン",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/web/",
+        "text": "Webpageウェブページ",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/system/",
+        "text": "Systemシステム",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/marketing/",
+        "text": "Marketingマーケティング",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/advertisement/",
+        "text": "Advertisement広告運用",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/ownedinfluencer/",
+        "text": "OwnedInfluencerSNSアカウント運用",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/influencer-pr/",
+        "text": "InfluencerインフルエンサーPR",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/realaffiliate/",
+        "text": "RealAffiliate送客支援",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/marketing-bpo/",
+        "text": "御社マーケティング部マーケティング",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/franchise/",
+        "text": "Franchiseフランチャイズ構築",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/recruit/",
+        "text": "Recruit求人情報",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/contact/",
+        "text": "Contactお問い合わせ",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/contact/",
+        "text": "MAIL",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/",
+        "text": "",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/",
+        "text": "Topトップ",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/blog/",
+        "text": "News&Columnニュース&コラム",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/about/",
+        "text": "About会社概要",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/creative/",
+        "text": "Creative制作",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/photo/",
+        "text": "Photo写真",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/movie/",
+        "text": "Movie動画",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/streaming/",
+        "text": "Streaming動画配信",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/design/",
+        "text": "Designデザイン",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/web/",
+        "text": "Webpageウェブページ",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/system/",
+        "text": "Systemシステム",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/marketing/",
+        "text": "Marketingマーケティング",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/advertisement/",
+        "text": "Advertisement広告運用",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/ownedinfluencer/",
+        "text": "OwnedInfluencerSNSアカウント運用",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/influencer-pr/",
+        "text": "InfluencerインフルエンサーPR",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/realaffiliate/",
+        "text": "RealAffiliate送客支援",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/marketing-bpo/",
+        "text": "御社マーケティング部マーケティング",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/franchise/",
+        "text": "Franchiseフランチャイズ構築",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/recruit/",
+        "text": "Recruit求人情報",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/contact/",
+        "text": "Contactお問い合わせ",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/privacy/",
+        "text": "個人情報保護方針",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/legal/",
+        "text": "特定商取引法に基づく表記",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/sitemap/",
+        "text": "サイトマップ",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/contact/",
+        "text": "MAIL",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/about/",
+        "text": "About",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/blog/all/marketing_news/priming-effect/",
+        "text": "2025.04.30\nMarketing\n\n\n\t\t\t\t\t\tプライミング効果を活かした広告戦略",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/blog/all/creative_news/framing/",
+        "text": "2025.04.28\nCreative\n\n\n\t\t\t\t\t\t動画制作で使われる基本的な「フレーミング」の概念をマスターし……",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/blog/all/tech/organize-project/",
+        "text": "2025.04.27\nTech\n\n\n\t\t\t\t\t\tプロジェクトの依存関係を整理するためのツール選び",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/blog/all/creative_news/10common-mistakes/",
+        "text": "2025.04.26\nCreative\n\n\n\t\t\t\t\t\t動画制作初心者にありがちな失敗とその回避法10選",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/blog/all/marketing_news/customer-journey/",
+        "text": "2025.04.25\nMarketing\n\n\n\t\t\t\t\t\tカスタマージャーニーを最適化する5つのステップ",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/blog/all/tech/your-ide/",
+        "text": "2025.04.22\nTech\n\n\n\t\t\t\t\t\tIDEをカスタマイズして作業効率を最大化する方法",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/blog/all/creative_news/started-on-a-budget/",
+        "text": "2025.04.20\nCreative\n\n\n\t\t\t\t\t\t動画制作にかかる実際のコスト—低予算で始めるためのアイデア集",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/blog/all/marketing_news/changes-in-marketing/",
+        "text": "2025.04.19\nMarketing\n\n\n\t\t\t\t\t\tショート動画の台頭とマーケティングの変化",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/blog/",
+        "text": "More",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/creative/",
+        "text": "Detail",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/marketing/",
+        "text": "Detail",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/franchise/",
+        "text": "Detail",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/photo/",
+        "text": "Photo\n良質な素材がコンテンツの完成度を高める\n仕上がりにこだわりを持ったカメラマンを選定した「撮影」に関するコンテンツとなります。",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/movie/",
+        "text": "Movie\n”視覚”と”聴覚”にメッセージを伝える動画制作\n使用用途や目的に沿った映像作品を生み落とす「動画制作」に関するコンテンツとなります。",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/streaming/",
+        "text": "Streaming\n緊張感まで届けたい動画配信に新たな切り⼝を\nその場の細部の臨場感まで伝わり、視聴者が積極的に動き出す「動画配信代⾏」に関するコンテンツとなります。",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/design/",
+        "text": "Design\n引き込まれるデザインの追求 × 変幻自在のスタイル\n多様なニーズを汲み取り、ターゲットの視座に立ち創造する「デザイン」に関するコンテンツです。",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/web/",
+        "text": "Webpage\n俯瞰したUI/UX戦略 × 細部への拘りを宿したクオリティ\n第一印象と使いやすさに拘ったweb戦略を意識した「web 制作」に関するコンテンツです。",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/system/",
+        "text": "System\n多様なニーズを最高のコストパフォーマンスで満たす\n制作費用の価値を最大化させ、作って終わりではない「システム制作」に関するコンテンツです。",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/advertisement/",
+        "text": "Advertisement\n不要な広告は「ノイズ」になるONLYONEの広告運⽤サービス\n全ての広告費⽤対効果を最⼤限まで⾼め、クライアント様に貢献する圧倒的な「広告運⽤代⾏」に関するコンテンツです。",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/ownedinfluencer/",
+        "text": "OwnedInfluencer\n自社SNSアカウントをインフルエンサーにする\n「探す」から「選ぶ」ツールとなったSNSで負けない「自社アカウント運用」に関するコンテンツです。",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/influencer-pr/",
+        "text": "Influencer\n他律的行動を制するインフルエンサーマーケティング\n影響力を持つインフルエンサーを選別してPRを行う「インフルエンサーPR」に関するコンテンツです。",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/realaffiliate/",
+        "text": "RealAffiliate\n行列効果とマーケティングリサーチを兼ね備えた送客支援\nSNS訴求やリサーチ業務も兼ねた来店を成果対象とした「送客支援」に関するコンテンツとなります。",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/marketing-bpo/",
+        "text": "御社マーケティング部\nマーケティングコンテンツのBPOサービス\n1つ1つのマーケティングコンテンツを突き詰めた「BPOサービス」に関するコンテンツです。",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/franchise/",
+        "text": "フランチャイズ構築\n戦略的フランチャイズ展開の専⾨家\nマーケティングのノウハウを活かし計画的且つ合理的に進める「フランチャイズ構築」に関するコンテンツです。",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/contact/",
+        "text": "お問い合わせフォームへ",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com",
+        "text": "",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com",
+        "text": "Top",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/blog/",
+        "text": "News&Column",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/about/",
+        "text": "About",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/creative/",
+        "text": "Creative",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/photo/",
+        "text": "- Photo",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/movie/",
+        "text": "- Movie",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/design/",
+        "text": "- Design",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/web/",
+        "text": "- Webpage",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/system/",
+        "text": "- System",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/marketing/",
+        "text": "Marketing",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/marketing-bpo/",
+        "text": "- 御社マーケティング部",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/ownedinfluencer/",
+        "text": "- OwnedInfluencer",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/influencer-pr/",
+        "text": "- Influencer",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/realaffiliate/",
+        "text": "- RealAffiliate",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/franchise/",
+        "text": "Franchise",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/contact/",
+        "text": "Contact",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/privacy/",
+        "text": "個人情報保護方針",
+        "nofollow": false
+      },
+      {
+        "url": "https://waocon.com/legal/",
+        "text": "特定商取引法に基づく表記",
+        "nofollow": false
+      }
+    ],
+    "external": [
+      {
+        "url": "https://line.me/R/ti/p/%40410kgzjf",
+        "text": "LINE",
+        "nofollow": false
+      },
+      {
+        "url": "https://line.me/R/ti/p/%40410kgzjf",
+        "text": "LINE",
+        "nofollow": false
+      },
+      {
+        "url": "https://www.facebook.com/waocon.inc/",
+        "text": "WAOCON/Tatsuhiro Okawa",
+        "nofollow": false
+      },
+      {
+        "url": "https://www.instagram.com/waocon_office/",
+        "text": "@waocon_office",
+        "nofollow": false
+      },
+      {
+        "url": "https://www.instagram.com/waocon_office/",
+        "text": "waocon_office",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/C7n54snJ4nX/",
+        "text": "【Adobe Premiere ProとAdobe After Effects プロ",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/C6c20OyMpjn/",
+        "text": "",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/C6DfoxLuzAs/",
+        "text": "",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/C4zwEDuJ8LY/",
+        "text": "【SEO対策の基本とは？ー後編ー】\n\nSEO",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/C4hLYqTJc4N/",
+        "text": "【SEO対策の基本とは？ー前編ー】\n\nそ",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/C4PWVs3pVWc/",
+        "text": "【ユーザーエクスペリエンス（UX）を",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/C39NWTXJwma/",
+        "text": "【ユーザーエクスペリエンス（UX）を",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/C3oxpMyx6MU/",
+        "text": "",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/C3ZIwBwRwAE/",
+        "text": "",
+        "nofollow": true
+      },
+      {
+        "url": "javascript:void(0);",
+        "text": "さらに読み込む",
+        "nofollow": false
+      },
+      {
+        "url": "https://www.instagram.com/waocon_office/",
+        "text": "Instagram でフォロー",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/lacola_official/",
+        "text": "@lacola_official",
+        "nofollow": false
+      },
+      {
+        "url": "https://www.instagram.com/lacola_official/",
+        "text": "lacola_official",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/CPR99g4jtEV/",
+        "text": "",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/COrY20bD-Da/",
+        "text": "お久しぶりです😆﻿\n更新担当の那由",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/B9v8fc4H9_w/",
+        "text": "",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/B9I7HESnBf4/",
+        "text": "",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/B9Eg4ZSHX1M/",
+        "text": "",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/B9B4bqdHESZ/",
+        "text": "",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/B1JxS-fHQUi/",
+        "text": "",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/B0HyojWHy5G/",
+        "text": "",
+        "nofollow": true
+      },
+      {
+        "url": "https://www.instagram.com/p/BzVBQRnn0x4/",
+        "text": "",
+        "nofollow": true
+      },
+      {
+        "url": "javascript:void(0);",
+        "text": "さらに読み込む",
+        "nofollow": false
+      },
+      {
+        "url": "https://www.instagram.com/lacola_official/",
+        "text": "Instagram でフォロー",
+        "nofollow": true
+      },
+      {
+        "url": "https://twitter.com/waocon_office?ref_src=twsrc%5Etfw",
+        "text": "Tweets by waocon_office",
+        "nofollow": false
+      },
+      {
+        "url": "https://twitter.com/tatsu_okawa?ref_src=twsrc%5Etfw",
+        "text": "Tweets by tatsu_okawa",
+        "nofollow": false
+      },
+      {
+        "url": "tel:0344053988",
+        "text": "03-4405-3988",
+        "nofollow": false
+      },
+      {
+        "url": "https://line.me/R/ti/p/%40410kgzjf",
+        "text": "友だち追加",
+        "nofollow": false
+      }
+    ],
+    "broken": [
+      {
+        "url": "https://waocon.com/sitemap/",
+        "text": "▶︎サイトマップ",
+        "status_code": 404
+      }
+    ],
+    "stats": {
+      "total_links": 126,
+      "internal_links_count": 93,
+      "external_links_count": 33,
+      "broken_links_count": 1
+    }
+  },
+  "technical_analysis": {
+    "status_code": 200,
+    "response_time": 2505,
+    "page_size": 133067,
+    "meta_tags": {
+      "title": "株式会社WAOCON ｜ おもわず「ワオ！」と唸る提案を。",
+      "description": "",
+      "keywords": "",
+      "robots": "max-image-preview:large",
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "canonical": "",
+      "og": {
+        "title": "株式会社WAOCON",
+        "description": "おもわず「ワオ！」と唸る提案を。",
+        "type": "website",
+        "url": "https://waocon.com",
+        "image": "https://waocon.com/wp-content/themes/waocon/assets/img/1200.jpg",
+        "site_name": "株式会社WAOCON",
+        "locale": "ja_JP"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@waocon_office"
+      }
+    },
+    "mobile_friendly": {
+      "viewport_present": true,
+      "responsive_design": true,
+      "touch_elements_size": true,
+      "font_size": true,
+      "content_width": true
+    },
+    "page_speed_factors": {
+      "html_size": 133067,
+      "image_count": 56,
+      "image_size": 0,
+      "script_count": 32,
+      "script_size": 0,
+      "css_count": 8,
+      "css_size": 0,
+      "total_requests": 97
+    },
+    "structured_data": {
+      "json_ld": false,
+      "microdata": false,
+      "rdfa": false,
+      "types": []
+    },
+    "security": {
+      "https": false,
+      "hsts": false,
+      "content_security_policy": false,
+      "x_content_type_options": false,
+      "x_frame_options": false,
+      "x_xss_protection": false
+    },
+    "accessibility": {
+      "alt_attributes": 0.4642857142857143,
+      "aria_attributes": 0,
+      "lang_attribute": true,
+      "form_labels": 1
+    }
+  },
+  "keyword_analysis": {
+    "basic_info": {
+      "url": "http://waocon.com",
+      "domain": "waocon.com",
+      "language": "japanese"
+    },
+    "keywords": [
+      {
+        "keyword": "marketing",
+        "count": 5
+      },
+      {
+        "keyword": "creative",
+        "count": 5
+      },
+      {
+        "keyword": "news",
+        "count": 4
+      },
+      {
+        "keyword": "コラム",
+        "count": 3
+      },
+      {
+        "keyword": "detail",
+        "count": 3
+      },
+      {
+        "keyword": "株式会社waocon",
+        "count": 2
+      },
+      {
+        "keyword": "topトップ",
+        "count": 2
+      },
+      {
+        "keyword": "columnニュース",
+        "count": 2
+      },
+      {
+        "keyword": "about会社概要",
+        "count": 2
+      },
+      {
+        "keyword": "creative制作",
+        "count": 2
+      },
+      {
+        "keyword": "photo写真",
+        "count": 2
+      },
+      {
+        "keyword": "movie動画",
+        "count": 2
+      },
+      {
+        "keyword": "streaming動画配信",
+        "count": 2
+      },
+      {
+        "keyword": "designデザイン",
+        "count": 2
+      },
+      {
+        "keyword": "webpageウェブページ",
+        "count": 2
+      },
+      {
+        "keyword": "systemシステム",
+        "count": 2
+      },
+      {
+        "keyword": "marketingマーケティング",
+        "count": 2
+      },
+      {
+        "keyword": "advertisement広告運用",
+        "count": 2
+      },
+      {
+        "keyword": "ownedinfluencersnsアカウント運用",
+        "count": 2
+      },
+      {
+        "keyword": "influencerインフルエンサーpr",
+        "count": 2
+      }
+    ],
+    "keyphrases": [
+      {
+        "keyphrase": "topトップ news",
+        "count": 2
+      },
+      {
+        "keyphrase": "news columnニュース",
+        "count": 2
+      },
+      {
+        "keyphrase": "columnニュース コラム",
+        "count": 2
+      },
+      {
+        "keyphrase": "コラム about会社概要",
+        "count": 2
+      },
+      {
+        "keyphrase": "about会社概要 creative制作",
+        "count": 2
+      },
+      {
+        "keyphrase": "creative制作 photo写真",
+        "count": 2
+      },
+      {
+        "keyphrase": "photo写真 movie動画",
+        "count": 2
+      },
+      {
+        "keyphrase": "movie動画 streaming動画配信",
+        "count": 2
+      },
+      {
+        "keyphrase": "streaming動画配信 designデザイン",
+        "count": 2
+      },
+      {
+        "keyphrase": "designデザイン webpageウェブページ",
+        "count": 2
+      }
+    ],
+    "keyword_placement": {
+      "marketing": {
+        "in_title": false,
+        "in_meta_description": false,
+        "in_headings": [
+          "h4"
+        ],
+        "in_url": false,
+        "in_first_paragraph": false,
+        "in_last_paragraph": false,
+        "in_image_alt": true,
+        "in_link_text": true
+      },
+      "creative": {
+        "in_title": false,
+        "in_meta_description": false,
+        "in_headings": [
+          "h4"
+        ],
+        "in_url": false,
+        "in_first_paragraph": false,
+        "in_last_paragraph": false,
+        "in_image_alt": false,
+        "in_link_text": true
+      },
+      "news": {
+        "in_title": false,
+        "in_meta_description": false,
+        "in_headings": [
+          "h3"
+        ],
+        "in_url": false,
+        "in_first_paragraph": false,
+        "in_last_paragraph": false,
+        "in_image_alt": false,
+        "in_link_text": true
+      },
+      "コラム": {
+        "in_title": false,
+        "in_meta_description": false,
+        "in_headings": [],
+        "in_url": false,
+        "in_first_paragraph": false,
+        "in_last_paragraph": false,
+        "in_image_alt": false,
+        "in_link_text": true
+      },
+      "detail": {
+        "in_title": false,
+        "in_meta_description": false,
+        "in_headings": [],
+        "in_url": false,
+        "in_first_paragraph": false,
+        "in_last_paragraph": false,
+        "in_image_alt": false,
+        "in_link_text": true
+      },
+      "株式会社waocon": {
+        "in_title": false,
+        "in_meta_description": false,
+        "in_headings": [],
+        "in_url": false,
+        "in_first_paragraph": false,
+        "in_last_paragraph": true,
+        "in_image_alt": false,
+        "in_link_text": false
+      },
+      "topトップ": {
+        "in_title": false,
+        "in_meta_description": false,
+        "in_headings": [],
+        "in_url": false,
+        "in_first_paragraph": false,
+        "in_last_paragraph": false,
+        "in_image_alt": false,
+        "in_link_text": true
+      },
+      "columnニュース": {
+        "in_title": false,
+        "in_meta_description": false,
+        "in_headings": [],
+        "in_url": false,
+        "in_first_paragraph": false,
+        "in_last_paragraph": false,
+        "in_image_alt": false,
+        "in_link_text": true
+      },
+      "about会社概要": {
+        "in_title": false,
+        "in_meta_description": false,
+        "in_headings": [],
+        "in_url": false,
+        "in_first_paragraph": false,
+        "in_last_paragraph": false,
+        "in_image_alt": false,
+        "in_link_text": true
+      },
+      "creative制作": {
+        "in_title": false,
+        "in_meta_description": false,
+        "in_headings": [],
+        "in_url": false,
+        "in_first_paragraph": false,
+        "in_last_paragraph": false,
+        "in_image_alt": false,
+        "in_link_text": true
+      }
+    },
+    "search_volumes": {
+      "marketing": {
+        "volume": 263,
+        "trend": "下降",
+        "competition": 0.31
+      },
+      "creative": {
+        "volume": 8454,
+        "trend": "下降",
+        "competition": 1.0
+      },
+      "news": {
+        "volume": 4907,
+        "trend": "安定",
+        "competition": 0.55
+      },
+      "コラム": {
+        "volume": 5669,
+        "trend": "上昇",
+        "competition": 0.08
+      },
+      "detail": {
+        "volume": 6905,
+        "trend": "安定",
+        "competition": 0.16
+      },
+      "株式会社waocon": {
+        "volume": 3838,
+        "trend": "安定",
+        "competition": 0.48
+      },
+      "topトップ": {
+        "volume": 7200,
+        "trend": "下降",
+        "competition": 0.23
+      },
+      "columnニュース": {
+        "volume": 7993,
+        "trend": "上昇",
+        "competition": 0.35
+      },
+      "about会社概要": {
+        "volume": 3886,
+        "trend": "上昇",
+        "competition": 0.64
+      },
+      "creative制作": {
+        "volume": 8708,
+        "trend": "安定",
+        "competition": 0.98
+      }
+    },
+    "keyword_difficulty": {
+      "marketing": {
+        "score": 86,
+        "level": "難しい",
+        "competition": 0.02,
+        "serp_features": []
+      },
+      "creative": {
+        "score": 18,
+        "level": "簡単",
+        "competition": 0.27,
+        "serp_features": [
+          "ローカルパック"
+        ]
+      },
+      "news": {
+        "score": 17,
+        "level": "簡単",
+        "competition": 0.3,
+        "serp_features": [
+          "なし",
+          "ローカルパック"
+        ]
+      },
+      "コラム": {
+        "score": 66,
+        "level": "難しい",
+        "competition": 0.98,
+        "serp_features": [
+          "特集スニペット"
+        ]
+      },
+      "detail": {
+        "score": 91,
+        "level": "難しい",
+        "competition": 0.95,
+        "serp_features": []
+      },
+      "株式会社waocon": {
+        "score": 88,
+        "level": "難しい",
+        "competition": 0.97,
+        "serp_features": []
+      },
+      "topトップ": {
+        "score": 11,
+        "level": "簡単",
+        "competition": 0.53,
+        "serp_features": [
+          "なし",
+          "ローカルパック"
+        ]
+      },
+      "columnニュース": {
+        "score": 95,
+        "level": "難しい",
+        "competition": 0.84,
+        "serp_features": [
+          "なし",
+          "特集スニペット"
+        ]
+      },
+      "about会社概要": {
+        "score": 57,
+        "level": "普通",
+        "competition": 0.31,
+        "serp_features": [
+          "ショッピング広告"
+        ]
+      },
+      "creative制作": {
+        "score": 64,
+        "level": "難しい",
+        "competition": 0.62,
+        "serp_features": [
+          "特集スニペット"
+        ]
+      }
+    },
+    "keyword_rankings": {
+      "marketing": {
+        "current_rank": 14,
+        "previous_rank": 6,
+        "rank_change": -8,
+        "url": "https://waocon.com/page-2",
+        "last_updated": "2025-05-28"
+      },
+      "creative": {
+        "current_rank": 35,
+        "previous_rank": 36,
+        "rank_change": 1,
+        "url": "https://waocon.com/page-1",
+        "last_updated": "2025-05-28"
+      },
+      "news": {
+        "current_rank": 4,
+        "previous_rank": 6,
+        "rank_change": 2,
+        "url": "https://waocon.com/page-6",
+        "last_updated": "2025-05-28"
+      },
+      "コラム": {
+        "current_rank": 20,
+        "previous_rank": 27,
+        "rank_change": 7,
+        "url": "https://waocon.com/page-1",
+        "last_updated": "2025-05-28"
+      },
+      "detail": {
+        "current_rank": 52,
+        "previous_rank": 44,
+        "rank_change": -8,
+        "url": "https://waocon.com/page-1",
+        "last_updated": "2025-05-28"
+      },
+      "株式会社waocon": {
+        "current_rank": 77,
+        "previous_rank": 82,
+        "rank_change": 5,
+        "url": "https://waocon.com/page-2",
+        "last_updated": "2025-05-28"
+      },
+      "topトップ": {
+        "current_rank": 70,
+        "previous_rank": 78,
+        "rank_change": 8,
+        "url": "https://waocon.com/page-2",
+        "last_updated": "2025-05-28"
+      },
+      "columnニュース": {
+        "current_rank": 44,
+        "previous_rank": 47,
+        "rank_change": 3,
+        "url": "https://waocon.com/page-4",
+        "last_updated": "2025-05-28"
+      },
+      "about会社概要": {
+        "current_rank": 13,
+        "previous_rank": 8,
+        "rank_change": -5,
+        "url": "https://waocon.com/page-6",
+        "last_updated": "2025-05-28"
+      },
+      "creative制作": {
+        "current_rank": 63,
+        "previous_rank": 65,
+        "rank_change": 2,
+        "url": "https://waocon.com/page-4",
+        "last_updated": "2025-05-28"
+      }
+    },
+    "related_keywords": {
+      "marketing": [
+        {
+          "keyword": "戦略",
+          "search_volume": 4901,
+          "difficulty": 58
+        },
+        {
+          "keyword": "栄養",
+          "search_volume": 1490,
+          "difficulty": 56
+        },
+        {
+          "keyword": "航空券",
+          "search_volume": 2949,
+          "difficulty": 57
+        },
+        {
+          "keyword": "検索エンジン",
+          "search_volume": 2688,
+          "difficulty": 39
+        },
+        {
+          "keyword": "JavaScript",
+          "search_volume": 2339,
+          "difficulty": 18
+        },
+        {
+          "keyword": "C++",
+          "search_volume": 4088,
+          "difficulty": 85
+        }
+      ],
+      "creative": [
+        {
+          "keyword": "HTML",
+          "search_volume": 4758,
+          "difficulty": 60
+        },
+        {
+          "keyword": "ダイエット",
+          "search_volume": 4229,
+          "difficulty": 14
+        },
+        {
+          "keyword": "検索エンジン",
+          "search_volume": 2577,
+          "difficulty": 28
+        }
+      ],
+      "news": [
+        {
+          "keyword": "国内",
+          "search_volume": 618,
+          "difficulty": 30
+        },
+        {
+          "keyword": "検索エンジン",
+          "search_volume": 2406,
+          "difficulty": 52
+        },
+        {
+          "keyword": "Java",
+          "search_volume": 2471,
+          "difficulty": 49
+        },
+        {
+          "keyword": "HTML",
+          "search_volume": 4320,
+          "difficulty": 88
+        },
+        {
+          "keyword": "睡眠",
+          "search_volume": 4530,
+          "difficulty": 25
+        }
+      ],
+      "コラム": [
+        {
+          "keyword": "ツアー",
+          "search_volume": 3245,
+          "difficulty": 9
+        },
+        {
+          "keyword": "睡眠",
+          "search_volume": 3617,
+          "difficulty": 71
+        },
+        {
+          "keyword": "JavaScript",
+          "search_volume": 2933,
+          "difficulty": 63
+        },
+        {
+          "keyword": "スタートアップ",
+          "search_volume": 1734,
+          "difficulty": 10
+        },
+        {
+          "keyword": "海外",
+          "search_volume": 2884,
+          "difficulty": 14
+        },
+        {
+          "keyword": "航空券",
+          "search_volume": 723,
+          "difficulty": 85
+        }
+      ],
+      "detail": [
+        {
+          "keyword": "検索エンジン",
+          "search_volume": 2810,
+          "difficulty": 92
+        },
+        {
+          "keyword": "リゾート",
+          "search_volume": 1318,
+          "difficulty": 37
+        },
+        {
+          "keyword": "HTML",
+          "search_volume": 3045,
+          "difficulty": 19
+        }
+      ]
+    }
+  },
+  "processing_time": 0.17
+}

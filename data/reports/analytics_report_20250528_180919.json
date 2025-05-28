@@ -1,0 +1,602 @@
+{
+  "url": "http://waocon.com",
+  "domain": "waocon.com",
+  "timestamp": "2025-05-28 18:09:19",
+  "analysis_duration": 0.0,
+  "traffic": {
+    "summary": {
+      "sessions": 9571,
+      "users": 8327,
+      "new_users": 2329,
+      "pageviews": 26662,
+      "pages_per_session": 2.79,
+      "avg_session_duration": 193,
+      "bounce_rate": 50.79
+    },
+    "trends": {
+      "sessions": 24.5,
+      "users": 22.9,
+      "pageviews": 22.2
+    },
+    "rating": "良好",
+    "top_sources": [
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 4534,
+        "users": 4013,
+        "new_users": 1555,
+        "bounce_rate": 67.76,
+        "pages_per_session": 2.72,
+        "avg_session_duration": 291
+      },
+      {
+        "source": "direct",
+        "medium": "none",
+        "sessions": 1441,
+        "users": 1257,
+        "new_users": 307,
+        "bounce_rate": 68.26,
+        "pages_per_session": 3.86,
+        "avg_session_duration": 172
+      },
+      {
+        "source": "referral",
+        "medium": "referral",
+        "sessions": 816,
+        "users": 672,
+        "new_users": 246,
+        "bounce_rate": 35.0,
+        "pages_per_session": 2.66,
+        "avg_session_duration": 298
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 705,
+        "users": 659,
+        "new_users": 158,
+        "bounce_rate": 60.22,
+        "pages_per_session": 1.64,
+        "avg_session_duration": 87
+      },
+      {
+        "source": "facebook",
+        "medium": "social",
+        "sessions": 588,
+        "users": 556,
+        "new_users": 133,
+        "bounce_rate": 54.01,
+        "pages_per_session": 3.03,
+        "avg_session_duration": 141
+      }
+    ],
+    "devices": [
+      {
+        "device_category": "mobile",
+        "sessions": 6276,
+        "users": 5508,
+        "new_users": 1247,
+        "bounce_rate": 41.67,
+        "pages_per_session": 3.53,
+        "avg_session_duration": 277
+      },
+      {
+        "device_category": "desktop",
+        "sessions": 2436,
+        "users": 2115,
+        "new_users": 623,
+        "bounce_rate": 42.07,
+        "pages_per_session": 3.19,
+        "avg_session_duration": 288
+      },
+      {
+        "device_category": "tablet",
+        "sessions": 654,
+        "users": 593,
+        "new_users": 192,
+        "bounce_rate": 46.58,
+        "pages_per_session": 2.27,
+        "avg_session_duration": 95
+      }
+    ],
+    "countries": [
+      {
+        "country": "Japan",
+        "sessions": 6556,
+        "users": 5546,
+        "new_users": 1478,
+        "bounce_rate": 54.59
+      },
+      {
+        "country": "United States",
+        "sessions": 1185,
+        "users": 1113,
+        "new_users": 271,
+        "bounce_rate": 47.27
+      },
+      {
+        "country": "China",
+        "sessions": 335,
+        "users": 293,
+        "new_users": 99,
+        "bounce_rate": 49.5
+      },
+      {
+        "country": "South Korea",
+        "sessions": 152,
+        "users": 127,
+        "new_users": 44,
+        "bounce_rate": 69.19
+      },
+      {
+        "country": "United Kingdom",
+        "sessions": 186,
+        "users": 160,
+        "new_users": 44,
+        "bounce_rate": 40.51
+      }
+    ],
+    "date_data": [
+      {
+        "date": "2025-04-28",
+        "sessions": 299,
+        "users": 280,
+        "new_users": 73,
+        "pageviews": 734,
+        "pages_per_session": 2.45,
+        "avg_session_duration": 283,
+        "bounce_rate": 49.52
+      },
+      {
+        "date": "2025-04-29",
+        "sessions": 261,
+        "users": 230,
+        "new_users": 64,
+        "pageviews": 602,
+        "pages_per_session": 2.31,
+        "avg_session_duration": 239,
+        "bounce_rate": 62.03
+      },
+      {
+        "date": "2025-04-30",
+        "sessions": 334,
+        "users": 288,
+        "new_users": 76,
+        "pageviews": 1058,
+        "pages_per_session": 3.17,
+        "avg_session_duration": 86,
+        "bounce_rate": 48.05
+      },
+      {
+        "date": "2025-05-01",
+        "sessions": 284,
+        "users": 245,
+        "new_users": 92,
+        "pageviews": 889,
+        "pages_per_session": 3.13,
+        "avg_session_duration": 194,
+        "bounce_rate": 57.8
+      },
+      {
+        "date": "2025-05-02",
+        "sessions": 272,
+        "users": 244,
+        "new_users": 62,
+        "pageviews": 682,
+        "pages_per_session": 2.51,
+        "avg_session_duration": 172,
+        "bounce_rate": 63.26
+      },
+      {
+        "date": "2025-05-03",
+        "sessions": 241,
+        "users": 224,
+        "new_users": 85,
+        "pageviews": 488,
+        "pages_per_session": 2.02,
+        "avg_session_duration": 254,
+        "bounce_rate": 65.01
+      },
+      {
+        "date": "2025-05-04",
+        "sessions": 215,
+        "users": 190,
+        "new_users": 40,
+        "pageviews": 816,
+        "pages_per_session": 3.8,
+        "avg_session_duration": 265,
+        "bounce_rate": 54.24
+      },
+      {
+        "date": "2025-05-05",
+        "sessions": 307,
+        "users": 272,
+        "new_users": 59,
+        "pageviews": 1041,
+        "pages_per_session": 3.39,
+        "avg_session_duration": 166,
+        "bounce_rate": 34.96
+      },
+      {
+        "date": "2025-05-06",
+        "sessions": 308,
+        "users": 267,
+        "new_users": 64,
+        "pageviews": 648,
+        "pages_per_session": 2.1,
+        "avg_session_duration": 196,
+        "bounce_rate": 54.54
+      },
+      {
+        "date": "2025-05-07",
+        "sessions": 366,
+        "users": 298,
+        "new_users": 76,
+        "pageviews": 863,
+        "pages_per_session": 2.36,
+        "avg_session_duration": 261,
+        "bounce_rate": 35.02
+      },
+      {
+        "date": "2025-05-08",
+        "sessions": 317,
+        "users": 275,
+        "new_users": 75,
+        "pageviews": 742,
+        "pages_per_session": 2.34,
+        "avg_session_duration": 251,
+        "bounce_rate": 62.85
+      },
+      {
+        "date": "2025-05-09",
+        "sessions": 273,
+        "users": 252,
+        "new_users": 56,
+        "pageviews": 1059,
+        "pages_per_session": 3.88,
+        "avg_session_duration": 137,
+        "bounce_rate": 48.48
+      },
+      {
+        "date": "2025-05-10",
+        "sessions": 277,
+        "users": 231,
+        "new_users": 79,
+        "pageviews": 924,
+        "pages_per_session": 3.34,
+        "avg_session_duration": 255,
+        "bounce_rate": 59.33
+      },
+      {
+        "date": "2025-05-11",
+        "sessions": 235,
+        "users": 219,
+        "new_users": 62,
+        "pageviews": 842,
+        "pages_per_session": 3.58,
+        "avg_session_duration": 85,
+        "bounce_rate": 53.15
+      },
+      {
+        "date": "2025-05-12",
+        "sessions": 274,
+        "users": 221,
+        "new_users": 64,
+        "pageviews": 611,
+        "pages_per_session": 2.23,
+        "avg_session_duration": 100,
+        "bounce_rate": 45.58
+      },
+      {
+        "date": "2025-05-13",
+        "sessions": 361,
+        "users": 288,
+        "new_users": 72,
+        "pageviews": 1022,
+        "pages_per_session": 2.83,
+        "avg_session_duration": 199,
+        "bounce_rate": 63.53
+      },
+      {
+        "date": "2025-05-14",
+        "sessions": 279,
+        "users": 235,
+        "new_users": 78,
+        "pageviews": 671,
+        "pages_per_session": 2.41,
+        "avg_session_duration": 242,
+        "bounce_rate": 62.5
+      },
+      {
+        "date": "2025-05-15",
+        "sessions": 293,
+        "users": 239,
+        "new_users": 50,
+        "pageviews": 1083,
+        "pages_per_session": 3.7,
+        "avg_session_duration": 279,
+        "bounce_rate": 43.16
+      },
+      {
+        "date": "2025-05-16",
+        "sessions": 389,
+        "users": 329,
+        "new_users": 99,
+        "pageviews": 834,
+        "pages_per_session": 2.14,
+        "avg_session_duration": 206,
+        "bounce_rate": 52.78
+      },
+      {
+        "date": "2025-05-17",
+        "sessions": 281,
+        "users": 247,
+        "new_users": 70,
+        "pageviews": 616,
+        "pages_per_session": 2.19,
+        "avg_session_duration": 204,
+        "bounce_rate": 41.81
+      },
+      {
+        "date": "2025-05-18",
+        "sessions": 219,
+        "users": 182,
+        "new_users": 46,
+        "pageviews": 752,
+        "pages_per_session": 3.43,
+        "avg_session_duration": 131,
+        "bounce_rate": 43.27
+      },
+      {
+        "date": "2025-05-19",
+        "sessions": 375,
+        "users": 309,
+        "new_users": 68,
+        "pageviews": 824,
+        "pages_per_session": 2.2,
+        "avg_session_duration": 222,
+        "bounce_rate": 51.0
+      },
+      {
+        "date": "2025-05-20",
+        "sessions": 299,
+        "users": 280,
+        "new_users": 110,
+        "pageviews": 939,
+        "pages_per_session": 3.14,
+        "avg_session_duration": 184,
+        "bounce_rate": 58.64
+      },
+      {
+        "date": "2025-05-21",
+        "sessions": 397,
+        "users": 376,
+        "new_users": 147,
+        "pageviews": 873,
+        "pages_per_session": 2.2,
+        "avg_session_duration": 101,
+        "bounce_rate": 58.19
+      },
+      {
+        "date": "2025-05-22",
+        "sessions": 361,
+        "users": 335,
+        "new_users": 79,
+        "pageviews": 836,
+        "pages_per_session": 2.32,
+        "avg_session_duration": 165,
+        "bounce_rate": 56.12
+      },
+      {
+        "date": "2025-05-23",
+        "sessions": 325,
+        "users": 282,
+        "new_users": 71,
+        "pageviews": 994,
+        "pages_per_session": 3.06,
+        "avg_session_duration": 243,
+        "bounce_rate": 54.56
+      },
+      {
+        "date": "2025-05-24",
+        "sessions": 291,
+        "users": 263,
+        "new_users": 90,
+        "pageviews": 700,
+        "pages_per_session": 2.41,
+        "avg_session_duration": 109,
+        "bounce_rate": 33.83
+      },
+      {
+        "date": "2025-05-25",
+        "sessions": 313,
+        "users": 281,
+        "new_users": 72,
+        "pageviews": 1077,
+        "pages_per_session": 3.44,
+        "avg_session_duration": 197,
+        "bounce_rate": 40.69
+      },
+      {
+        "date": "2025-05-26",
+        "sessions": 424,
+        "users": 366,
+        "new_users": 87,
+        "pageviews": 1458,
+        "pages_per_session": 3.44,
+        "avg_session_duration": 226,
+        "bounce_rate": 52.55
+      },
+      {
+        "date": "2025-05-27",
+        "sessions": 364,
+        "users": 294,
+        "new_users": 64,
+        "pageviews": 1077,
+        "pages_per_session": 2.96,
+        "avg_session_duration": 241,
+        "bounce_rate": 30.04
+      },
+      {
+        "date": "2025-05-28",
+        "sessions": 337,
+        "users": 285,
+        "new_users": 99,
+        "pageviews": 907,
+        "pages_per_session": 2.69,
+        "avg_session_duration": 118,
+        "bounce_rate": 37.92
+      }
+    ]
+  },
+  "engagement": {
+    "score": 70,
+    "rating": "良好",
+    "bounce_rate": 50.79,
+    "pages_per_session": 2.79,
+    "avg_session_duration": 193
+  },
+  "pages": {
+    "total_pages": 20,
+    "top_pages": [
+      {
+        "page_path": "http://waocon.compage-6/",
+        "pageviews": 4842,
+        "unique_pageviews": 4265,
+        "avg_time_on_page": 229,
+        "entrances": 1825,
+        "bounce_rate": 46.57,
+        "exit_rate": 46.04
+      },
+      {
+        "page_path": "http://waocon.comblog/seo-tips/",
+        "pageviews": 4608,
+        "unique_pageviews": 3321,
+        "avg_time_on_page": 79,
+        "entrances": 522,
+        "bounce_rate": 22.19,
+        "exit_rate": 32.44
+      },
+      {
+        "page_path": "http://waocon.compage-2/",
+        "pageviews": 4334,
+        "unique_pageviews": 3297,
+        "avg_time_on_page": 45,
+        "entrances": 1615,
+        "bounce_rate": 28.56,
+        "exit_rate": 46.74
+      },
+      {
+        "page_path": "http://waocon.compage-8/",
+        "pageviews": 4175,
+        "unique_pageviews": 3599,
+        "avg_time_on_page": 201,
+        "entrances": 877,
+        "bounce_rate": 30.5,
+        "exit_rate": 37.01
+      },
+      {
+        "page_path": "http://waocon.compage-5/",
+        "pageviews": 4108,
+        "unique_pageviews": 3216,
+        "avg_time_on_page": 127,
+        "entrances": 1212,
+        "bounce_rate": 32.79,
+        "exit_rate": 33.82
+      },
+      {
+        "page_path": "http://waocon.comproducts/",
+        "pageviews": 4033,
+        "unique_pageviews": 3165,
+        "avg_time_on_page": 67,
+        "entrances": 716,
+        "bounce_rate": 42.68,
+        "exit_rate": 49.66
+      },
+      {
+        "page_path": "http://waocon.compage-1/",
+        "pageviews": 3669,
+        "unique_pageviews": 2943,
+        "avg_time_on_page": 55,
+        "entrances": 542,
+        "bounce_rate": 65.87,
+        "exit_rate": 35.02
+      },
+      {
+        "page_path": "http://waocon.comabout/",
+        "pageviews": 3575,
+        "unique_pageviews": 2570,
+        "avg_time_on_page": 157,
+        "entrances": 707,
+        "bounce_rate": 25.22,
+        "exit_rate": 38.37
+      },
+      {
+        "page_path": "http://waocon.compage-4/",
+        "pageviews": 3522,
+        "unique_pageviews": 3013,
+        "avg_time_on_page": 255,
+        "entrances": 811,
+        "bounce_rate": 58.66,
+        "exit_rate": 16.77
+      },
+      {
+        "page_path": "http://waocon.compage-9/",
+        "pageviews": 3329,
+        "unique_pageviews": 2762,
+        "avg_time_on_page": 232,
+        "entrances": 1183,
+        "bounce_rate": 64.28,
+        "exit_rate": 33.38
+      }
+    ]
+  },
+  "events": {
+    "total_events": 8975,
+    "unique_events": 7175,
+    "top_events": [
+      {
+        "event_category": "scroll",
+        "event_action": "25%",
+        "total_events": 977,
+        "unique_events": 812,
+        "value_per_event": 0,
+        "total_value": 0
+      },
+      {
+        "event_category": "outbound",
+        "event_action": "click",
+        "total_events": 916,
+        "unique_events": 731,
+        "value_per_event": 0,
+        "total_value": 0
+      },
+      {
+        "event_category": "engagement",
+        "event_action": "read",
+        "total_events": 908,
+        "unique_events": 797,
+        "value_per_event": 1.95,
+        "total_value": 1770
+      },
+      {
+        "event_category": "click",
+        "event_action": "link",
+        "total_events": 906,
+        "unique_events": 646,
+        "value_per_event": 0,
+        "total_value": 0
+      },
+      {
+        "event_category": "form",
+        "event_action": "start",
+        "total_events": 844,
+        "unique_events": 634,
+        "value_per_event": 0.85,
+        "total_value": 717
+      }
+    ]
+  },
+  "recommendations": []
+}

@@ -1,0 +1,432 @@
+{
+  "url": "http://waocon.com",
+  "domain": "waocon.com",
+  "timestamp": "2025-05-28 18:08:13",
+  "analysis_duration": 16.37,
+  "page_speed_score": 30,
+  "speed_rating": "遅い",
+  "estimated_load_time": 3.44,
+  "page_size": {
+    "total_size_bytes": 551796,
+    "total_size_kb": 538.86,
+    "js_size_kb": 329.1,
+    "css_size_kb": 209.71,
+    "images_size_kb": 0.05,
+    "fonts_size_kb": 0.0
+  },
+  "resources_count": {
+    "total": 92,
+    "js": 27,
+    "css": 9,
+    "images": 56,
+    "fonts": 0
+  },
+  "render_blocking": {
+    "blocking_js_count": 16,
+    "blocking_css_count": 8,
+    "blocking_js": [
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/vendor/jquery/jquery-3.3.1.min.js",
+        "inline": false,
+        "async": false,
+        "defer": false,
+        "size": 86926,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "max-age=604800",
+          "expires": "Wed, 04 Jun 2025 09:08:01 GMT",
+          "etag": "W/\"1538e-5ef525cfd1580\"",
+          "last_modified": "Thu, 08 Dec 2022 15:05:10 GMT",
+          "max_age": 604800
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/assets/js/lite-yt-embed.min.js",
+        "inline": false,
+        "async": false,
+        "defer": false,
+        "size": 1803,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "max-age=604800",
+          "expires": "Wed, 04 Jun 2025 09:08:02 GMT",
+          "etag": "W/\"70b-5f08e552ca01a\"",
+          "last_modified": "Sat, 24 Dec 2022 08:03:08 GMT",
+          "max_age": 604800
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4",
+        "inline": false,
+        "async": false,
+        "defer": false,
+        "size": 89815,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "max-age=604800",
+          "expires": "Wed, 04 Jun 2025 09:08:02 GMT",
+          "etag": "W/\"15ed7-5f8b86fb8752a\"",
+          "last_modified": "Fri, 07 Apr 2023 05:38:35 GMT",
+          "max_age": 604800
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0",
+        "inline": false,
+        "async": false,
+        "defer": false,
+        "size": 13424,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "max-age=604800",
+          "expires": "Wed, 04 Jun 2025 09:08:02 GMT",
+          "etag": "W/\"3470-5f8b86fb8658a\"",
+          "last_modified": "Fri, 07 Apr 2023 05:38:35 GMT",
+          "max_age": 604800
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/vendor/wow.js",
+        "inline": false,
+        "async": false,
+        "defer": false,
+        "size": 15553,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "max-age=604800",
+          "expires": "Wed, 04 Jun 2025 09:08:02 GMT",
+          "etag": "W/\"3cc1-5ef525cedd340\"",
+          "last_modified": "Thu, 08 Dec 2022 15:05:09 GMT",
+          "max_age": 604800
+        }
+      }
+    ],
+    "blocking_css": [
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/assets/css/lite-yt-embed.min.css",
+        "inline": false,
+        "size": 1971,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "max-age=604800",
+          "expires": "Wed, 04 Jun 2025 09:08:05 GMT",
+          "etag": "W/\"7b3-5f08e49399644\"",
+          "last_modified": "Sat, 24 Dec 2022 07:59:48 GMT",
+          "max_age": 604800
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/vendor/animate.css",
+        "inline": false,
+        "size": 77749,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "max-age=604800",
+          "expires": "Wed, 04 Jun 2025 09:08:05 GMT",
+          "etag": "W/\"12fb5-5ef525cfd1580\"",
+          "last_modified": "Thu, 08 Dec 2022 15:05:10 GMT",
+          "max_age": 604800
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/assets/css/style.css",
+        "inline": false,
+        "size": 1,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "max-age=604800",
+          "expires": "Wed, 04 Jun 2025 09:08:05 GMT",
+          "etag": "\"1d3-5ef524d5f4800\"",
+          "last_modified": "Thu, 08 Dec 2022 15:00:48 GMT",
+          "max_age": 604800
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.1.5",
+        "inline": false,
+        "size": 24702,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "max-age=604800",
+          "expires": "Wed, 04 Jun 2025 09:08:05 GMT",
+          "etag": "W/\"607e-5fcfc1e08c05a\"",
+          "last_modified": "Wed, 31 May 2023 12:04:09 GMT",
+          "max_age": 604800
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-includes/css/dist/block-library/style.min.css?ver=6.2.6",
+        "inline": false,
+        "size": 97517,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "max-age=604800",
+          "expires": "Wed, 04 Jun 2025 09:08:06 GMT",
+          "etag": "W/\"17ced-5f8b86fb70dc9\"",
+          "last_modified": "Fri, 07 Apr 2023 05:38:35 GMT",
+          "max_age": 604800
+        }
+      }
+    ],
+    "issues": [
+      "16個のJavaScriptファイルがレンダリングをブロックしています",
+      "8個のCSSファイルがレンダリングをブロックしています"
+    ],
+    "recommendations": [
+      "JavaScriptファイルにasyncまたはdefer属性を追加してください",
+      "クリティカルCSSをインライン化し、残りのCSSを非同期で読み込んでください",
+      "レンダリングに不要なJavaScriptは遅延読み込みしてください"
+    ]
+  },
+  "image_optimization": {
+    "total_images": 56,
+    "large_images_count": 0,
+    "missing_dimensions_count": 56,
+    "non_lazy_images_count": 56,
+    "large_images": [],
+    "missing_dimensions": [
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/assets/img/logo.png",
+        "width": "",
+        "height": "",
+        "has_dimensions": false,
+        "lazy_loading": false,
+        "size": 1,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "private",
+          "expires": "",
+          "etag": "\"2eda-5ef5252428080\"",
+          "last_modified": "Thu, 08 Dec 2022 15:02:10 GMT",
+          "max_age": null
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-line02_white.png",
+        "width": "",
+        "height": "",
+        "has_dimensions": false,
+        "lazy_loading": false,
+        "size": 1,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "private",
+          "expires": "",
+          "etag": "\"1096-5ef5254f125c0\"",
+          "last_modified": "Thu, 08 Dec 2022 15:02:55 GMT",
+          "max_age": null
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-send.png",
+        "width": "",
+        "height": "",
+        "has_dimensions": false,
+        "lazy_loading": false,
+        "size": 1,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "private",
+          "expires": "",
+          "etag": "\"102e-5ef5254f125c0\"",
+          "last_modified": "Thu, 08 Dec 2022 15:02:55 GMT",
+          "max_age": null
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/assets/img/logo.png",
+        "width": "",
+        "height": "",
+        "has_dimensions": false,
+        "lazy_loading": false,
+        "size": 1,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "private",
+          "expires": "",
+          "etag": "\"2eda-5ef5252428080\"",
+          "last_modified": "Thu, 08 Dec 2022 15:02:10 GMT",
+          "max_age": null
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-line02_white.png",
+        "width": "",
+        "height": "",
+        "has_dimensions": false,
+        "lazy_loading": false,
+        "size": 1,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "private",
+          "expires": "",
+          "etag": "\"1096-5ef5254f125c0\"",
+          "last_modified": "Thu, 08 Dec 2022 15:02:55 GMT",
+          "max_age": null
+        }
+      }
+    ],
+    "non_lazy_images": [
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/assets/img/logo.png",
+        "width": "",
+        "height": "",
+        "has_dimensions": false,
+        "lazy_loading": false,
+        "size": 1,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "private",
+          "expires": "",
+          "etag": "\"2eda-5ef5252428080\"",
+          "last_modified": "Thu, 08 Dec 2022 15:02:10 GMT",
+          "max_age": null
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-line02_white.png",
+        "width": "",
+        "height": "",
+        "has_dimensions": false,
+        "lazy_loading": false,
+        "size": 1,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "private",
+          "expires": "",
+          "etag": "\"1096-5ef5254f125c0\"",
+          "last_modified": "Thu, 08 Dec 2022 15:02:55 GMT",
+          "max_age": null
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-send.png",
+        "width": "",
+        "height": "",
+        "has_dimensions": false,
+        "lazy_loading": false,
+        "size": 1,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "private",
+          "expires": "",
+          "etag": "\"102e-5ef5254f125c0\"",
+          "last_modified": "Thu, 08 Dec 2022 15:02:55 GMT",
+          "max_age": null
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/assets/img/logo.png",
+        "width": "",
+        "height": "",
+        "has_dimensions": false,
+        "lazy_loading": false,
+        "size": 1,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "private",
+          "expires": "",
+          "etag": "\"2eda-5ef5252428080\"",
+          "last_modified": "Thu, 08 Dec 2022 15:02:10 GMT",
+          "max_age": null
+        }
+      },
+      {
+        "url": "https://waocon.com/wp-content/themes/waocon/assets/img/icon/icon-line02_white.png",
+        "width": "",
+        "height": "",
+        "has_dimensions": false,
+        "lazy_loading": false,
+        "size": 1,
+        "cache": {
+          "has_cache_headers": true,
+          "cache_control": "private",
+          "expires": "",
+          "etag": "\"1096-5ef5254f125c0\"",
+          "last_modified": "Thu, 08 Dec 2022 15:02:55 GMT",
+          "max_age": null
+        }
+      }
+    ],
+    "issues": [
+      null,
+      "56個の画像にwidth/height属性が設定されていません",
+      "56個の画像に遅延読み込みが設定されていません"
+    ],
+    "recommendations": [
+      "大きな画像は圧縮し、適切なフォーマット（WebP、AVIF）を使用してください",
+      "すべての画像にwidth/height属性を設定して、レイアウトシフトを防止してください",
+      "ファーストビュー外の画像には loading=\"lazy\" 属性を追加してください",
+      "画像のサイズを表示サイズに合わせて最適化してください"
+    ]
+  },
+  "minification": {
+    "non_minified_js_count": 10,
+    "non_minified_css_count": 0,
+    "non_minified_js": [
+      {
+        "url": "inline-script-819d2e71",
+        "inline": true,
+        "size": 345,
+        "minified": false
+      },
+      {
+        "url": "inline-script-10f3fa2b",
+        "inline": true,
+        "size": 345,
+        "minified": false
+      },
+      {
+        "url": "inline-script-175ad4b7",
+        "inline": true,
+        "size": 1601,
+        "minified": false
+      },
+      {
+        "url": "inline-script-9f48eea4",
+        "inline": true,
+        "size": 264,
+        "minified": false
+      },
+      {
+        "url": "inline-script-7d6fdca0",
+        "inline": true,
+        "size": 19,
+        "minified": false
+      }
+    ],
+    "non_minified_css": [],
+    "issues": [
+      "10個のインラインJavaScriptが最小化されていません",
+      null
+    ],
+    "recommendations": [
+      "JavaScriptとCSSを最小化して、ファイルサイズを削減してください",
+      "本番環境では最小化ツール（Terser、CSSNano、UglifyJSなど）を使用してください"
+    ]
+  },
+  "caching": {
+    "non_cached_count": 0,
+    "short_cache_count": 1,
+    "non_cached_resources": [],
+    "short_cache_resources": [
+      {
+        "url": "https://www.google.com/recaptcha/api.js?render=6LeyP_sqAAAAAAfv-VcB7cZV2yiPPQEPAzmJCddC&ver=3.0",
+        "type": "js",
+        "max_age": 300
+      }
+    ],
+    "issues": [
+      null,
+      "1個のリソースのキャッシュ期間が短すぎます"
+    ],
+    "recommendations": [
+      "静的リソース（JS、CSS、画像、フォント）には適切なキャッシュヘッダーを設定してください",
+      "静的リソースには少なくとも1週間（604800秒）のキャッシュ期間を設定することを検討してください",
+      "コンテンツが変更されたときに確実に更新されるよう、ファイル名にバージョンやハッシュを含めてください"
+    ]
+  },
+  "summary": {
+    "total_issues": 6
+  }
+}

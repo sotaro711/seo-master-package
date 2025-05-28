@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEOマスターツール</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SEOマスターツール</h1>
+            <p>包括的なSEO分析と広告分析を提供する統合ツール</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="tool-selection">
+            <h2>分析ツールを選択</h2>
+            <div class="tools">
+                <div class="tool-card active" data-tool="seo">
+                    <i class="fas fa-search"></i>
+                    <h3>SEO基本分析</h3>
+                    <p>ウェブサイトのSEO要素を包括的に分析します</p>
+                </div>
+                <div class="tool-card" data-tool="comprehensive">
+                    <i class="fas fa-chart-network"></i>
+                    <h3>総合分析</h3>
+                    <p>すべての分析を実行し、総合的な評価を提供します</p>
+                </div>
+                <div class="tool-card" data-tool="mobile">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>モバイル分析</h3>
+                    <p>モバイルフレンドリー性を詳細に分析します</p>
+                </div>
+                <div class="tool-card" data-tool="pagespeed">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>ページ速度分析</h3>
+                    <p>ページの読み込み速度と最適化状況を分析します</p>
+                </div>
+                <div class="tool-card" data-tool="searchconsole">
+                    <i class="fab fa-google"></i>
+                    <h3>Search Console分析</h3>
+                    <p>Google Search Consoleデータを分析します</p>
+                </div>
+                <div class="tool-card" data-tool="analytics">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Analytics分析</h3>
+                    <p>Google Analyticsデータを分析します</p>
+                </div>
+                <div class="tool-card" data-tool="ad">
+                    <i class="fas fa-ad"></i>
+                    <h3>広告分析</h3>
+                    <p>競合サイトの広告戦略を分析します</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="analysis-form">
+            <h2>分析を開始</h2>
+            {% if error %}
+            <div class="error-message">
+                <p>{{ error }}</p>
+            </div>
+            {% endif %}
+            <form action="{{ url_for('analyze') }}" method="post">
+                <div class="form-group">
+                    <label for="url">分析するURL:</label>
+                    <input type="url" id="url" name="url" placeholder="https://example.com" required>
+                </div>
+                <input type="hidden" id="analysis_type" name="analysis_type" value="seo">
+                <div class="form-group">
+                    <button type="submit" class="btn-primary">分析開始</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="features">
+            <h2>主な機能</h2>
+            <div class="feature-grid">
+                <div class="feature-card" id="seo-features">
+                    <h3>SEO基本分析機能</h3>
+                    <ul>
+                        <li><i class="fas fa-file-alt"></i> コンテンツ分析</li>
+                        <li><i class="fas fa-link"></i> リンク分析</li>
+                        <li><i class="fas fa-cogs"></i> 技術的SEO分析</li>
+                        <li><i class="fas fa-key"></i> キーワード分析</li>
+                        <li><i class="fas fa-chart-line"></i> 競合分析</li>
+                        <li><i class="fas fa-newspaper"></i> 最新SEOニュース分析</li>
+                        <li><i class="fas fa-external-link-alt"></i> 被リンク分析</li>
+                        <li><i class="fas fa-chart-bar"></i> キーワードトラッキング</li>
+                    </ul>
+                </div>
+                <div class="feature-card" id="comprehensive-features" style="display: none;">
+                    <h3>総合分析機能</h3>
+                    <ul>
+                        <li><i class="fas fa-search"></i> SEO基本分析</li>
+                        <li><i class="fas fa-mobile-alt"></i> モバイルフレンドリー分析</li>
+                        <li><i class="fas fa-tachometer-alt"></i> ページ速度分析</li>
+                        <li><i class="fas fa-ad"></i> 広告分析</li>
+                        <li><i class="fab fa-google"></i> Google Search Console分析</li>
+                        <li><i class="fas fa-chart-line"></i> Google Analytics分析</li>
+                        <li><i class="fas fa-star"></i> 総合スコアと評価</li>
+                        <li><i class="fas fa-lightbulb"></i> 優先度付き改善提案</li>
+                        <li><i class="fas fa-file-pdf"></i> 詳細レポート生成</li>
+                        <li><i class="fas fa-chart-pie"></i> データ視覚化</li>
+                    </ul>
+                </div>
+                <div class="feature-card" id="mobile-features" style="display: none;">
+                    <h3>モバイルフレンドリー分析機能</h3>
+                    <ul>
+                        <li><i class="fas fa-mobile-alt"></i> ビューポート設定の確認</li>
+                        <li><i class="fas fa-tablet-alt"></i> レスポンシブデザイン分析</li>
+                        <li><i class="fas fa-hand-pointer"></i> タッチ要素のサイズと間隔</li>
+                        <li><i class="fas fa-text-height"></i> フォントサイズの適切性</li>
+                        <li><i class="fas fa-arrows-alt-h"></i> コンテンツ幅の分析</li>
+                        <li><i class="fas fa-star-half-alt"></i> モバイルフレンドリースコア</li>
+                        <li><i class="fas fa-check-circle"></i> Googleモバイルフレンドリーテスト</li>
+                        <li><i class="fas fa-lightbulb"></i> モバイル最適化提案</li>
+                    </ul>
+                </div>
+                <div class="feature-card" id="pagespeed-features" style="display: none;">
+                    <h3>ページ速度分析機能</h3>
+                    <ul>
+                        <li><i class="fas fa-tachometer-alt"></i> ページ読み込み速度測定</li>
+                        <li><i class="fas fa-file-code"></i> リソース分析（JS、CSS、画像）</li>
+                        <li><i class="fas fa-hourglass-half"></i> レンダリングブロック検出</li>
+                        <li><i class="fas fa-image"></i> 画像最適化状況</li>
+                        <li><i class="fas fa-compress-arrows-alt"></i> ファイル最小化状況</li>
+                        <li><i class="fas fa-hdd"></i> キャッシュ設定分析</li>
+                        <li><i class="fas fa-star-half-alt"></i> ページ速度スコア</li>
+                        <li><i class="fas fa-lightbulb"></i> 速度改善提案</li>
+                    </ul>
+                </div>
+                <div class="feature-card" id="searchconsole-features" style="display: none;">
+                    <h3>Search Console分析機能</h3>
+                    <ul>
+                        <li><i class="fas fa-search"></i> 検索パフォーマンス分析</li>
+                        <li><i class="fas fa-key"></i> 上位キーワード分析</li>
+                        <li><i class="fas fa-file"></i> 上位ページ分析</li>
+                        <li><i class="fas fa-globe"></i> 国別トラフィック分析</li>
+                        <li><i class="fas fa-mobile-alt"></i> デバイス別分析</li>
+                        <li><i class="fas fa-sitemap"></i> インデックスカバレッジ</li>
+                        <li><i class="fas fa-exclamation-triangle"></i> エラーと警告分析</li>
+                        <li><i class="fas fa-chart-line"></i> トレンド分析</li>
+                    </ul>
+                </div>
+                <div class="feature-card" id="analytics-features" style="display: none;">
+                    <h3>Analytics分析機能</h3>
+                    <ul>
+                        <li><i class="fas fa-users"></i> ユーザー・セッション分析</li>
+                        <li><i class="fas fa-chart-line"></i> トラフィックトレンド</li>
+                        <li><i class="fas fa-sign-in-alt"></i> トラフィックソース分析</li>
+                        <li><i class="fas fa-file"></i> ページパフォーマンス分析</li>
+                        <li><i class="fas fa-mobile-alt"></i> デバイス別分析</li>
+                        <li><i class="fas fa-globe"></i> 地域別分析</li>
+                        <li><i class="fas fa-clock"></i> ユーザー行動分析</li>
+                        <li><i class="fas fa-bullseye"></i> コンバージョン分析</li>
+                    </ul>
+                </div>
+                <div class="feature-card" id="ad-features" style="display: none;">
+                    <h3>広告分析機能</h3>
+                    <ul>
+                        <li><i class="fas fa-search-dollar"></i> Google広告分析</li>
+                        <li><i class="fab fa-facebook"></i> ソーシャルメディア広告分析</li>
+                        <li><i class="fas fa-chart-pie"></i> 広告種類・フォーマット分布</li>
+                        <li><i class="fas fa-key"></i> キーワード分析（検索広告）</li>
+                        <li><i class="fas fa-file-alt"></i> 広告テキスト分析</li>
+                        <li><i class="fas fa-dollar-sign"></i> 推定広告費分析</li>
+                        <li><i class="fas fa-chart-line"></i> 時系列パターン分析</li>
+                        <li><i class="fas fa-image"></i> クリエイティブ分析</li>
+                        <li><i class="fas fa-bullseye"></i> ターゲティング情報分析</li>
+                        <li><i class="fas fa-file-pdf"></i> 詳細レポート生成</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 SEOマスターツール</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

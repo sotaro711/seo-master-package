@@ -1,0 +1,743 @@
+2025-04-07 06:03:06,071 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5000
+2025-04-07 06:08:52,770 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:08:52,812 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.2.103:5002
+2025-04-07 06:08:52,812 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 06:08:52,813 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:08:53,819 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:08:53,841 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:08:53,852 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:09:05,660 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:05] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-04-07 06:09:05,661 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:05] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-04-07 06:09:05,662 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 06:09:05,867 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:05] "GET / HTTP/1.1" 200 -
+2025-04-07 06:09:08,389 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:08] "GET / HTTP/1.1" 200 -
+2025-04-07 06:09:08,475 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:08] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-07 06:09:08,476 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-07 06:09:08,487 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:08] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-07 06:09:09,109 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 06:09:19,878 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:19] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-04-07 06:09:19,904 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:19] "GET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-07 06:09:19,904 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:19] "GET /analyze?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-07 06:09:19,913 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:19] "GET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-07 06:09:20,049 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:20] "GET /analyze?__debugger__=yes&cmd=resource&f=console.png&s=sAoKwdgeFJtmmF2QiQ9v HTTP/1.1" 200 -
+2025-04-07 06:09:20,090 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:20] "GET /analyze?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-07 06:09:20,381 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:09:20] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 06:14:50,728 - werkzeug - INFO -  * Detected change in '/Users/tatsuokw2021/Desktop/seo_master_package/src/analyzers/keyword_analyzer.py', reloading
+2025-04-07 06:14:50,982 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:14:52,378 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:14:52,403 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:14:52,412 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:15:27,934 - werkzeug - INFO -  * Detected change in '/Users/tatsuokw2021/Desktop/seo_master_package/src/analyzers/keyword_analyzer.py', reloading
+2025-04-07 06:15:28,083 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:15:29,432 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:15:29,460 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:15:29,470 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:15:48,232 - werkzeug - INFO -  * Detected change in '/Users/tatsuokw2021/Desktop/seo_master_package/src/analyzers/keyword_analyzer.py', reloading
+2025-04-07 06:15:48,395 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:15:49,714 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:15:49,766 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:15:49,777 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:18:38,315 - werkzeug - INFO -  * Detected change in '/Users/tatsuokw2021/Desktop/seo_master_package/src/core/analyzer.py', reloading
+2025-04-07 06:18:38,485 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:18:39,846 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:18:39,874 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:18:39,884 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:19:33,400 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:19:33,440 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.2.103:5002
+2025-04-07 06:19:33,440 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 06:19:33,441 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:19:34,483 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:19:34,506 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:19:34,513 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:19:45,121 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:19:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:19:46,692 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:19:46] "GET / HTTP/1.1" 200 -
+2025-04-07 06:19:46,714 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:19:46] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-07 06:19:46,714 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:19:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-07 06:19:46,720 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:19:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:19:47,197 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:19:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 06:19:54,305 - src.analyzers.keyword_analyzer - WARNING - æŒ‡å®šã•ã‚ŒãŸè¨€èª 'japanese' ã®ã‚¹ãƒˆãƒƒãƒ—ãƒ¯ãƒ¼ãƒ‰è¨­å®šã§ã‚¨ãƒ©ãƒ¼: No such file or directory: '/Users/tatsuokw2021/nltk_data/corpora/stopwords/japanese'
+2025-04-07 06:19:56,553 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:19:56] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-04-07 06:19:56,597 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:19:56] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 06:19:56,597 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:19:56] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 06:19:56,610 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:19:56] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 06:19:56,667 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:19:56] "GET /analyze?__debugger__=yes&cmd=resource&f=console.png&s=b4btJvoRPgtGfOShvSGA HTTP/1.1" 200 -
+2025-04-07 06:19:56,669 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:19:56] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 06:23:25,920 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:23:25] "GET / HTTP/1.1" 200 -
+2025-04-07 06:23:25,946 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:23:25] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-07 06:23:25,947 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:23:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-07 06:23:25,954 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:23:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:23:26,438 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:23:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 06:33:33,138 - werkzeug - INFO -  * Detected change in '/Users/tatsuokw2021/Desktop/seo_master_package/src/core/analyzer.py', reloading
+2025-04-07 06:33:33,350 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:33:34,742 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:33:34,767 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:33:34,776 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:33:46,273 - werkzeug - INFO -  * Detected change in '/Users/tatsuokw2021/Desktop/seo_master_package/src/core/analyzer.py', reloading
+2025-04-07 06:33:46,421 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:33:47,529 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:33:47,552 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:33:47,558 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:34:10,493 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:34:10,541 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.2.103:5002
+2025-04-07 06:34:10,541 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 06:34:10,542 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:34:11,541 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:34:11,567 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:34:11,574 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:34:22,230 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:34:22] "GET / HTTP/1.1" 200 -
+2025-04-07 06:34:22,280 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:34:22] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-07 06:34:22,281 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:34:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-07 06:34:22,782 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:34:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 06:34:33,174 - src.analyzers.keyword_analyzer - WARNING - æŒ‡å®šã•ã‚ŒãŸè¨€èª 'japanese' ã®ã‚¹ãƒˆãƒƒãƒ—ãƒ¯ãƒ¼ãƒ‰è¨­å®šã§ã‚¨ãƒ©ãƒ¼: No such file or directory: '/Users/tatsuokw2021/nltk_data/corpora/stopwords/japanese'
+2025-04-07 06:34:33,206 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:34:33] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-04-07 06:34:33,252 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:34:33] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 06:34:33,252 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:34:33] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 06:34:33,266 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:34:33] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 06:34:33,317 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:34:33] "GET /analyze?__debugger__=yes&cmd=resource&f=console.png&s=yELr5r7md03vvOjGMJBU HTTP/1.1" 200 -
+2025-04-07 06:34:33,318 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:34:33] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 06:43:15,289 - werkzeug - INFO -  * Detected change in '/Users/tatsuokw2021/Desktop/seo_master_package/src/analyzers/technical_analyzer.py', reloading
+2025-04-07 06:43:15,528 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:43:16,918 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:43:16,944 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:43:16,952 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:43:53,168 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:43:53,210 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.2.103:5002
+2025-04-07 06:43:53,210 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 06:43:53,211 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:43:54,242 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:43:54,263 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:43:54,271 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:44:00,746 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:00] "GET / HTTP/1.1" 200 -
+2025-04-07 06:44:00,806 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-07 06:44:00,806 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:44:00,816 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:44:03,324 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:03] "GET / HTTP/1.1" 200 -
+2025-04-07 06:44:03,346 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-07 06:44:03,350 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:03] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-07 06:44:03,357 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:44:03,971 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 06:44:12,052 - src.analyzers.keyword_analyzer - WARNING - æŒ‡å®šã•ã‚ŒãŸè¨€èª 'japanese' ã®ã‚¹ãƒˆãƒƒãƒ—ãƒ¯ãƒ¼ãƒ‰è¨­å®šã§ã‚¨ãƒ©ãƒ¼: No such file or directory: '/Users/tatsuokw2021/nltk_data/corpora/stopwords/japanese'
+2025-04-07 06:44:12,085 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:12] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-04-07 06:44:12,116 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:12] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 06:44:12,117 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:12] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 06:44:12,124 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:12] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 06:44:12,177 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:12] "GET /analyze?__debugger__=yes&cmd=resource&f=console.png&s=pozEXaNL6e7kVv5sPbed HTTP/1.1" 200 -
+2025-04-07 06:44:12,180 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:44:12] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 06:49:17,030 - werkzeug - INFO -  * Detected change in '/Users/tatsuokw2021/Desktop/seo_master_package/src/analyzers/technical_analyzer.py', reloading
+2025-04-07 06:49:17,271 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:49:18,655 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:49:18,680 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:49:18,689 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:49:41,165 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:49:41,211 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.2.103:5002
+2025-04-07 06:49:41,211 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 06:49:41,212 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:49:42,239 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:49:42,262 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:49:42,268 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:49:51,718 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:49:51] "GET / HTTP/1.1" 200 -
+2025-04-07 06:49:51,762 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:49:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-07 06:49:51,765 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:49:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:49:51,776 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:49:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:49:53,357 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:49:53] "GET / HTTP/1.1" 200 -
+2025-04-07 06:49:53,376 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:49:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-07 06:49:53,380 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:49:53] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-07 06:49:53,384 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:49:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:49:54,207 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:49:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 06:50:02,092 - src.analyzers.keyword_analyzer - WARNING - æŒ‡å®šã•ã‚ŒãŸè¨€èª 'japanese' ã®ã‚¹ãƒˆãƒƒãƒ—ãƒ¯ãƒ¼ãƒ‰è¨­å®šã§ã‚¨ãƒ©ãƒ¼: No such file or directory: '/Users/tatsuokw2021/nltk_data/corpora/stopwords/japanese'
+2025-04-07 06:50:02,120 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:50:02] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-04-07 06:50:02,152 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:50:02] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 06:50:02,154 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:50:02] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 06:50:02,162 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:50:02] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 06:50:02,213 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:50:02] "GET /analyze?__debugger__=yes&cmd=resource&f=console.png&s=fPrkOH6RQnfFv7AuWy7Q HTTP/1.1" 200 -
+2025-04-07 06:50:02,214 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:50:02] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 06:52:37,990 - werkzeug - INFO -  * Detected change in '/Users/tatsuokw2021/Desktop/seo_master_package/src/core/analyzer.py', reloading
+2025-04-07 06:52:38,185 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:52:39,544 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:52:39,572 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:52:39,581 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:53:10,192 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:53:10,257 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.2.103:5002
+2025-04-07 06:53:10,257 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 06:53:10,258 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:53:11,287 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:53:11,313 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:53:11,322 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:53:16,700 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:16] "GET / HTTP/1.1" 200 -
+2025-04-07 06:53:16,784 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-07 06:53:16,785 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:53:16,797 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:53:18,217 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:18] "GET / HTTP/1.1" 200 -
+2025-04-07 06:53:18,248 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:18] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-07 06:53:18,251 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:18] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-07 06:53:18,400 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:53:18,727 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 06:53:27,618 - src.analyzers.keyword_analyzer - WARNING - æŒ‡å®šã•ã‚ŒãŸè¨€èª 'japanese' ã®ã‚¹ãƒˆãƒƒãƒ—ãƒ¯ãƒ¼ãƒ‰è¨­å®šã§ã‚¨ãƒ©ãƒ¼: No such file or directory: '/Users/tatsuokw2021/nltk_data/corpora/stopwords/japanese'
+2025-04-07 06:53:27,653 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:27] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-04-07 06:53:27,687 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:27] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 06:53:27,687 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:27] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 06:53:27,693 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:27] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 06:53:27,750 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:27] "GET /analyze?__debugger__=yes&cmd=resource&f=console.png&s=Mb8tdS6dNDdUcxx9BbfX HTTP/1.1" 200 -
+2025-04-07 06:53:27,753 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:53:27] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 06:57:16,115 - werkzeug - INFO -  * Detected change in '/Users/tatsuokw2021/Desktop/seo_master_package/src/analyzers/keyword_analyzer.py', reloading
+2025-04-07 06:57:16,368 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:57:18,633 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:57:18,660 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:57:18,675 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:58:52,417 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:58:52,457 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.2.103:5002
+2025-04-07 06:58:52,457 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 06:58:52,457 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 06:58:53,451 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 06:58:53,475 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 06:58:53,483 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 06:59:01,417 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:59:01] "GET / HTTP/1.1" 200 -
+2025-04-07 06:59:01,466 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:59:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:59:01,474 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:59:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-07 06:59:01,478 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:59:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 06:59:13,223 - src.analyzers.keyword_analyzer - WARNING - æŒ‡å®šã•ã‚ŒãŸè¨€èª 'japanese' ã®ã‚¹ãƒˆãƒƒãƒ—ãƒ¯ãƒ¼ãƒ‰è¨­å®šã§ã‚¨ãƒ©ãƒ¼: No such file or directory: '/Users/tatsuokw2021/nltk_data/corpora/stopwords/japanese'
+2025-04-07 06:59:13,308 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:59:13] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-04-07 06:59:13,340 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:59:13] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-07 06:59:13,341 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:59:13] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 06:59:13,347 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:59:13] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-07 06:59:13,408 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:59:13] "GET /analyze?__debugger__=yes&cmd=resource&f=console.png&s=2uYwGlpK1DJfVynj8Qce HTTP/1.1" 200 -
+2025-04-07 06:59:13,409 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 06:59:13] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 07:07:14,586 - werkzeug - INFO -  * Detected change in '/Users/tatsuokw2021/Desktop/seo_master_package/src/core/analyzer.py', reloading
+2025-04-07 07:07:14,826 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 07:07:16,217 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 07:07:16,244 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 07:07:16,253 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 07:07:33,976 - werkzeug - INFO -  * Detected change in '/Users/tatsuokw2021/Desktop/seo_master_package/src/core/analyzer.py', reloading
+2025-04-07 07:07:34,119 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 07:07:35,153 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 07:07:35,179 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 07:07:35,185 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 07:07:50,854 - werkzeug - INFO -  * Detected change in '/Users/tatsuokw2021/Desktop/seo_master_package/src/core/analyzer.py', reloading
+2025-04-07 07:07:51,002 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 07:07:52,383 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 07:07:52,405 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 07:07:52,412 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 07:08:32,959 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 07:08:33,014 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.2.103:5002
+2025-04-07 07:08:33,015 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 07:08:33,015 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 07:08:34,027 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 07:08:34,052 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 07:08:34,060 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 07:08:44,335 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:44] "GET / HTTP/1.1" 200 -
+2025-04-07 07:08:44,410 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-07 07:08:44,410 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 07:08:44,415 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 07:08:45,029 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 07:08:46,968 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:46] "GET / HTTP/1.1" 200 -
+2025-04-07 07:08:46,999 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-07 07:08:47,000 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:47] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-07 07:08:47,024 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 07:08:47,407 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 07:08:56,300 - src.analyzers.keyword_analyzer - WARNING - æŒ‡å®šã•ã‚ŒãŸè¨€èª 'japanese' ã®ã‚¹ãƒˆãƒƒãƒ—ãƒ¯ãƒ¼ãƒ‰è¨­å®šã§ã‚¨ãƒ©ãƒ¼: No such file or directory: '/Users/tatsuokw2021/nltk_data/corpora/stopwords/japanese'
+2025-04-07 07:08:56,409 - src.analyzers.keyword_analyzer - INFO - åŸºæœ¬ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰åˆ†æå®Œäº†: https://waocon.com/
+2025-04-07 07:08:56,409 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§æ¤œç´¢ãƒœãƒªãƒ¥ãƒ¼ãƒ ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 07:08:56,411 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰é›£æ˜“åº¦ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 07:08:56,411 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰é †ä½ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 07:08:56,411 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§é–¢é€£ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 07:08:56,411 - src.analyzers.keyword_analyzer - INFO - é«˜åº¦ãªã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰åˆ†æå®Œäº†: https://waocon.com/
+2025-04-07 07:08:56,413 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:56] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-04-07 07:08:56,462 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:56] "[35m[1mGET /result/seo_report_20250407_070856.json HTTP/1.1[0m" 500 -
+2025-04-07 07:08:56,491 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:56] "GET /result/seo_report_20250407_070856.json?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-07 07:08:56,491 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:56] "GET /result/seo_report_20250407_070856.json?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-07 07:08:56,503 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:56] "GET /result/seo_report_20250407_070856.json?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-07 07:08:56,552 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:56] "GET /result/seo_report_20250407_070856.json?__debugger__=yes&cmd=resource&f=console.png&s=bJuQIzvZw9Go9qNllSxN HTTP/1.1" 200 -
+2025-04-07 07:08:56,553 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:56] "GET /result/seo_report_20250407_070856.json?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-07 07:08:56,704 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:08:56] "[36mGET /result/seo_report_20250407_070856.json?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 07:16:45,540 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:16:45] "GET / HTTP/1.1" 200 -
+2025-04-07 07:16:45,609 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:16:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-07 07:16:45,612 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:16:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 07:16:45,628 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:16:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 07:16:48,272 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:16:48] "GET / HTTP/1.1" 200 -
+2025-04-07 07:17:27,903 - src.analyzers.keyword_analyzer - WARNING - æŒ‡å®šã•ã‚ŒãŸè¨€èª 'japanese' ã®ã‚¹ãƒˆãƒƒãƒ—ãƒ¯ãƒ¼ãƒ‰è¨­å®šã§ã‚¨ãƒ©ãƒ¼: No such file or directory: '/Users/tatsuokw2021/nltk_data/corpora/stopwords/japanese'
+2025-04-07 07:17:27,954 - src.analyzers.keyword_analyzer - INFO - åŸºæœ¬ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰åˆ†æå®Œäº†: https://waocon.com/
+2025-04-07 07:17:27,954 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§æ¤œç´¢ãƒœãƒªãƒ¥ãƒ¼ãƒ ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 07:17:27,954 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰é›£æ˜“åº¦ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 07:17:27,954 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰é †ä½ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 07:17:27,955 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§é–¢é€£ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 07:17:27,955 - src.analyzers.keyword_analyzer - INFO - é«˜åº¦ãªã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰åˆ†æå®Œäº†: https://waocon.com/
+2025-04-07 07:17:27,957 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:17:27] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-04-07 07:17:28,012 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:17:28] "[35m[1mGET /result/seo_report_20250407_071727.json HTTP/1.1[0m" 500 -
+2025-04-07 07:17:28,059 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:17:28] "GET /result/seo_report_20250407_071727.json?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-07 07:17:28,064 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:17:28] "GET /result/seo_report_20250407_071727.json?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-07 07:17:28,071 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:17:28] "GET /result/seo_report_20250407_071727.json?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-07 07:17:28,186 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:17:28] "GET /result/seo_report_20250407_071727.json?__debugger__=yes&cmd=resource&f=console.png&s=bJuQIzvZw9Go9qNllSxN HTTP/1.1" 200 -
+2025-04-07 07:17:28,187 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:17:28] "GET /result/seo_report_20250407_071727.json?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-07 07:17:28,391 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:17:28] "[36mGET /result/seo_report_20250407_071727.json?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-07 07:23:34,772 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:23:34] "GET /result/seo_report_20250407_071727.json HTTP/1.1" 200 -
+2025-04-07 07:23:34,821 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:23:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-07 07:23:34,822 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:23:34] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-07 07:23:34,823 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:23:34] "GET /static/js/result.js HTTP/1.1" 200 -
+2025-04-07 07:23:34,829 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:23:34] "GET /static/js/result.js HTTP/1.1" 200 -
+2025-04-07 07:23:34,832 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:23:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 07:23:35,388 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:23:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 07:24:03,396 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:24:03] "GET /download/seo_report_20250407_071727.json HTTP/1.1" 200 -
+2025-04-07 07:24:22,078 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:24:22] "GET / HTTP/1.1" 200 -
+2025-04-07 07:24:22,127 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:24:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-07 07:24:22,128 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:24:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 07:24:22,139 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:24:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 07:24:24,347 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:24:24] "[31m[1mGET /analyze HTTP/1.1[0m" 405 -
+2025-04-07 07:24:32,246 - src.analyzers.keyword_analyzer - WARNING - æŒ‡å®šã•ã‚ŒãŸè¨€èª 'japanese' ã®ã‚¹ãƒˆãƒƒãƒ—ãƒ¯ãƒ¼ãƒ‰è¨­å®šã§ã‚¨ãƒ©ãƒ¼: No such file or directory: '/Users/tatsuokw2021/nltk_data/corpora/stopwords/japanese'
+2025-04-07 07:24:32,302 - src.analyzers.keyword_analyzer - INFO - åŸºæœ¬ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰åˆ†æå®Œäº†: https://waocon.com/
+2025-04-07 07:24:32,302 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§æ¤œç´¢ãƒœãƒªãƒ¥ãƒ¼ãƒ ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 07:24:32,302 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰é›£æ˜“åº¦ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 07:24:32,303 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰é †ä½ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 07:24:32,303 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§é–¢é€£ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 07:24:32,303 - src.analyzers.keyword_analyzer - INFO - é«˜åº¦ãªã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰åˆ†æå®Œäº†: https://waocon.com/
+2025-04-07 07:24:32,305 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:24:32] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-04-07 07:24:32,314 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:24:32] "GET /result/seo_report_20250407_072432.json HTTP/1.1" 200 -
+2025-04-07 07:24:32,345 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:24:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 07:24:32,345 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:24:32] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-04-07 07:24:32,345 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:24:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-07 07:24:32,352 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:24:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 07:24:32,353 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 07:24:32] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-04-07 12:10:50,185 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 12:10:50,382 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.2.103:5002
+2025-04-07 12:10:50,383 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 12:10:50,384 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 12:10:51,428 - __main__ - INFO - Webã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’èµ·å‹•: ãƒãƒ¼ãƒˆ 5002
+2025-04-07 12:10:51,452 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 12:10:51,461 - werkzeug - INFO -  * Debugger PIN: 103-221-200
+2025-04-07 12:10:57,225 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:10:57] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-04-07 12:10:57,226 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:10:57] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-04-07 12:10:57,227 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:10:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 12:10:57,293 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:10:57] "GET / HTTP/1.1" 200 -
+2025-04-07 12:11:00,382 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:11:00] "GET / HTTP/1.1" 200 -
+2025-04-07 12:11:00,479 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:11:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 12:11:00,481 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:11:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:11:00,491 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:11:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 12:11:19,364 - src.analyzers.keyword_analyzer - WARNING - æŒ‡å®šã•ã‚ŒãŸè¨€èª 'japanese' ã®ã‚¹ãƒˆãƒƒãƒ—ãƒ¯ãƒ¼ãƒ‰è¨­å®šã§ã‚¨ãƒ©ãƒ¼: No such file or directory: '/Users/tatsuokw2021/nltk_data/corpora/stopwords/japanese'
+2025-04-07 12:11:19,470 - src.analyzers.keyword_analyzer - INFO - åŸºæœ¬ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰åˆ†æå®Œäº†: https://waocon.com/
+2025-04-07 12:11:19,471 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§æ¤œç´¢ãƒœãƒªãƒ¥ãƒ¼ãƒ ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 12:11:19,472 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰é›£æ˜“åº¦ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 12:11:19,472 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰é †ä½ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 12:11:19,472 - src.analyzers.keyword_analyzer - INFO - ãƒ¢ãƒƒã‚¯ãƒ¢ãƒ¼ãƒ‰ã§é–¢é€£ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’ç”Ÿæˆã—ã¾ã™
+2025-04-07 12:11:19,473 - src.analyzers.keyword_analyzer - INFO - é«˜åº¦ãªã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰åˆ†æå®Œäº†: https://waocon.com/
+2025-04-07 12:11:19,474 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:11:19] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-04-07 12:11:19,520 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:11:19] "GET /result/seo_report_20250407_121119.json HTTP/1.1" 200 -
+2025-04-07 12:11:19,567 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:11:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-07 12:11:19,569 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:11:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 12:11:19,571 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:11:19] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-04-07 12:11:19,578 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:11:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 12:11:19,578 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:11:19] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-04-07 13:15:21,715 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 13:15:21] "GET /result/seo_report_20250407_121119.json HTTP/1.1" 200 -
+2025-04-07 13:22:29,223 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 13:22:29] "GET /result/seo_report_20250407_121119.json HTTP/1.1" 200 -
+2025-04-07 13:22:29,275 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 13:22:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 13:22:29,278 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 13:22:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-07 13:22:29,282 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 13:22:29] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-04-07 13:22:29,286 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 13:22:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-07 13:22:29,290 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 13:22:29] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-04-07 13:22:29,756 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 13:22:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-28 17:14:40,551 - __main__ - INFO - WebƒCƒ“ƒ^[ƒtƒF[ƒX‚ğ‹N“®: ƒ|[ƒg 5000
+2025-05-28 17:14:40,760 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.107:5000
+2025-05-28 17:14:40,760 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 17:14:40,777 - werkzeug - INFO -  * Restarting with stat
+2025-05-28 17:14:43,291 - __main__ - INFO - WebƒCƒ“ƒ^[ƒtƒF[ƒX‚ğ‹N“®: ƒ|[ƒg 5000
+2025-05-28 17:14:43,304 - werkzeug - WARNING -  * Debugger is active!
+2025-05-28 17:14:43,310 - werkzeug - INFO -  * Debugger PIN: 133-804-867
+2025-05-28 17:16:23,869 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:16:23] "GET / HTTP/1.1" 200 -
+2025-05-28 17:16:24,015 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:16:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-28 17:16:24,023 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:16:24] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-28 17:16:24,426 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:16:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-28 17:17:58,105 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 17:17:58,426 - src.analyzers.keyword_analyzer - INFO - Šî–{ƒL[ƒ[ƒh•ªÍŠ®—¹: https://waocon.com/
+2025-05-28 17:17:58,427 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŒŸõƒ{ƒŠƒ…[ƒ€‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:17:58,458 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh“ïˆÕ“x‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:17:58,461 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh‡ˆÊ‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:17:58,462 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŠÖ˜AƒL[ƒ[ƒh‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:17:58,463 - src.analyzers.keyword_analyzer - INFO - ‚“x‚ÈƒL[ƒ[ƒh•ªÍŠ®—¹: https://waocon.com/
+2025-05-28 17:17:58,494 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:17:58] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 17:17:58,760 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:17:58] "GET /result/seo_report_20250528_171758.json HTTP/1.1" 200 -
+2025-05-28 17:17:58,786 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:17:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 17:17:58,797 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:17:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 17:17:58,835 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:17:58] "GET /static/js/result.js HTTP/1.1" 200 -
+2025-05-28 17:22:57,083 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:22:57] "GET / HTTP/1.1" 200 -
+2025-05-28 17:25:04,133 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:25:04] "GET / HTTP/1.1" 200 -
+2025-05-28 17:25:53,212 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:25:53] "GET / HTTP/1.1" 200 -
+2025-05-28 17:25:55,698 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:25:55] "GET / HTTP/1.1" 200 -
+2025-05-28 17:28:31,449 - __main__ - INFO - WebƒCƒ“ƒ^[ƒtƒF[ƒX‚ğ‹N“®: ƒ|[ƒg 5000
+2025-05-28 17:28:31,470 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.107:5000
+2025-05-28 17:28:31,471 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 17:28:31,472 - werkzeug - INFO -  * Restarting with stat
+2025-05-28 17:28:33,531 - __main__ - INFO - WebƒCƒ“ƒ^[ƒtƒF[ƒX‚ğ‹N“®: ƒ|[ƒg 5000
+2025-05-28 17:28:33,541 - werkzeug - WARNING -  * Debugger is active!
+2025-05-28 17:28:33,544 - werkzeug - INFO -  * Debugger PIN: 133-804-867
+2025-05-28 17:28:48,705 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:28:48] "GET / HTTP/1.1" 200 -
+2025-05-28 17:28:48,982 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:28:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-28 17:28:48,992 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:28:48] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-28 17:28:49,626 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:28:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-28 17:36:02,697 - __main__ - INFO - WebƒCƒ“ƒ^[ƒtƒF[ƒX‚ğ‹N“®: ƒ|[ƒg 5000
+2025-05-28 17:36:02,725 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.107:5000
+2025-05-28 17:36:02,725 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 17:36:02,726 - werkzeug - INFO -  * Restarting with stat
+2025-05-28 17:36:04,694 - __main__ - INFO - WebƒCƒ“ƒ^[ƒtƒF[ƒX‚ğ‹N“®: ƒ|[ƒg 5000
+2025-05-28 17:36:04,706 - werkzeug - WARNING -  * Debugger is active!
+2025-05-28 17:36:04,710 - werkzeug - INFO -  * Debugger PIN: 133-804-867
+2025-05-28 17:36:44,493 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:36:44] "GET / HTTP/1.1" 200 -
+2025-05-28 17:36:44,631 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:36:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-28 17:36:44,637 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:36:44] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-28 17:36:45,209 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:36:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-28 17:39:02,943 - __main__ - INFO - WebƒCƒ“ƒ^[ƒtƒF[ƒX‚ğ‹N“®: ƒ|[ƒg 5000
+2025-05-28 17:39:02,977 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.107:5000
+2025-05-28 17:39:02,978 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 17:39:02,979 - werkzeug - INFO -  * Restarting with stat
+2025-05-28 17:39:05,702 - __main__ - INFO - WebƒCƒ“ƒ^[ƒtƒF[ƒX‚ğ‹N“®: ƒ|[ƒg 5000
+2025-05-28 17:39:05,719 - werkzeug - WARNING -  * Debugger is active!
+2025-05-28 17:39:05,724 - werkzeug - INFO -  * Debugger PIN: 133-804-867
+2025-05-28 17:39:20,002 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:39:20] "GET / HTTP/1.1" 200 -
+2025-05-28 17:39:20,202 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:39:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 17:39:20,209 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:39:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 17:39:20,345 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:39:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-28 17:49:48,093 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 17:49:48,256 - src.analyzers.keyword_analyzer - INFO - Šî–{ƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 17:49:48,257 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŒŸõƒ{ƒŠƒ…[ƒ€‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:49:48,258 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh“ïˆÕ“x‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:49:48,260 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh‡ˆÊ‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:49:48,261 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŠÖ˜AƒL[ƒ[ƒh‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:49:48,263 - src.analyzers.keyword_analyzer - INFO - ‚“x‚ÈƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 17:49:48,291 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:49:48] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 17:49:48,502 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:49:48] "GET /result/seo_report_20250528_174948.json HTTP/1.1" 200 -
+2025-05-28 17:49:48,521 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:49:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 17:49:48,528 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:49:48] "GET /static/js/result.js HTTP/1.1" 200 -
+2025-05-28 17:49:48,530 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:49:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 17:49:58,259 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:49:58] "GET / HTTP/1.1" 200 -
+2025-05-28 17:49:58,281 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:49:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 17:49:58,286 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:49:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 17:50:10,233 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 17:50:10,346 - src.analyzers.keyword_analyzer - INFO - Šî–{ƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 17:50:10,347 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŒŸõƒ{ƒŠƒ…[ƒ€‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:50:10,348 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh“ïˆÕ“x‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:50:10,349 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh‡ˆÊ‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:50:10,350 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŠÖ˜AƒL[ƒ[ƒh‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:50:10,351 - src.analyzers.keyword_analyzer - INFO - ‚“x‚ÈƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 17:50:10,378 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:50:10] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 17:50:10,398 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:50:10] "GET /result/seo_report_20250528_175010.json HTTP/1.1" 200 -
+2025-05-28 17:50:10,443 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:50:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 17:50:10,446 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:50:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 17:50:10,451 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:50:10] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 17:52:12,096 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:12] "GET / HTTP/1.1" 200 -
+2025-05-28 17:52:12,142 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 17:52:12,142 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 17:52:15,609 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 17:52:15,667 - src.analyzers.keyword_analyzer - INFO - Šî–{ƒL[ƒ[ƒh•ªÍŠ®—¹: https://sudaseikaen.net/
+2025-05-28 17:52:15,668 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŒŸõƒ{ƒŠƒ…[ƒ€‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:52:15,669 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh“ïˆÕ“x‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:52:15,671 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh‡ˆÊ‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:52:15,672 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŠÖ˜AƒL[ƒ[ƒh‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:52:15,673 - src.analyzers.keyword_analyzer - INFO - ‚“x‚ÈƒL[ƒ[ƒh•ªÍŠ®—¹: https://sudaseikaen.net/
+2025-05-28 17:52:15,692 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:15] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 17:52:15,746 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:15] "GET /result/seo_report_20250528_175215.json HTTP/1.1" 200 -
+2025-05-28 17:52:15,765 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 17:52:15,773 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 17:52:15,774 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:15] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 17:52:32,903 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:32] "GET / HTTP/1.1" 200 -
+2025-05-28 17:52:32,928 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 17:52:32,930 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 17:52:42,201 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 17:52:42,324 - src.analyzers.keyword_analyzer - INFO - Šî–{ƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 17:52:42,325 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŒŸõƒ{ƒŠƒ…[ƒ€‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:52:42,326 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh“ïˆÕ“x‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:52:42,328 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh‡ˆÊ‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:52:42,328 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŠÖ˜AƒL[ƒ[ƒh‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:52:42,330 - src.analyzers.keyword_analyzer - INFO - ‚“x‚ÈƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 17:52:42,367 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:42] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 17:52:42,390 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:42] "GET /result/seo_report_20250528_175242.json HTTP/1.1" 200 -
+2025-05-28 17:52:42,414 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 17:52:42,421 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 17:52:42,424 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:52:42] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 17:53:23,780 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:53:23] "GET / HTTP/1.1" 200 -
+2025-05-28 17:53:23,801 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:53:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 17:53:23,806 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:53:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 17:53:31,522 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 17:53:31,597 - src.analyzers.keyword_analyzer - INFO - Šî–{ƒL[ƒ[ƒh•ªÍŠ®—¹: https://sudaseikaen.net/
+2025-05-28 17:53:31,598 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŒŸõƒ{ƒŠƒ…[ƒ€‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:53:31,599 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh“ïˆÕ“x‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:53:31,600 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh‡ˆÊ‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:53:31,601 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŠÖ˜AƒL[ƒ[ƒh‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 17:53:31,603 - src.analyzers.keyword_analyzer - INFO - ‚“x‚ÈƒL[ƒ[ƒh•ªÍŠ®—¹: https://sudaseikaen.net/
+2025-05-28 17:53:31,627 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:53:31] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 17:53:31,643 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:53:31] "GET /result/seo_report_20250528_175331.json HTTP/1.1" 200 -
+2025-05-28 17:53:31,664 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:53:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 17:53:31,670 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:53:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 17:53:31,673 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 17:53:31] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 18:03:00,452 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:03:00] "GET / HTTP/1.1" 200 -
+2025-05-28 18:03:00,497 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:03:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:03:00,498 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:03:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:03:25,258 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:03:25,259 - src.api.analytics_api - INFO - Google Analytics•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:03:25,260 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅAnalyticsƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:03:25,310 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒy[ƒWƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:03:25,311 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒCƒxƒ“ƒgƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:03:25,312 - src.api.analytics_api - INFO - Google Analytics•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:03:25,322 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:03:25] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 18:03:25,343 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:03:25] "GET /result/analytics_report_20250528_180325.json HTTP/1.1" 200 -
+2025-05-28 18:03:25,361 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:03:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:03:25,362 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:03:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:03:25,365 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:03:25] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 18:03:37,221 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:03:37] "GET / HTTP/1.1" 200 -
+2025-05-28 18:03:37,245 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:03:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:03:37,246 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:03:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:03:50,979 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:03:51,022 - src.analyzers.keyword_analyzer - INFO - Šî–{ƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 18:03:51,023 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŒŸõƒ{ƒŠƒ…[ƒ€‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:03:51,023 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh“ïˆÕ“x‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:03:51,024 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh‡ˆÊ‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:03:51,025 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŠÖ˜AƒL[ƒ[ƒh‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:03:51,026 - src.analyzers.keyword_analyzer - INFO - ‚“x‚ÈƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 18:03:55,354 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:03:55,355 - src.analyzers.mobile_analyzer - INFO - ƒ‚ƒoƒCƒ‹ƒtƒŒƒ“ƒhƒŠ[•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:03:57,515 - src.analyzers.mobile_analyzer - INFO - ƒ‚ƒoƒCƒ‹ƒtƒŒƒ“ƒhƒŠ[•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:04:02,124 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:04:02,125 - src.analyzers.pagespeed_analyzer - INFO - ƒy[ƒW‘¬“x•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:04:16,400 - src.analyzers.pagespeed_analyzer - INFO - ƒy[ƒW‘¬“x•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:04:21,021 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:04:21,022 - src.analyzers.ads_analyzer - INFO - L•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:04:21,022 - src.analyzers.ads_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅGoogleLƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:04:21,023 - src.analyzers.ads_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒ\[ƒVƒƒƒ‹ƒƒfƒBƒALƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:04:21,024 - src.analyzers.ads_analyzer - INFO - L•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:04:25,271 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:04:25,272 - src.api.search_console_api - INFO - Google Search Console•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:04:25,272 - src.api.search_console_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅSearch Consoleƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:04:25,273 - src.api.search_console_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒCƒ“ƒfƒbƒNƒXƒJƒoƒŒƒbƒWƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:04:25,274 - src.api.search_console_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒ‚ƒoƒCƒ‹ƒ†[ƒUƒrƒŠƒeƒBƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:04:25,274 - src.api.search_console_api - INFO - Google Search Console•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:04:29,655 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:04:29,655 - src.api.analytics_api - INFO - Google Analytics•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:04:29,655 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅAnalyticsƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:04:29,657 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒy[ƒWƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:04:29,657 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒCƒxƒ“ƒgƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:04:29,658 - src.api.analytics_api - INFO - Google Analytics•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:04:29,685 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:04:29] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 18:04:29,725 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:04:29] "GET /result/comprehensive_report_20250528_180429.json HTTP/1.1" 200 -
+2025-05-28 18:04:29,744 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:04:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:04:29,744 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:04:29] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 18:04:29,745 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:04:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:04:40,465 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:04:40] "GET / HTTP/1.1" 200 -
+2025-05-28 18:04:40,487 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:04:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:04:40,487 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:04:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:04:55,540 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:04:55,705 - src.analyzers.keyword_analyzer - INFO - Šî–{ƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 18:04:55,706 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŒŸõƒ{ƒŠƒ…[ƒ€‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:04:55,707 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh“ïˆÕ“x‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:04:55,707 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh‡ˆÊ‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:04:55,708 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŠÖ˜AƒL[ƒ[ƒh‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:04:55,709 - src.analyzers.keyword_analyzer - INFO - ‚“x‚ÈƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 18:04:55,729 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:04:55] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 18:04:55,748 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:04:55] "GET /result/seo_report_20250528_180455.json HTTP/1.1" 200 -
+2025-05-28 18:04:55,767 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:04:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:04:55,769 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:04:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:04:55,769 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:04:55] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 18:05:06,885 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:05:06] "GET / HTTP/1.1" 200 -
+2025-05-28 18:05:06,906 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:05:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:05:06,913 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:05:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:05:29,236 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:05:29,283 - src.analyzers.keyword_analyzer - INFO - Šî–{ƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 18:05:29,283 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŒŸõƒ{ƒŠƒ…[ƒ€‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:05:29,284 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh“ïˆÕ“x‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:05:29,284 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh‡ˆÊ‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:05:29,285 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŠÖ˜AƒL[ƒ[ƒh‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:05:29,285 - src.analyzers.keyword_analyzer - INFO - ‚“x‚ÈƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 18:05:34,848 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:05:34,848 - src.analyzers.mobile_analyzer - INFO - ƒ‚ƒoƒCƒ‹ƒtƒŒƒ“ƒhƒŠ[•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:05:37,904 - src.analyzers.mobile_analyzer - INFO - ƒ‚ƒoƒCƒ‹ƒtƒŒƒ“ƒhƒŠ[•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:05:42,736 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:05:42,736 - src.analyzers.pagespeed_analyzer - INFO - ƒy[ƒW‘¬“x•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:06:04,458 - src.analyzers.pagespeed_analyzer - INFO - ƒy[ƒW‘¬“x•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:06:09,311 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:06:09,311 - src.analyzers.ads_analyzer - INFO - L•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:06:09,311 - src.analyzers.ads_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅGoogleLƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:06:09,313 - src.analyzers.ads_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒ\[ƒVƒƒƒ‹ƒƒfƒBƒALƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:06:09,314 - src.analyzers.ads_analyzer - INFO - L•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:06:13,698 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:06:13,698 - src.api.search_console_api - INFO - Google Search Console•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:06:13,698 - src.api.search_console_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅSearch Consoleƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:06:13,699 - src.api.search_console_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒCƒ“ƒfƒbƒNƒXƒJƒoƒŒƒbƒWƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:06:13,700 - src.api.search_console_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒ‚ƒoƒCƒ‹ƒ†[ƒUƒrƒŠƒeƒBƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:06:13,700 - src.api.search_console_api - INFO - Google Search Console•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:06:17,876 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:06:17,876 - src.api.analytics_api - INFO - Google Analytics•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:06:17,877 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅAnalyticsƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:06:17,878 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒy[ƒWƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:06:17,879 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒCƒxƒ“ƒgƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:06:17,879 - src.api.analytics_api - INFO - Google Analytics•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:06:17,909 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:06:17] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 18:06:17,927 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:06:17] "GET /result/comprehensive_report_20250528_180617.json HTTP/1.1" 200 -
+2025-05-28 18:06:17,943 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:06:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:06:17,949 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:06:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:06:17,951 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:06:17] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 18:07:15,093 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:07:15] "GET / HTTP/1.1" 200 -
+2025-05-28 18:07:15,112 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:07:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:07:15,119 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:07:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:07:30,037 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:07:30,038 - src.analyzers.mobile_analyzer - INFO - ƒ‚ƒoƒCƒ‹ƒtƒŒƒ“ƒhƒŠ[•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:07:32,119 - src.analyzers.mobile_analyzer - INFO - ƒ‚ƒoƒCƒ‹ƒtƒŒƒ“ƒhƒŠ[•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:07:32,124 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:07:32] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 18:07:32,142 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:07:32] "GET /result/mobile_report_20250528_180732.json HTTP/1.1" 200 -
+2025-05-28 18:07:32,167 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:07:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:07:32,169 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:07:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:07:32,174 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:07:32] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 18:07:44,109 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:07:44] "GET / HTTP/1.1" 200 -
+2025-05-28 18:07:44,135 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:07:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:07:44,141 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:07:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:07:57,046 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:07:57,047 - src.analyzers.pagespeed_analyzer - INFO - ƒy[ƒW‘¬“x•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:08:13,415 - src.analyzers.pagespeed_analyzer - INFO - ƒy[ƒW‘¬“x•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:08:13,462 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:08:13] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 18:08:13,479 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:08:13] "GET /result/pagespeed_report_20250528_180813.json HTTP/1.1" 200 -
+2025-05-28 18:08:13,503 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:08:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:08:13,504 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:08:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:08:13,508 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:08:13] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 18:08:43,940 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:08:43] "GET / HTTP/1.1" 200 -
+2025-05-28 18:08:43,965 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:08:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:08:43,969 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:08:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:08:55,567 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:08:55,568 - src.api.search_console_api - INFO - Google Search Console•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:08:55,568 - src.api.search_console_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅSearch Consoleƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:08:55,570 - src.api.search_console_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒCƒ“ƒfƒbƒNƒXƒJƒoƒŒƒbƒWƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:08:55,570 - src.api.search_console_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒ‚ƒoƒCƒ‹ƒ†[ƒUƒrƒŠƒeƒBƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:08:55,570 - src.api.search_console_api - INFO - Google Search Console•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:08:55,578 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:08:55] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 18:08:55,594 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:08:55] "GET /result/searchconsole_report_20250528_180855.json HTTP/1.1" 200 -
+2025-05-28 18:08:55,614 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:08:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:08:55,619 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:08:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:08:55,620 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:08:55] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 18:09:07,090 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:07] "GET / HTTP/1.1" 200 -
+2025-05-28 18:09:07,109 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:09:07,116 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:09:19,785 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:09:19,786 - src.api.analytics_api - INFO - Google Analytics•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:09:19,786 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅAnalyticsƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:09:19,788 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒy[ƒWƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:09:19,789 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒCƒxƒ“ƒgƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:09:19,789 - src.api.analytics_api - INFO - Google Analytics•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:09:19,798 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:19] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 18:09:19,825 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:19] "GET /result/analytics_report_20250528_180919.json HTTP/1.1" 200 -
+2025-05-28 18:09:19,849 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:09:19,856 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:09:19,857 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:19] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 18:09:31,272 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:31] "GET / HTTP/1.1" 200 -
+2025-05-28 18:09:31,295 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:09:31,300 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:09:42,672 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:09:42,672 - src.analyzers.ads_analyzer - INFO - L•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:09:42,673 - src.analyzers.ads_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅGoogleLƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:09:42,674 - src.analyzers.ads_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒ\[ƒVƒƒƒ‹ƒƒfƒBƒALƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:09:42,675 - src.analyzers.ads_analyzer - INFO - L•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:09:42,697 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:42] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 18:09:42,712 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:42] "GET /result/ad_report_20250528_180942.json HTTP/1.1" 200 -
+2025-05-28 18:09:42,738 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:09:42,742 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:09:42,744 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:09:42] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 18:10:01,244 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:01] "GET / HTTP/1.1" 200 -
+2025-05-28 18:10:01,266 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:10:01,278 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:10:32,975 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:10:33,023 - src.analyzers.keyword_analyzer - INFO - Šî–{ƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 18:10:33,023 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŒŸõƒ{ƒŠƒ…[ƒ€‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:10:33,024 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh“ïˆÕ“x‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:10:33,025 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh‡ˆÊ‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:10:33,025 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŠÖ˜AƒL[ƒ[ƒh‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:10:33,026 - src.analyzers.keyword_analyzer - INFO - ‚“x‚ÈƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 18:10:33,049 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:33] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 18:10:33,068 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:33] "GET /result/seo_report_20250528_181033.json HTTP/1.1" 200 -
+2025-05-28 18:10:33,091 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:10:33,096 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:10:33,096 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:33] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 18:10:40,398 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:40] "GET / HTTP/1.1" 200 -
+2025-05-28 18:10:40,424 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:10:40,436 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:10:52,237 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:10:52,238 - src.analyzers.ads_analyzer - INFO - L•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:10:52,238 - src.analyzers.ads_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅGoogleLƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:10:52,240 - src.analyzers.ads_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒ\[ƒVƒƒƒ‹ƒƒfƒBƒALƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:10:52,242 - src.analyzers.ads_analyzer - INFO - L•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:10:52,266 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:52] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 18:10:52,283 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:52] "GET /result/ad_report_20250528_181052.json HTTP/1.1" 200 -
+2025-05-28 18:10:52,302 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:10:52,306 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:10:52,308 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:10:52] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 18:11:05,729 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:11:05] "GET / HTTP/1.1" 200 -
+2025-05-28 18:11:05,751 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:11:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:11:05,756 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:11:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:11:16,193 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:11:16,239 - src.analyzers.keyword_analyzer - INFO - Šî–{ƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 18:11:16,240 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŒŸõƒ{ƒŠƒ…[ƒ€‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:11:16,240 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh“ïˆÕ“x‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:11:16,241 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒL[ƒ[ƒh‡ˆÊ‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:11:16,241 - src.analyzers.keyword_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅŠÖ˜AƒL[ƒ[ƒh‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:11:16,242 - src.analyzers.keyword_analyzer - INFO - ‚“x‚ÈƒL[ƒ[ƒh•ªÍŠ®—¹: http://waocon.com
+2025-05-28 18:11:20,613 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:11:20,613 - src.analyzers.mobile_analyzer - INFO - ƒ‚ƒoƒCƒ‹ƒtƒŒƒ“ƒhƒŠ[•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:11:22,904 - src.analyzers.mobile_analyzer - INFO - ƒ‚ƒoƒCƒ‹ƒtƒŒƒ“ƒhƒŠ[•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:11:27,106 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:11:27,107 - src.analyzers.pagespeed_analyzer - INFO - ƒy[ƒW‘¬“x•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:11:42,226 - src.analyzers.pagespeed_analyzer - INFO - ƒy[ƒW‘¬“x•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:11:47,247 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:11:47,248 - src.analyzers.ads_analyzer - INFO - L•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:11:47,248 - src.analyzers.ads_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅGoogleLƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:11:47,250 - src.analyzers.ads_analyzer - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒ\[ƒVƒƒƒ‹ƒƒfƒBƒALƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:11:47,251 - src.analyzers.ads_analyzer - INFO - L•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:11:52,138 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:11:52,138 - src.api.search_console_api - INFO - Google Search Console•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:11:52,140 - src.api.search_console_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅSearch Consoleƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:11:52,142 - src.api.search_console_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒCƒ“ƒfƒbƒNƒXƒJƒoƒŒƒbƒWƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:11:52,143 - src.api.search_console_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒ‚ƒoƒCƒ‹ƒ†[ƒUƒrƒŠƒeƒBƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:11:52,143 - src.api.search_console_api - INFO - Google Search Console•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:11:56,336 - src.analyzers.keyword_analyzer - WARNING - w’è‚³‚ê‚½Œ¾Œê 'japanese' ‚ÌƒXƒgƒbƒvƒ[ƒhİ’è‚ÅƒGƒ‰[: No such file or directory: 'C:\\Users\\potet\\AppData\\Roaming\\nltk_data\\corpora\\stopwords\\japanese'
+2025-05-28 18:11:56,336 - src.api.analytics_api - INFO - Google Analytics•ªÍ‚ğŠJn: http://waocon.com
+2025-05-28 18:11:56,337 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅAnalyticsƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:11:56,338 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚Åƒy[ƒWƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:11:56,339 - src.api.analytics_api - INFO - ƒ‚ƒbƒNƒ‚[ƒh‚ÅƒCƒxƒ“ƒgƒf[ƒ^‚ğ¶¬‚µ‚Ü‚·
+2025-05-28 18:11:56,339 - src.api.analytics_api - INFO - Google Analytics•ªÍ‚ªŠ®—¹‚µ‚Ü‚µ‚½: http://waocon.com
+2025-05-28 18:11:56,368 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:11:56] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-05-28 18:11:56,386 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:11:56] "GET /result/comprehensive_report_20250528_181156.json HTTP/1.1" 200 -
+2025-05-28 18:11:56,429 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:11:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:11:56,430 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:11:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-28 18:11:56,433 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:11:56] "[36mGET /static/js/result.js HTTP/1.1[0m" 304 -
+2025-05-28 18:30:54,849 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:30:54] "GET / HTTP/1.1" 200 -
+2025-05-28 18:30:54,870 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:30:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 18:30:54,874 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:30:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -

@@ -1,0 +1,2280 @@
+{
+  "url": "http://waocon.com",
+  "domain": "waocon.com",
+  "timestamp": "2025-05-28 18:10:52",
+  "analysis_duration": 0.0,
+  "ad_count": 90,
+  "platform_count": 5,
+  "estimated_monthly_spend": "¥10,032,755",
+  "platforms": [
+    {
+      "name": "Google Ads",
+      "icon": "google",
+      "count": 50,
+      "percentage": 55.55555555555556
+    },
+    {
+      "name": "Facebook",
+      "icon": "facebook",
+      "count": 10,
+      "percentage": 11.11111111111111
+    },
+    {
+      "name": "Instagram",
+      "icon": "instagram",
+      "count": 10,
+      "percentage": 11.11111111111111
+    },
+    {
+      "name": "Twitter",
+      "icon": "twitter",
+      "count": 10,
+      "percentage": 11.11111111111111
+    },
+    {
+      "name": "Linkedin",
+      "icon": "linkedin",
+      "count": 10,
+      "percentage": 11.11111111111111
+    }
+  ],
+  "formats": [
+    {
+      "name": "Search",
+      "icon": "search",
+      "count": 27,
+      "percentage": 30.0
+    },
+    {
+      "name": "Display",
+      "icon": "image",
+      "count": 23,
+      "percentage": 25.555555555555554
+    },
+    {
+      "name": "Collection",
+      "icon": "file-alt",
+      "count": 2,
+      "percentage": 2.2222222222222223
+    },
+    {
+      "name": "Image",
+      "icon": "image",
+      "count": 8,
+      "percentage": 8.88888888888889
+    },
+    {
+      "name": "Carousel",
+      "icon": "images",
+      "count": 9,
+      "percentage": 10.0
+    },
+    {
+      "name": "Video",
+      "icon": "video",
+      "count": 11,
+      "percentage": 12.222222222222221
+    },
+    {
+      "name": "Reels",
+      "icon": "file-alt",
+      "count": 1,
+      "percentage": 1.1111111111111112
+    },
+    {
+      "name": "Stories",
+      "icon": "file-alt",
+      "count": 3,
+      "percentage": 3.3333333333333335
+    },
+    {
+      "name": "Text",
+      "icon": "file-alt",
+      "count": 4,
+      "percentage": 4.444444444444445
+    },
+    {
+      "name": "Document",
+      "icon": "file-alt",
+      "count": 2,
+      "percentage": 2.2222222222222223
+    }
+  ],
+  "google_ads": [
+    {
+      "keyword": "サービス",
+      "headline": "【公式】waocon.com - 高品質なサービスを提供",
+      "description": "他社と比べてサービスの品質が違います。無料見積もり実施中。",
+      "display_url": "https://waocon.com/サービス",
+      "final_url": "https://waocon.com/サービス?utm_source=google&utm_medium=cpc&utm_campaign=サービス",
+      "ad_type": "search",
+      "position": "bottom",
+      "bid_keywords": [
+        "サービス",
+        "サービス おすすめ",
+        "最新 サービス",
+        "サービス 料金",
+        "waocon.com サービス"
+      ],
+      "estimated_cost": {
+        "cpc": 167.66,
+        "daily_budget": 6810.17,
+        "monthly_spend": 51284.95
+      },
+      "competition": "高",
+      "first_seen": "2025-04-24",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "製品",
+      "headline": "【初回限定】製品サービスを無料体験 - waocon.com",
+      "description": "【公式】waocon.com - 製品のリーディングカンパニー。今なら特別キャンペーン実施中。",
+      "display_url": "https://waocon.com/製品",
+      "final_url": "https://waocon.com/製品?utm_source=google&utm_medium=cpc&utm_campaign=製品",
+      "ad_type": "search",
+      "position": "top",
+      "bid_keywords": [
+        "製品",
+        "製品 比較",
+        "最新 製品",
+        "製品 価格",
+        "waocon.com 製品"
+      ],
+      "estimated_cost": {
+        "cpc": 353.61,
+        "daily_budget": 4991.23,
+        "monthly_spend": 123508.14
+      },
+      "competition": "高",
+      "first_seen": "2025-05-16",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "会社",
+      "headline": "最新の会社情報 - waocon.com",
+      "description": "最新の会社情報を毎日更新。業界の最新トレンドをwaocon.comでチェック。",
+      "display_url": "https://waocon.com/会社",
+      "final_url": "https://waocon.com/会社?utm_source=google&utm_medium=cpc&utm_campaign=会社",
+      "ad_type": "search",
+      "position": "bottom",
+      "bid_keywords": [
+        "会社",
+        "会社 サービス",
+        "最新 会社",
+        "会社 費用",
+        "waocon.com 会社"
+      ],
+      "estimated_cost": {
+        "cpc": 353.32,
+        "daily_budget": 4383.88,
+        "monthly_spend": 110238.26
+      },
+      "competition": "高",
+      "first_seen": "2025-04-08",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "ビジネス",
+      "headline": "ビジネスならNo.1のwaocon.com",
+      "description": "業界トップクラスのビジネスサービスを提供しています。今すぐお問い合わせください。",
+      "display_url": "https://waocon.com/ビジネス",
+      "final_url": "https://waocon.com/ビジネス?utm_source=google&utm_medium=cpc&utm_campaign=ビジネス",
+      "ad_type": "search",
+      "position": "side",
+      "bid_keywords": [
+        "ビジネス",
+        "ビジネス ランキング",
+        "最新 ビジネス",
+        "ビジネス 費用",
+        "waocon.com ビジネス"
+      ],
+      "estimated_cost": {
+        "cpc": 489.08,
+        "daily_budget": 3331.75,
+        "monthly_spend": 38927.42
+      },
+      "competition": "低",
+      "first_seen": "2025-04-19",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "公式",
+      "headline": "信頼と実績のwaocon.com - 公式のプロフェッショナル",
+      "description": "公式に関する無料相談受付中。専門スタッフが丁寧に対応します。",
+      "display_url": "https://waocon.com/公式",
+      "final_url": "https://waocon.com/公式?utm_source=google&utm_medium=cpc&utm_campaign=公式",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "公式",
+        "公式 会社",
+        "最新 公式",
+        "公式 費用",
+        "waocon.com 公式"
+      ],
+      "estimated_cost": {
+        "cpc": 489.25,
+        "daily_budget": 3779.07,
+        "monthly_spend": 33694.12
+      },
+      "competition": "中",
+      "first_seen": "2025-05-25",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon",
+      "headline": "waoconの悩みを解決 - waocon.com",
+      "description": "【公式】waocon.com - waoconのリーディングカンパニー。今なら特別キャンペーン実施中。",
+      "display_url": "https://waocon.com/waocon",
+      "final_url": "https://waocon.com/waocon?utm_source=google&utm_medium=cpc&utm_campaign=waocon",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "waocon",
+        "waocon おすすめ",
+        "最新 waocon",
+        "waocon 料金",
+        "waocon.com waocon"
+      ],
+      "estimated_cost": {
+        "cpc": 147.26,
+        "daily_budget": 6462.65,
+        "monthly_spend": 124940.67
+      },
+      "competition": "中",
+      "first_seen": "2025-05-20",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 公式",
+      "headline": "信頼と実績のwaocon.com - waocon 公式のプロフェッショナル",
+      "description": "最新のwaocon 公式情報を毎日更新。業界の最新トレンドをwaocon.comでチェック。",
+      "display_url": "https://waocon.com/waocon-公式",
+      "final_url": "https://waocon.com/waocon-公式?utm_source=google&utm_medium=cpc&utm_campaign=waocon_公式",
+      "ad_type": "search",
+      "position": "side",
+      "bid_keywords": [
+        "waocon 公式",
+        "waocon 公式 サービス",
+        "最新 waocon 公式",
+        "waocon 公式 料金",
+        "waocon.com waocon 公式"
+      ],
+      "estimated_cost": {
+        "cpc": 225.35,
+        "daily_budget": 6076.86,
+        "monthly_spend": 184461.61
+      },
+      "competition": "高",
+      "first_seen": "2025-04-09",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon サービス",
+      "headline": "【期間限定】waocon サービスが今だけお得 - waocon.com",
+      "description": "waocon サービスに関する無料相談受付中。専門スタッフが丁寧に対応します。",
+      "display_url": "https://waocon.com/waocon-サービス",
+      "final_url": "https://waocon.com/waocon-サービス?utm_source=google&utm_medium=cpc&utm_campaign=waocon_サービス",
+      "ad_type": "search",
+      "position": "top",
+      "bid_keywords": [
+        "waocon サービス",
+        "waocon サービス おすすめ",
+        "最新 waocon サービス",
+        "waocon サービス 相場",
+        "waocon.com waocon サービス"
+      ],
+      "estimated_cost": {
+        "cpc": 214.31,
+        "daily_budget": 4833.63,
+        "monthly_spend": 202027.34
+      },
+      "competition": "高",
+      "first_seen": "2025-03-20",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 評判",
+      "headline": "最新のwaocon 評判情報 - waocon.com",
+      "description": "waocon 評判の悩みを解決するための専門サービス。満足度保証付き。",
+      "display_url": "https://waocon.com/waocon-評判",
+      "final_url": "https://waocon.com/waocon-評判?utm_source=google&utm_medium=cpc&utm_campaign=waocon_評判",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "waocon 評判",
+        "waocon 評判 サービス",
+        "最新 waocon 評判",
+        "waocon 評判 相場",
+        "waocon.com waocon 評判"
+      ],
+      "estimated_cost": {
+        "cpc": 240.15,
+        "daily_budget": 2148.32,
+        "monthly_spend": 111319.02
+      },
+      "competition": "高",
+      "first_seen": "2025-03-10",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 料金",
+      "headline": "信頼と実績のwaocon.com - waocon 料金のプロフェッショナル",
+      "description": "【期間限定】waocon 料金サービスが今だけ30%OFF。この機会をお見逃しなく。",
+      "display_url": "https://waocon.com/waocon-料金",
+      "final_url": "https://waocon.com/waocon-料金?utm_source=google&utm_medium=cpc&utm_campaign=waocon_料金",
+      "ad_type": "search",
+      "position": "bottom",
+      "bid_keywords": [
+        "waocon 料金",
+        "waocon 料金 ランキング",
+        "最新 waocon 料金",
+        "waocon 料金 価格",
+        "waocon.com waocon 料金"
+      ],
+      "estimated_cost": {
+        "cpc": 125.33,
+        "daily_budget": 3141.02,
+        "monthly_spend": 83650.2
+      },
+      "competition": "低",
+      "first_seen": "2025-05-27",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "サービス",
+      "headline": "waocon.comでサービスを今すぐチェック",
+      "description": "サービスに関する豊富な実績と経験。お客様満足度98%のwaocon.comにお任せください。",
+      "display_url": "https://waocon.com/サービス",
+      "final_url": "https://waocon.com/サービス?utm_source=google&utm_medium=cpc&utm_campaign=サービス",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "サービス",
+        "サービス 会社",
+        "最新 サービス",
+        "サービス 相場",
+        "waocon.com サービス"
+      ],
+      "estimated_cost": {
+        "cpc": 212.57,
+        "daily_budget": 9962.09,
+        "monthly_spend": 141778.34
+      },
+      "competition": "低",
+      "first_seen": "2025-04-27",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "製品",
+      "headline": "製品ならNo.1のwaocon.com",
+      "description": "【期間限定】製品サービスが今だけ30%OFF。この機会をお見逃しなく。",
+      "display_url": "https://waocon.com/製品",
+      "final_url": "https://waocon.com/製品?utm_source=google&utm_medium=cpc&utm_campaign=製品",
+      "ad_type": "search",
+      "position": "bottom",
+      "bid_keywords": [
+        "製品",
+        "製品 比較",
+        "最新 製品",
+        "製品 料金",
+        "waocon.com 製品"
+      ],
+      "estimated_cost": {
+        "cpc": 95.54,
+        "daily_budget": 9123.25,
+        "monthly_spend": 80093.11
+      },
+      "competition": "低",
+      "first_seen": "2025-03-20",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "会社",
+      "headline": "信頼と実績のwaocon.com - 会社のプロフェッショナル",
+      "description": "他社と比べて会社の品質が違います。無料見積もり実施中。",
+      "display_url": "https://waocon.com/会社",
+      "final_url": "https://waocon.com/会社?utm_source=google&utm_medium=cpc&utm_campaign=会社",
+      "ad_type": "search",
+      "position": "side",
+      "bid_keywords": [
+        "会社",
+        "会社 比較",
+        "最新 会社",
+        "会社 相場",
+        "waocon.com 会社"
+      ],
+      "estimated_cost": {
+        "cpc": 425.55,
+        "daily_budget": 6050.94,
+        "monthly_spend": 74594.41
+      },
+      "competition": "低",
+      "first_seen": "2025-03-30",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "ビジネス",
+      "headline": "信頼と実績のwaocon.com - ビジネスのプロフェッショナル",
+      "description": "【期間限定】ビジネスサービスが今だけ30%OFF。この機会をお見逃しなく。",
+      "display_url": "https://waocon.com/ビジネス",
+      "final_url": "https://waocon.com/ビジネス?utm_source=google&utm_medium=cpc&utm_campaign=ビジネス",
+      "ad_type": "search",
+      "position": "bottom",
+      "bid_keywords": [
+        "ビジネス",
+        "ビジネス 比較",
+        "最新 ビジネス",
+        "ビジネス 料金",
+        "waocon.com ビジネス"
+      ],
+      "estimated_cost": {
+        "cpc": 188.56,
+        "daily_budget": 5042.74,
+        "monthly_spend": 65839.1
+      },
+      "competition": "高",
+      "first_seen": "2025-05-19",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "公式",
+      "headline": "公式の悩みを解決 - waocon.com",
+      "description": "最新の公式情報を毎日更新。業界の最新トレンドをwaocon.comでチェック。",
+      "display_url": "https://waocon.com/公式",
+      "final_url": "https://waocon.com/公式?utm_source=google&utm_medium=cpc&utm_campaign=公式",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "公式",
+        "公式 おすすめ",
+        "最新 公式",
+        "公式 価格",
+        "waocon.com 公式"
+      ],
+      "estimated_cost": {
+        "cpc": 118.01,
+        "daily_budget": 7805.42,
+        "monthly_spend": 202297.76
+      },
+      "competition": "低",
+      "first_seen": "2025-05-08",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon",
+      "headline": "waoconならNo.1のwaocon.com",
+      "description": "業界トップクラスのwaoconサービスを提供しています。今すぐお問い合わせください。",
+      "display_url": "https://waocon.com/waocon",
+      "final_url": "https://waocon.com/waocon?utm_source=google&utm_medium=cpc&utm_campaign=waocon",
+      "ad_type": "search",
+      "position": "side",
+      "bid_keywords": [
+        "waocon",
+        "waocon おすすめ",
+        "最新 waocon",
+        "waocon 相場",
+        "waocon.com waocon"
+      ],
+      "estimated_cost": {
+        "cpc": 492.08,
+        "daily_budget": 3138.2,
+        "monthly_spend": 132057.71
+      },
+      "competition": "中",
+      "first_seen": "2025-04-12",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 公式",
+      "headline": "waocon 公式の悩みを解決 - waocon.com",
+      "description": "最新のwaocon 公式情報を毎日更新。業界の最新トレンドをwaocon.comでチェック。",
+      "display_url": "https://waocon.com/waocon-公式",
+      "final_url": "https://waocon.com/waocon-公式?utm_source=google&utm_medium=cpc&utm_campaign=waocon_公式",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "waocon 公式",
+        "waocon 公式 サービス",
+        "最新 waocon 公式",
+        "waocon 公式 相場",
+        "waocon.com waocon 公式"
+      ],
+      "estimated_cost": {
+        "cpc": 242.69,
+        "daily_budget": 9790.78,
+        "monthly_spend": 134169.35
+      },
+      "competition": "低",
+      "first_seen": "2025-05-20",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon サービス",
+      "headline": "最新のwaocon サービス情報 - waocon.com",
+      "description": "業界トップクラスのwaocon サービスサービスを提供しています。今すぐお問い合わせください。",
+      "display_url": "https://waocon.com/waocon-サービス",
+      "final_url": "https://waocon.com/waocon-サービス?utm_source=google&utm_medium=cpc&utm_campaign=waocon_サービス",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "waocon サービス",
+        "waocon サービス おすすめ",
+        "最新 waocon サービス",
+        "waocon サービス 料金",
+        "waocon.com waocon サービス"
+      ],
+      "estimated_cost": {
+        "cpc": 394.88,
+        "daily_budget": 5902.0,
+        "monthly_spend": 88511.14
+      },
+      "competition": "中",
+      "first_seen": "2025-05-20",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 評判",
+      "headline": "【期間限定】waocon 評判が今だけお得 - waocon.com",
+      "description": "waocon 評判に関するあらゆるニーズにお応えします。24時間365日対応可能。",
+      "display_url": "https://waocon.com/waocon-評判",
+      "final_url": "https://waocon.com/waocon-評判?utm_source=google&utm_medium=cpc&utm_campaign=waocon_評判",
+      "ad_type": "search",
+      "position": "bottom",
+      "bid_keywords": [
+        "waocon 評判",
+        "waocon 評判 比較",
+        "最新 waocon 評判",
+        "waocon 評判 相場",
+        "waocon.com waocon 評判"
+      ],
+      "estimated_cost": {
+        "cpc": 71.39,
+        "daily_budget": 5056.61,
+        "monthly_spend": 268821.61
+      },
+      "competition": "高",
+      "first_seen": "2025-03-01",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 料金",
+      "headline": "waocon.comでwaocon 料金を今すぐチェック",
+      "description": "waocon 料金の悩みを解決するための専門サービス。満足度保証付き。",
+      "display_url": "https://waocon.com/waocon-料金",
+      "final_url": "https://waocon.com/waocon-料金?utm_source=google&utm_medium=cpc&utm_campaign=waocon_料金",
+      "ad_type": "search",
+      "position": "side",
+      "bid_keywords": [
+        "waocon 料金",
+        "waocon 料金 おすすめ",
+        "最新 waocon 料金",
+        "waocon 料金 価格",
+        "waocon.com waocon 料金"
+      ],
+      "estimated_cost": {
+        "cpc": 421.53,
+        "daily_budget": 6007.34,
+        "monthly_spend": 95484.3
+      },
+      "competition": "中",
+      "first_seen": "2025-04-13",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "サービス",
+      "headline": "信頼と実績のwaocon.com - サービスのプロフェッショナル",
+      "description": "サービスの悩みを解決するための専門サービス。満足度保証付き。",
+      "display_url": "https://waocon.com/サービス",
+      "final_url": "https://waocon.com/サービス?utm_source=google&utm_medium=cpc&utm_campaign=サービス",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "サービス",
+        "サービス ランキング",
+        "最新 サービス",
+        "サービス 価格",
+        "waocon.com サービス"
+      ],
+      "estimated_cost": {
+        "cpc": 420.34,
+        "daily_budget": 1304.61,
+        "monthly_spend": 229952.35
+      },
+      "competition": "高",
+      "first_seen": "2025-03-13",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "製品",
+      "headline": "製品のエキスパート | waocon.com",
+      "description": "製品に関する豊富な実績と経験。お客様満足度98%のwaocon.comにお任せください。",
+      "display_url": "https://waocon.com/製品",
+      "final_url": "https://waocon.com/製品?utm_source=google&utm_medium=cpc&utm_campaign=製品",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "製品",
+        "製品 ランキング",
+        "最新 製品",
+        "製品 価格",
+        "waocon.com 製品"
+      ],
+      "estimated_cost": {
+        "cpc": 411.48,
+        "daily_budget": 8019.8,
+        "monthly_spend": 30470.18
+      },
+      "competition": "低",
+      "first_seen": "2025-04-25",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "会社",
+      "headline": "【初回限定】会社サービスを無料体験 - waocon.com",
+      "description": "会社の悩みを解決するための専門サービス。満足度保証付き。",
+      "display_url": "https://waocon.com/会社",
+      "final_url": "https://waocon.com/会社?utm_source=google&utm_medium=cpc&utm_campaign=会社",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "会社",
+        "会社 おすすめ",
+        "最新 会社",
+        "会社 費用",
+        "waocon.com 会社"
+      ],
+      "estimated_cost": {
+        "cpc": 174.86,
+        "daily_budget": 6319.64,
+        "monthly_spend": 245517.59
+      },
+      "competition": "中",
+      "first_seen": "2025-03-27",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "ビジネス",
+      "headline": "【初回限定】ビジネスサービスを無料体験 - waocon.com",
+      "description": "他社と比べてビジネスの品質が違います。無料見積もり実施中。",
+      "display_url": "https://waocon.com/ビジネス",
+      "final_url": "https://waocon.com/ビジネス?utm_source=google&utm_medium=cpc&utm_campaign=ビジネス",
+      "ad_type": "search",
+      "position": "side",
+      "bid_keywords": [
+        "ビジネス",
+        "ビジネス 会社",
+        "最新 ビジネス",
+        "ビジネス 料金",
+        "waocon.com ビジネス"
+      ],
+      "estimated_cost": {
+        "cpc": 76.72,
+        "daily_budget": 7713.58,
+        "monthly_spend": 40037.41
+      },
+      "competition": "高",
+      "first_seen": "2025-05-10",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "公式",
+      "headline": "公式ならNo.1のwaocon.com",
+      "description": "公式に関する無料相談受付中。専門スタッフが丁寧に対応します。",
+      "display_url": "https://waocon.com/公式",
+      "final_url": "https://waocon.com/公式?utm_source=google&utm_medium=cpc&utm_campaign=公式",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "公式",
+        "公式 ランキング",
+        "最新 公式",
+        "公式 費用",
+        "waocon.com 公式"
+      ],
+      "estimated_cost": {
+        "cpc": 350.97,
+        "daily_budget": 9216.46,
+        "monthly_spend": 175322.31
+      },
+      "competition": "高",
+      "first_seen": "2025-05-23",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon",
+      "headline": "最新のwaocon情報 - waocon.com",
+      "description": "waoconに関する豊富な実績と経験。お客様満足度98%のwaocon.comにお任せください。",
+      "display_url": "https://waocon.com/waocon",
+      "final_url": "https://waocon.com/waocon?utm_source=google&utm_medium=cpc&utm_campaign=waocon",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "waocon",
+        "waocon ランキング",
+        "最新 waocon",
+        "waocon 相場",
+        "waocon.com waocon"
+      ],
+      "estimated_cost": {
+        "cpc": 349.63,
+        "daily_budget": 1913.56,
+        "monthly_spend": 35858.66
+      },
+      "competition": "高",
+      "first_seen": "2025-03-09",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 公式",
+      "headline": "最新のwaocon 公式情報 - waocon.com",
+      "description": "初めての方も安心。waocon 公式のプロが丁寧にサポートします。無料相談実施中。",
+      "display_url": "https://waocon.com/waocon-公式",
+      "final_url": "https://waocon.com/waocon-公式?utm_source=google&utm_medium=cpc&utm_campaign=waocon_公式",
+      "ad_type": "search",
+      "position": "side",
+      "bid_keywords": [
+        "waocon 公式",
+        "waocon 公式 おすすめ",
+        "最新 waocon 公式",
+        "waocon 公式 費用",
+        "waocon.com waocon 公式"
+      ],
+      "estimated_cost": {
+        "cpc": 499.87,
+        "daily_budget": 6528.54,
+        "monthly_spend": 110438.6
+      },
+      "competition": "中",
+      "first_seen": "2025-03-16",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon サービス",
+      "headline": "信頼と実績のwaocon.com - waocon サービスのプロフェッショナル",
+      "description": "waocon サービスの悩みを解決するための専門サービス。満足度保証付き。",
+      "display_url": "https://waocon.com/waocon-サービス",
+      "final_url": "https://waocon.com/waocon-サービス?utm_source=google&utm_medium=cpc&utm_campaign=waocon_サービス",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "waocon サービス",
+        "waocon サービス おすすめ",
+        "最新 waocon サービス",
+        "waocon サービス 費用",
+        "waocon.com waocon サービス"
+      ],
+      "estimated_cost": {
+        "cpc": 84.55,
+        "daily_budget": 1935.15,
+        "monthly_spend": 83562.22
+      },
+      "competition": "低",
+      "first_seen": "2025-05-09",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 評判",
+      "headline": "waocon 評判ならNo.1のwaocon.com",
+      "description": "最新のwaocon 評判情報を毎日更新。業界の最新トレンドをwaocon.comでチェック。",
+      "display_url": "https://waocon.com/waocon-評判",
+      "final_url": "https://waocon.com/waocon-評判?utm_source=google&utm_medium=cpc&utm_campaign=waocon_評判",
+      "ad_type": "search",
+      "position": "bottom",
+      "bid_keywords": [
+        "waocon 評判",
+        "waocon 評判 会社",
+        "最新 waocon 評判",
+        "waocon 評判 価格",
+        "waocon.com waocon 評判"
+      ],
+      "estimated_cost": {
+        "cpc": 304.12,
+        "daily_budget": 2261.62,
+        "monthly_spend": 283813.12
+      },
+      "competition": "高",
+      "first_seen": "2025-03-17",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 料金",
+      "headline": "【期間限定】waocon 料金が今だけお得 - waocon.com",
+      "description": "waocon 料金の悩みを解決するための専門サービス。満足度保証付き。",
+      "display_url": "https://waocon.com/waocon-料金",
+      "final_url": "https://waocon.com/waocon-料金?utm_source=google&utm_medium=cpc&utm_campaign=waocon_料金",
+      "ad_type": "search",
+      "position": "top",
+      "bid_keywords": [
+        "waocon 料金",
+        "waocon 料金 おすすめ",
+        "最新 waocon 料金",
+        "waocon 料金 費用",
+        "waocon.com waocon 料金"
+      ],
+      "estimated_cost": {
+        "cpc": 336.85,
+        "daily_budget": 7277.09,
+        "monthly_spend": 174428.77
+      },
+      "competition": "低",
+      "first_seen": "2025-04-21",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "サービス",
+      "headline": "【公式】waocon.com - 高品質なサービスを提供",
+      "description": "サービスの悩みを解決するための専門サービス。満足度保証付き。",
+      "display_url": "https://waocon.com/サービス",
+      "final_url": "https://waocon.com/サービス?utm_source=google&utm_medium=cpc&utm_campaign=サービス",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "サービス",
+        "サービス サービス",
+        "最新 サービス",
+        "サービス 価格",
+        "waocon.com サービス"
+      ],
+      "estimated_cost": {
+        "cpc": 195.33,
+        "daily_budget": 6372.95,
+        "monthly_spend": 78485.75
+      },
+      "competition": "低",
+      "first_seen": "2025-04-19",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "製品",
+      "headline": "最新の製品情報 - waocon.com",
+      "description": "製品に関する無料相談受付中。専門スタッフが丁寧に対応します。",
+      "display_url": "https://waocon.com/製品",
+      "final_url": "https://waocon.com/製品?utm_source=google&utm_medium=cpc&utm_campaign=製品",
+      "ad_type": "search",
+      "position": "top",
+      "bid_keywords": [
+        "製品",
+        "製品 ランキング",
+        "最新 製品",
+        "製品 価格",
+        "waocon.com 製品"
+      ],
+      "estimated_cost": {
+        "cpc": 69.66,
+        "daily_budget": 8595.53,
+        "monthly_spend": 236259.73
+      },
+      "competition": "高",
+      "first_seen": "2025-04-17",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "会社",
+      "headline": "【初回限定】会社サービスを無料体験 - waocon.com",
+      "description": "業界トップクラスの会社サービスを提供しています。今すぐお問い合わせください。",
+      "display_url": "https://waocon.com/会社",
+      "final_url": "https://waocon.com/会社?utm_source=google&utm_medium=cpc&utm_campaign=会社",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "会社",
+        "会社 比較",
+        "最新 会社",
+        "会社 価格",
+        "waocon.com 会社"
+      ],
+      "estimated_cost": {
+        "cpc": 400.02,
+        "daily_budget": 9568.03,
+        "monthly_spend": 230376.96
+      },
+      "competition": "低",
+      "first_seen": "2025-04-28",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "ビジネス",
+      "headline": "【期間限定】ビジネスが今だけお得 - waocon.com",
+      "description": "初めての方も安心。ビジネスのプロが丁寧にサポートします。無料相談実施中。",
+      "display_url": "https://waocon.com/ビジネス",
+      "final_url": "https://waocon.com/ビジネス?utm_source=google&utm_medium=cpc&utm_campaign=ビジネス",
+      "ad_type": "search",
+      "position": "bottom",
+      "bid_keywords": [
+        "ビジネス",
+        "ビジネス おすすめ",
+        "最新 ビジネス",
+        "ビジネス 費用",
+        "waocon.com ビジネス"
+      ],
+      "estimated_cost": {
+        "cpc": 334.65,
+        "daily_budget": 4304.56,
+        "monthly_spend": 296253.12
+      },
+      "competition": "高",
+      "first_seen": "2025-04-30",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "公式",
+      "headline": "信頼と実績のwaocon.com - 公式のプロフェッショナル",
+      "description": "【公式】waocon.com - 公式のリーディングカンパニー。今なら特別キャンペーン実施中。",
+      "display_url": "https://waocon.com/公式",
+      "final_url": "https://waocon.com/公式?utm_source=google&utm_medium=cpc&utm_campaign=公式",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "公式",
+        "公式 ランキング",
+        "最新 公式",
+        "公式 価格",
+        "waocon.com 公式"
+      ],
+      "estimated_cost": {
+        "cpc": 422.29,
+        "daily_budget": 5110.66,
+        "monthly_spend": 219792.67
+      },
+      "competition": "低",
+      "first_seen": "2025-03-02",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon",
+      "headline": "【初回限定】waoconサービスを無料体験 - waocon.com",
+      "description": "waoconに関する無料相談受付中。専門スタッフが丁寧に対応します。",
+      "display_url": "https://waocon.com/waocon",
+      "final_url": "https://waocon.com/waocon?utm_source=google&utm_medium=cpc&utm_campaign=waocon",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "waocon",
+        "waocon ランキング",
+        "最新 waocon",
+        "waocon 価格",
+        "waocon.com waocon"
+      ],
+      "estimated_cost": {
+        "cpc": 488.97,
+        "daily_budget": 9088.92,
+        "monthly_spend": 105082.31
+      },
+      "competition": "高",
+      "first_seen": "2025-03-29",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 公式",
+      "headline": "waocon.comでwaocon 公式を今すぐチェック",
+      "description": "waocon 公式の悩みを解決するための専門サービス。満足度保証付き。",
+      "display_url": "https://waocon.com/waocon-公式",
+      "final_url": "https://waocon.com/waocon-公式?utm_source=google&utm_medium=cpc&utm_campaign=waocon_公式",
+      "ad_type": "search",
+      "position": "side",
+      "bid_keywords": [
+        "waocon 公式",
+        "waocon 公式 おすすめ",
+        "最新 waocon 公式",
+        "waocon 公式 相場",
+        "waocon.com waocon 公式"
+      ],
+      "estimated_cost": {
+        "cpc": 128.13,
+        "daily_budget": 6778.37,
+        "monthly_spend": 51105.4
+      },
+      "competition": "高",
+      "first_seen": "2025-05-09",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon サービス",
+      "headline": "【初回限定】waocon サービスサービスを無料体験 - waocon.com",
+      "description": "業界トップクラスのwaocon サービスサービスを提供しています。今すぐお問い合わせください。",
+      "display_url": "https://waocon.com/waocon-サービス",
+      "final_url": "https://waocon.com/waocon-サービス?utm_source=google&utm_medium=cpc&utm_campaign=waocon_サービス",
+      "ad_type": "search",
+      "position": "side",
+      "bid_keywords": [
+        "waocon サービス",
+        "waocon サービス おすすめ",
+        "最新 waocon サービス",
+        "waocon サービス 料金",
+        "waocon.com waocon サービス"
+      ],
+      "estimated_cost": {
+        "cpc": 232.92,
+        "daily_budget": 4384.79,
+        "monthly_spend": 53517.76
+      },
+      "competition": "低",
+      "first_seen": "2025-03-24",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 評判",
+      "headline": "waocon 評判ならNo.1のwaocon.com",
+      "description": "最新のwaocon 評判情報を毎日更新。業界の最新トレンドをwaocon.comでチェック。",
+      "display_url": "https://waocon.com/waocon-評判",
+      "final_url": "https://waocon.com/waocon-評判?utm_source=google&utm_medium=cpc&utm_campaign=waocon_評判",
+      "ad_type": "search",
+      "position": "top",
+      "bid_keywords": [
+        "waocon 評判",
+        "waocon 評判 ランキング",
+        "最新 waocon 評判",
+        "waocon 評判 相場",
+        "waocon.com waocon 評判"
+      ],
+      "estimated_cost": {
+        "cpc": 215.23,
+        "daily_budget": 7267.03,
+        "monthly_spend": 104210.34
+      },
+      "competition": "高",
+      "first_seen": "2025-03-04",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 料金",
+      "headline": "【初回限定】waocon 料金サービスを無料体験 - waocon.com",
+      "description": "【公式】waocon.com - waocon 料金のリーディングカンパニー。今なら特別キャンペーン実施中。",
+      "display_url": "https://waocon.com/waocon-料金",
+      "final_url": "https://waocon.com/waocon-料金?utm_source=google&utm_medium=cpc&utm_campaign=waocon_料金",
+      "ad_type": "search",
+      "position": "top",
+      "bid_keywords": [
+        "waocon 料金",
+        "waocon 料金 おすすめ",
+        "最新 waocon 料金",
+        "waocon 料金 相場",
+        "waocon.com waocon 料金"
+      ],
+      "estimated_cost": {
+        "cpc": 99.68,
+        "daily_budget": 4203.6,
+        "monthly_spend": 40027.51
+      },
+      "competition": "低",
+      "first_seen": "2025-03-12",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "サービス",
+      "headline": "最新のサービス情報 - waocon.com",
+      "description": "サービスに関するあらゆるニーズにお応えします。24時間365日対応可能。",
+      "display_url": "https://waocon.com/サービス",
+      "final_url": "https://waocon.com/サービス?utm_source=google&utm_medium=cpc&utm_campaign=サービス",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "サービス",
+        "サービス 会社",
+        "最新 サービス",
+        "サービス 価格",
+        "waocon.com サービス"
+      ],
+      "estimated_cost": {
+        "cpc": 51.41,
+        "daily_budget": 6317.84,
+        "monthly_spend": 58154.82
+      },
+      "competition": "中",
+      "first_seen": "2025-03-07",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "製品",
+      "headline": "【初回限定】製品サービスを無料体験 - waocon.com",
+      "description": "製品に関する無料相談受付中。専門スタッフが丁寧に対応します。",
+      "display_url": "https://waocon.com/製品",
+      "final_url": "https://waocon.com/製品?utm_source=google&utm_medium=cpc&utm_campaign=製品",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "製品",
+        "製品 会社",
+        "最新 製品",
+        "製品 料金",
+        "waocon.com 製品"
+      ],
+      "estimated_cost": {
+        "cpc": 387.98,
+        "daily_budget": 4349.16,
+        "monthly_spend": 37387.78
+      },
+      "competition": "低",
+      "first_seen": "2025-03-12",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "会社",
+      "headline": "会社の悩みを解決 - waocon.com",
+      "description": "最新の会社情報を毎日更新。業界の最新トレンドをwaocon.comでチェック。",
+      "display_url": "https://waocon.com/会社",
+      "final_url": "https://waocon.com/会社?utm_source=google&utm_medium=cpc&utm_campaign=会社",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "会社",
+        "会社 おすすめ",
+        "最新 会社",
+        "会社 相場",
+        "waocon.com 会社"
+      ],
+      "estimated_cost": {
+        "cpc": 424.66,
+        "daily_budget": 8802.06,
+        "monthly_spend": 108374.2
+      },
+      "competition": "低",
+      "first_seen": "2025-05-08",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "ビジネス",
+      "headline": "24時間対応のビジネスサポート - waocon.com",
+      "description": "他社と比べてビジネスの品質が違います。無料見積もり実施中。",
+      "display_url": "https://waocon.com/ビジネス",
+      "final_url": "https://waocon.com/ビジネス?utm_source=google&utm_medium=cpc&utm_campaign=ビジネス",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "ビジネス",
+        "ビジネス 比較",
+        "最新 ビジネス",
+        "ビジネス 相場",
+        "waocon.com ビジネス"
+      ],
+      "estimated_cost": {
+        "cpc": 417.4,
+        "daily_budget": 5207.04,
+        "monthly_spend": 163946.0
+      },
+      "competition": "低",
+      "first_seen": "2025-02-27",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "公式",
+      "headline": "【公式】waocon.com - 高品質なサービスを提供",
+      "description": "他社と比べて公式の品質が違います。無料見積もり実施中。",
+      "display_url": "https://waocon.com/公式",
+      "final_url": "https://waocon.com/公式?utm_source=google&utm_medium=cpc&utm_campaign=公式",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "公式",
+        "公式 サービス",
+        "最新 公式",
+        "公式 価格",
+        "waocon.com 公式"
+      ],
+      "estimated_cost": {
+        "cpc": 442.22,
+        "daily_budget": 6384.62,
+        "monthly_spend": 207659.04
+      },
+      "competition": "高",
+      "first_seen": "2025-05-14",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon",
+      "headline": "最新のwaocon情報 - waocon.com",
+      "description": "waoconに関する無料相談受付中。専門スタッフが丁寧に対応します。",
+      "display_url": "https://waocon.com/waocon",
+      "final_url": "https://waocon.com/waocon?utm_source=google&utm_medium=cpc&utm_campaign=waocon",
+      "ad_type": "search",
+      "position": "side",
+      "bid_keywords": [
+        "waocon",
+        "waocon 会社",
+        "最新 waocon",
+        "waocon 価格",
+        "waocon.com waocon"
+      ],
+      "estimated_cost": {
+        "cpc": 299.54,
+        "daily_budget": 8521.75,
+        "monthly_spend": 100551.9
+      },
+      "competition": "中",
+      "first_seen": "2025-03-11",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 公式",
+      "headline": "最新のwaocon 公式情報 - waocon.com",
+      "description": "waocon 公式の悩みを解決するための専門サービス。満足度保証付き。",
+      "display_url": "https://waocon.com/waocon-公式",
+      "final_url": "https://waocon.com/waocon-公式?utm_source=google&utm_medium=cpc&utm_campaign=waocon_公式",
+      "ad_type": "search",
+      "position": "bottom",
+      "bid_keywords": [
+        "waocon 公式",
+        "waocon 公式 サービス",
+        "最新 waocon 公式",
+        "waocon 公式 費用",
+        "waocon.com waocon 公式"
+      ],
+      "estimated_cost": {
+        "cpc": 490.0,
+        "daily_budget": 4504.37,
+        "monthly_spend": 158712.09
+      },
+      "competition": "中",
+      "first_seen": "2025-05-03",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon サービス",
+      "headline": "【期間限定】waocon サービスが今だけお得 - waocon.com",
+      "description": "初めての方も安心。waocon サービスのプロが丁寧にサポートします。無料相談実施中。",
+      "display_url": "https://waocon.com/waocon-サービス",
+      "final_url": "https://waocon.com/waocon-サービス?utm_source=google&utm_medium=cpc&utm_campaign=waocon_サービス",
+      "ad_type": "search",
+      "position": "bottom",
+      "bid_keywords": [
+        "waocon サービス",
+        "waocon サービス サービス",
+        "最新 waocon サービス",
+        "waocon サービス 価格",
+        "waocon.com waocon サービス"
+      ],
+      "estimated_cost": {
+        "cpc": 75.12,
+        "daily_budget": 2645.74,
+        "monthly_spend": 96694.83
+      },
+      "competition": "高",
+      "first_seen": "2025-04-12",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 評判",
+      "headline": "waocon 評判のエキスパート | waocon.com",
+      "description": "業界トップクラスのwaocon 評判サービスを提供しています。今すぐお問い合わせください。",
+      "display_url": "https://waocon.com/waocon-評判",
+      "final_url": "https://waocon.com/waocon-評判?utm_source=google&utm_medium=cpc&utm_campaign=waocon_評判",
+      "ad_type": "search",
+      "position": "side",
+      "bid_keywords": [
+        "waocon 評判",
+        "waocon 評判 ランキング",
+        "最新 waocon 評判",
+        "waocon 評判 価格",
+        "waocon.com waocon 評判"
+      ],
+      "estimated_cost": {
+        "cpc": 243.34,
+        "daily_budget": 2944.53,
+        "monthly_spend": 150868.16
+      },
+      "competition": "高",
+      "first_seen": "2025-04-23",
+      "last_seen": "2025-05-28"
+    },
+    {
+      "keyword": "waocon 料金",
+      "headline": "waocon 料金のエキスパート | waocon.com",
+      "description": "waocon 料金の悩みを解決するための専門サービス。満足度保証付き。",
+      "display_url": "https://waocon.com/waocon-料金",
+      "final_url": "https://waocon.com/waocon-料金?utm_source=google&utm_medium=cpc&utm_campaign=waocon_料金",
+      "ad_type": "display",
+      "position": "content",
+      "bid_keywords": [
+        "waocon 料金",
+        "waocon 料金 おすすめ",
+        "最新 waocon 料金",
+        "waocon 料金 料金",
+        "waocon.com waocon 料金"
+      ],
+      "estimated_cost": {
+        "cpc": 343.56,
+        "daily_budget": 1859.04,
+        "monthly_spend": 119124.23
+      },
+      "competition": "高",
+      "first_seen": "2025-04-26",
+      "last_seen": "2025-05-28"
+    }
+  ],
+  "social_ads": {
+    "facebook": [
+      {
+        "headline": "【期間限定】waocon.comの特別キャンペーン実施中",
+        "description": "豊富な実績と経験。お客様満足度98%のwaocon.comにお任せください。",
+        "format": "collection",
+        "placement": "stories",
+        "targeting": {
+          "age": "45-54",
+          "gender": "all",
+          "interests": [
+            "ライフスタイル",
+            "教育",
+            "スポーツ"
+          ],
+          "location": "グローバル",
+          "device": "desktop"
+        },
+        "estimated_cost": {
+          "cpm": 512.64,
+          "daily_budget": 4579.29,
+          "monthly_spend": 35833.99
+        },
+        "landing_url": "https://waocon.com/ソリューション?utm_source=facebook&utm_medium=social&utm_campaign=ソリューション",
+        "first_seen": "2025-04-03",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comが選ばれる理由とは？",
+        "description": "業界トップクラスのサービスを提供しています。今すぐお問い合わせください。",
+        "format": "image",
+        "placement": "stories",
+        "targeting": {
+          "age": "18-24",
+          "gender": "all",
+          "interests": [
+            "健康",
+            "ライフスタイル"
+          ],
+          "location": "大阪",
+          "device": "tablet"
+        },
+        "estimated_cost": {
+          "cpm": 649.71,
+          "daily_budget": 3137.96,
+          "monthly_spend": 139467.03
+        },
+        "landing_url": "https://waocon.com/製品?utm_source=facebook&utm_medium=social&utm_campaign=製品",
+        "first_seen": "2025-05-26",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comで理想のプランを見つけよう",
+        "description": "業界トップクラスのサービスを提供しています。今すぐお問い合わせください。",
+        "format": "collection",
+        "placement": "feed",
+        "targeting": {
+          "age": "55-64",
+          "gender": "male",
+          "interests": [
+            "エンターテイメント",
+            "スポーツ",
+            "ライフスタイル"
+          ],
+          "location": "東京",
+          "device": "desktop"
+        },
+        "estimated_cost": {
+          "cpm": 1485.27,
+          "daily_budget": 1200.5,
+          "monthly_spend": 68244.01
+        },
+        "landing_url": "https://waocon.com/プラン?utm_source=facebook&utm_medium=social&utm_campaign=プラン",
+        "first_seen": "2025-04-30",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comが選ばれる理由とは？",
+        "description": "初めての方も安心。専門スタッフが丁寧にサポートします。無料相談実施中。",
+        "format": "carousel",
+        "placement": "stories",
+        "targeting": {
+          "age": "35-44",
+          "gender": "male",
+          "interests": [
+            "教育",
+            "ライフスタイル"
+          ],
+          "location": "福岡",
+          "device": "tablet"
+        },
+        "estimated_cost": {
+          "cpm": 1046.61,
+          "daily_budget": 2176.0,
+          "monthly_spend": 147461.12
+        },
+        "landing_url": "https://waocon.com/プラン?utm_source=facebook&utm_medium=social&utm_campaign=プラン",
+        "first_seen": "2025-03-29",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comで理想のソリューションを見つけよう",
+        "description": "あらゆるニーズにお応えします。24時間365日対応可能。",
+        "format": "carousel",
+        "placement": "marketplace",
+        "targeting": {
+          "age": "25-34",
+          "gender": "female",
+          "interests": [
+            "健康"
+          ],
+          "location": "アジア",
+          "device": "mobile"
+        },
+        "estimated_cost": {
+          "cpm": 468.73,
+          "daily_budget": 3656.86,
+          "monthly_spend": 115929.97
+        },
+        "landing_url": "https://waocon.com/ソリューション?utm_source=facebook&utm_medium=social&utm_campaign=ソリューション",
+        "first_seen": "2025-04-03",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "【期間限定】waocon.comの特別キャンペーン実施中",
+        "description": "豊富な実績と経験。お客様満足度98%のwaocon.comにお任せください。",
+        "format": "carousel",
+        "placement": "marketplace",
+        "targeting": {
+          "age": "45-54",
+          "gender": "male",
+          "interests": [
+            "ビジネス"
+          ],
+          "location": "名古屋",
+          "device": "tablet"
+        },
+        "estimated_cost": {
+          "cpm": 866.9,
+          "daily_budget": 2752.09,
+          "monthly_spend": 30837.64
+        },
+        "landing_url": "https://waocon.com/ソリューション?utm_source=facebook&utm_medium=social&utm_campaign=ソリューション",
+        "first_seen": "2025-05-02",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comで理想の製品を見つけよう",
+        "description": "最新の情報を毎日更新。業界の最新トレンドをwaocon.comでチェック。",
+        "format": "video",
+        "placement": "stories",
+        "targeting": {
+          "age": "35-44",
+          "gender": "male",
+          "interests": [
+            "教育",
+            "スポーツ",
+            "テクノロジー"
+          ],
+          "location": "グローバル",
+          "device": "desktop"
+        },
+        "estimated_cost": {
+          "cpm": 527.64,
+          "daily_budget": 4344.85,
+          "monthly_spend": 116380.09
+        },
+        "landing_url": "https://waocon.com/製品?utm_source=facebook&utm_medium=social&utm_campaign=製品",
+        "first_seen": "2025-04-15",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comの新サービスを今すぐチェック",
+        "description": "初めての方も安心。専門スタッフが丁寧にサポートします。無料相談実施中。",
+        "format": "video",
+        "placement": "feed",
+        "targeting": {
+          "age": "25-34",
+          "gender": "male",
+          "interests": [
+            "教育",
+            "健康",
+            "テクノロジー"
+          ],
+          "location": "アジア",
+          "device": "all"
+        },
+        "estimated_cost": {
+          "cpm": 1360.13,
+          "daily_budget": 4581.11,
+          "monthly_spend": 80836.97
+        },
+        "landing_url": "https://waocon.com/パッケージ?utm_source=facebook&utm_medium=social&utm_campaign=パッケージ",
+        "first_seen": "2025-04-05",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comが選ばれる理由とは？",
+        "description": "業界トップクラスのサービスを提供しています。今すぐお問い合わせください。",
+        "format": "video",
+        "placement": "marketplace",
+        "targeting": {
+          "age": "45-54",
+          "gender": "all",
+          "interests": [
+            "教育",
+            "テクノロジー",
+            "ビジネス"
+          ],
+          "location": "日本",
+          "device": "desktop"
+        },
+        "estimated_cost": {
+          "cpm": 771.98,
+          "daily_budget": 1173.57,
+          "monthly_spend": 145811.32
+        },
+        "landing_url": "https://waocon.com/プラン?utm_source=facebook&utm_medium=social&utm_campaign=プラン",
+        "first_seen": "2025-05-11",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comが選ばれる理由とは？",
+        "description": "初めての方も安心。専門スタッフが丁寧にサポートします。無料相談実施中。",
+        "format": "video",
+        "placement": "feed",
+        "targeting": {
+          "age": "35-44",
+          "gender": "male",
+          "interests": [
+            "エンターテイメント"
+          ],
+          "location": "グローバル",
+          "device": "all"
+        },
+        "estimated_cost": {
+          "cpm": 1069.89,
+          "daily_budget": 2879.92,
+          "monthly_spend": 34635.55
+        },
+        "landing_url": "https://waocon.com/サービス?utm_source=facebook&utm_medium=social&utm_campaign=サービス",
+        "first_seen": "2025-04-28",
+        "last_seen": "2025-05-28"
+      }
+    ],
+    "instagram": [
+      {
+        "headline": "waocon.comのストーリーをフォロー",
+        "description": "人気の製品が今だけ特別価格。",
+        "format": "reels",
+        "placement": "feed",
+        "targeting": {
+          "age": "18-24",
+          "gender": "female",
+          "interests": [
+            "テクノロジー"
+          ],
+          "location": "グローバル",
+          "device": "all"
+        },
+        "estimated_cost": {
+          "cpm": 724.19,
+          "daily_budget": 3498.15,
+          "monthly_spend": 146181.16
+        },
+        "landing_url": "https://waocon.com/製品?utm_source=instagram&utm_medium=social&utm_campaign=製品",
+        "first_seen": "2025-04-30",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "【期間限定】waocon.comのキャンペーン",
+        "description": "人気のサービスが今だけ特別価格。",
+        "format": "video",
+        "placement": "reels",
+        "targeting": {
+          "age": "65+",
+          "gender": "all",
+          "interests": [
+            "教育",
+            "旅行",
+            "テクノロジー"
+          ],
+          "location": "大阪",
+          "device": "mobile"
+        },
+        "estimated_cost": {
+          "cpm": 333.82,
+          "daily_budget": 2390.05,
+          "monthly_spend": 62983.05
+        },
+        "landing_url": "https://waocon.com/サービス?utm_source=instagram&utm_medium=social&utm_campaign=サービス",
+        "first_seen": "2025-04-28",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "【公式】waocon.comのInstagramアカウント",
+        "description": "最新のトレンドをwaocon.comでチェック。",
+        "format": "carousel",
+        "placement": "stories",
+        "targeting": {
+          "age": "65+",
+          "gender": "all",
+          "interests": [
+            "スポーツ",
+            "健康"
+          ],
+          "location": "アジア",
+          "device": "all"
+        },
+        "estimated_cost": {
+          "cpm": 731.56,
+          "daily_budget": 3889.5,
+          "monthly_spend": 107786.6
+        },
+        "landing_url": "https://waocon.com/サービス?utm_source=instagram&utm_medium=social&utm_campaign=サービス",
+        "first_seen": "2025-05-14",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comの新商品をチェック",
+        "description": "フォロワー限定の特別オファー。プロフィールのリンクから詳細をチェック。",
+        "format": "video",
+        "placement": "explore",
+        "targeting": {
+          "age": "65+",
+          "gender": "male",
+          "interests": [
+            "旅行",
+            "ライフスタイル"
+          ],
+          "location": "大阪",
+          "device": "mobile"
+        },
+        "estimated_cost": {
+          "cpm": 775.18,
+          "daily_budget": 2226.45,
+          "monthly_spend": 88736.8
+        },
+        "landing_url": "https://waocon.com/プラン?utm_source=instagram&utm_medium=social&utm_campaign=プラン",
+        "first_seen": "2025-05-20",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comのストーリーをフォロー",
+        "description": "人気のプランが今だけ特別価格。",
+        "format": "stories",
+        "placement": "explore",
+        "targeting": {
+          "age": "55-64",
+          "gender": "all",
+          "interests": [
+            "教育"
+          ],
+          "location": "アジア",
+          "device": "mobile"
+        },
+        "estimated_cost": {
+          "cpm": 1374.95,
+          "daily_budget": 2880.98,
+          "monthly_spend": 74698.83
+        },
+        "landing_url": "https://waocon.com/プラン?utm_source=instagram&utm_medium=social&utm_campaign=プラン",
+        "first_seen": "2025-05-27",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "【公式】waocon.comのInstagramアカウント",
+        "description": "最新のトレンドをwaocon.comでチェック。",
+        "format": "stories",
+        "placement": "explore",
+        "targeting": {
+          "age": "35-44",
+          "gender": "female",
+          "interests": [
+            "旅行",
+            "エンターテイメント",
+            "ビジネス"
+          ],
+          "location": "大阪",
+          "device": "desktop"
+        },
+        "estimated_cost": {
+          "cpm": 1418.34,
+          "daily_budget": 1322.75,
+          "monthly_spend": 141896.0
+        },
+        "landing_url": "https://waocon.com/パッケージ?utm_source=instagram&utm_medium=social&utm_campaign=パッケージ",
+        "first_seen": "2025-04-09",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "【公式】waocon.comのInstagramアカウント",
+        "description": "フォローして最新情報をゲット！",
+        "format": "stories",
+        "placement": "explore",
+        "targeting": {
+          "age": "18-24",
+          "gender": "female",
+          "interests": [
+            "テクノロジー",
+            "旅行",
+            "ビジネス"
+          ],
+          "location": "福岡",
+          "device": "desktop"
+        },
+        "estimated_cost": {
+          "cpm": 625.29,
+          "daily_budget": 4506.09,
+          "monthly_spend": 59529.68
+        },
+        "landing_url": "https://waocon.com/プラン?utm_source=instagram&utm_medium=social&utm_campaign=プラン",
+        "first_seen": "2025-05-11",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comでプランを探す",
+        "description": "フォロワー限定の特別オファー。プロフィールのリンクから詳細をチェック。",
+        "format": "video",
+        "placement": "feed",
+        "targeting": {
+          "age": "18-24",
+          "gender": "male",
+          "interests": [
+            "教育",
+            "テクノロジー",
+            "エンターテイメント"
+          ],
+          "location": "東京",
+          "device": "mobile"
+        },
+        "estimated_cost": {
+          "cpm": 1302.41,
+          "daily_budget": 2529.18,
+          "monthly_spend": 49932.36
+        },
+        "landing_url": "https://waocon.com/プラン?utm_source=instagram&utm_medium=social&utm_campaign=プラン",
+        "first_seen": "2025-04-12",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "【期間限定】waocon.comのキャンペーン",
+        "description": "人気の製品が今だけ特別価格。",
+        "format": "carousel",
+        "placement": "stories",
+        "targeting": {
+          "age": "55-64",
+          "gender": "all",
+          "interests": [
+            "健康",
+            "旅行"
+          ],
+          "location": "アジア",
+          "device": "tablet"
+        },
+        "estimated_cost": {
+          "cpm": 1210.94,
+          "daily_budget": 1645.65,
+          "monthly_spend": 147428.07
+        },
+        "landing_url": "https://waocon.com/製品?utm_source=instagram&utm_medium=social&utm_campaign=製品",
+        "first_seen": "2025-05-05",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comの新商品をチェック",
+        "description": "最新のトレンドをwaocon.comでチェック。",
+        "format": "carousel",
+        "placement": "reels",
+        "targeting": {
+          "age": "65+",
+          "gender": "female",
+          "interests": [
+            "健康",
+            "旅行",
+            "ライフスタイル"
+          ],
+          "location": "グローバル",
+          "device": "all"
+        },
+        "estimated_cost": {
+          "cpm": 418.31,
+          "daily_budget": 2878.05,
+          "monthly_spend": 114271.35
+        },
+        "landing_url": "https://waocon.com/サービス?utm_source=instagram&utm_medium=social&utm_campaign=サービス",
+        "first_seen": "2025-04-12",
+        "last_seen": "2025-05-28"
+      }
+    ],
+    "twitter": [
+      {
+        "headline": "waocon.comの最新情報をチェック",
+        "description": "お得な情報を随時配信中。",
+        "format": "video",
+        "placement": "timeline",
+        "targeting": {
+          "age": "35-44",
+          "gender": "female",
+          "interests": [
+            "スポーツ"
+          ],
+          "location": "福岡",
+          "device": "desktop"
+        },
+        "estimated_cost": {
+          "cpm": 1359.07,
+          "daily_budget": 2402.48,
+          "monthly_spend": 125089.39
+        },
+        "landing_url": "https://waocon.com/プラン?utm_source=twitter&utm_medium=social&utm_campaign=プラン",
+        "first_seen": "2025-04-19",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comをフォローして最新情報を",
+        "description": "お得な情報を随時配信中。",
+        "format": "carousel",
+        "placement": "profile",
+        "targeting": {
+          "age": "45-54",
+          "gender": "female",
+          "interests": [
+            "ビジネス",
+            "健康",
+            "テクノロジー"
+          ],
+          "location": "アジア",
+          "device": "mobile"
+        },
+        "estimated_cost": {
+          "cpm": 951.49,
+          "daily_budget": 1344.22,
+          "monthly_spend": 116529.35
+        },
+        "landing_url": "https://waocon.com/プラン?utm_source=twitter&utm_medium=social&utm_campaign=プラン",
+        "first_seen": "2025-05-21",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "【速報】waocon.comの新サービス",
+        "description": "フォロワー限定キャンペーン実施中！",
+        "format": "text",
+        "placement": "search",
+        "targeting": {
+          "age": "45-54",
+          "gender": "all",
+          "interests": [
+            "テクノロジー",
+            "ライフスタイル"
+          ],
+          "location": "日本",
+          "device": "tablet"
+        },
+        "estimated_cost": {
+          "cpm": 1239.13,
+          "daily_budget": 1414.36,
+          "monthly_spend": 116690.28
+        },
+        "landing_url": "https://waocon.com/プラン?utm_source=twitter&utm_medium=social&utm_campaign=プラン",
+        "first_seen": "2025-04-14",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comでソリューションについて詳しく",
+        "description": "フォロワー限定キャンペーン実施中！",
+        "format": "image",
+        "placement": "profile",
+        "targeting": {
+          "age": "35-44",
+          "gender": "male",
+          "interests": [
+            "旅行",
+            "ビジネス"
+          ],
+          "location": "アジア",
+          "device": "tablet"
+        },
+        "estimated_cost": {
+          "cpm": 898.64,
+          "daily_budget": 2080.73,
+          "monthly_spend": 112879.72
+        },
+        "landing_url": "https://waocon.com/ソリューション?utm_source=twitter&utm_medium=social&utm_campaign=ソリューション",
+        "first_seen": "2025-04-14",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comの最新情報をチェック",
+        "description": "公式アカウントからの重要なお知らせ。",
+        "format": "text",
+        "placement": "search",
+        "targeting": {
+          "age": "35-44",
+          "gender": "all",
+          "interests": [
+            "エンターテイメント"
+          ],
+          "location": "東京",
+          "device": "mobile"
+        },
+        "estimated_cost": {
+          "cpm": 1200.11,
+          "daily_budget": 3252.48,
+          "monthly_spend": 71481.73
+        },
+        "landing_url": "https://waocon.com/パッケージ?utm_source=twitter&utm_medium=social&utm_campaign=パッケージ",
+        "first_seen": "2025-03-30",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comの最新情報をチェック",
+        "description": "最新情報を配信中。フォローして最新のアップデートをチェック！",
+        "format": "image",
+        "placement": "search",
+        "targeting": {
+          "age": "35-44",
+          "gender": "all",
+          "interests": [
+            "教育",
+            "健康",
+            "テクノロジー"
+          ],
+          "location": "大阪",
+          "device": "tablet"
+        },
+        "estimated_cost": {
+          "cpm": 485.23,
+          "daily_budget": 2011.41,
+          "monthly_spend": 40453.2
+        },
+        "landing_url": "https://waocon.com/サービス?utm_source=twitter&utm_medium=social&utm_campaign=サービス",
+        "first_seen": "2025-04-08",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comの最新情報をチェック",
+        "description": "公式アカウントからの重要なお知らせ。",
+        "format": "image",
+        "placement": "timeline",
+        "targeting": {
+          "age": "35-44",
+          "gender": "male",
+          "interests": [
+            "教育",
+            "テクノロジー"
+          ],
+          "location": "大阪",
+          "device": "all"
+        },
+        "estimated_cost": {
+          "cpm": 654.24,
+          "daily_budget": 3352.31,
+          "monthly_spend": 126962.37
+        },
+        "landing_url": "https://waocon.com/サービス?utm_source=twitter&utm_medium=social&utm_campaign=サービス",
+        "first_seen": "2025-04-03",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comをフォローして最新情報を",
+        "description": "新サービスの詳細はプロフィールのリンクから。",
+        "format": "carousel",
+        "placement": "search",
+        "targeting": {
+          "age": "65+",
+          "gender": "female",
+          "interests": [
+            "ライフスタイル",
+            "エンターテイメント"
+          ],
+          "location": "大阪",
+          "device": "tablet"
+        },
+        "estimated_cost": {
+          "cpm": 477.57,
+          "daily_budget": 3626.5,
+          "monthly_spend": 75294.78
+        },
+        "landing_url": "https://waocon.com/ソリューション?utm_source=twitter&utm_medium=social&utm_campaign=ソリューション",
+        "first_seen": "2025-05-11",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comで製品について詳しく",
+        "description": "公式アカウントからの重要なお知らせ。",
+        "format": "text",
+        "placement": "search",
+        "targeting": {
+          "age": "18-24",
+          "gender": "male",
+          "interests": [
+            "教育"
+          ],
+          "location": "福岡",
+          "device": "all"
+        },
+        "estimated_cost": {
+          "cpm": 1404.0,
+          "daily_budget": 3442.93,
+          "monthly_spend": 56041.81
+        },
+        "landing_url": "https://waocon.com/製品?utm_source=twitter&utm_medium=social&utm_campaign=製品",
+        "first_seen": "2025-04-17",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comの最新情報をチェック",
+        "description": "お得な情報を随時配信中。",
+        "format": "image",
+        "placement": "explore",
+        "targeting": {
+          "age": "65+",
+          "gender": "male",
+          "interests": [
+            "ライフスタイル",
+            "教育",
+            "スポーツ"
+          ],
+          "location": "名古屋",
+          "device": "mobile"
+        },
+        "estimated_cost": {
+          "cpm": 757.27,
+          "daily_budget": 2662.81,
+          "monthly_spend": 40048.63
+        },
+        "landing_url": "https://waocon.com/ソリューション?utm_source=twitter&utm_medium=social&utm_campaign=ソリューション",
+        "first_seen": "2025-05-15",
+        "last_seen": "2025-05-28"
+      }
+    ],
+    "linkedin": [
+      {
+        "headline": "waocon.comのビジネスソリューション",
+        "description": "業界をリードするwaocon.comのサービス。詳細はこちら。",
+        "format": "document",
+        "placement": "feed",
+        "targeting": {
+          "age": "55-64",
+          "gender": "female",
+          "interests": [
+            "スポーツ",
+            "ライフスタイル",
+            "エンターテイメント"
+          ],
+          "location": "福岡",
+          "device": "tablet"
+        },
+        "estimated_cost": {
+          "cpm": 578.35,
+          "daily_budget": 2474.43,
+          "monthly_spend": 80390.86
+        },
+        "landing_url": "https://waocon.com/製品?utm_source=linkedin&utm_medium=social&utm_campaign=製品",
+        "first_seen": "2025-03-30",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comのキャリア情報",
+        "description": "ビジネスの成長をサポートするwaocon.comのソリューション。",
+        "format": "document",
+        "placement": "groups",
+        "targeting": {
+          "age": "18-24",
+          "gender": "female",
+          "interests": [
+            "ビジネス",
+            "旅行",
+            "テクノロジー"
+          ],
+          "location": "福岡",
+          "device": "tablet"
+        },
+        "estimated_cost": {
+          "cpm": 1072.29,
+          "daily_budget": 4507.83,
+          "monthly_spend": 45065.3
+        },
+        "landing_url": "https://waocon.com/パッケージ?utm_source=linkedin&utm_medium=social&utm_campaign=パッケージ",
+        "first_seen": "2025-05-12",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comの専門家に相談",
+        "description": "ビジネスの成長をサポートするwaocon.comのソリューション。",
+        "format": "video",
+        "placement": "feed",
+        "targeting": {
+          "age": "45-54",
+          "gender": "male",
+          "interests": [
+            "エンターテイメント",
+            "教育"
+          ],
+          "location": "東京",
+          "device": "desktop"
+        },
+        "estimated_cost": {
+          "cpm": 939.82,
+          "daily_budget": 1437.52,
+          "monthly_spend": 53063.93
+        },
+        "landing_url": "https://waocon.com/ソリューション?utm_source=linkedin&utm_medium=social&utm_campaign=ソリューション",
+        "first_seen": "2025-04-13",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comのキャリア情報",
+        "description": "業界をリードするwaocon.comのサービス。詳細はこちら。",
+        "format": "image",
+        "placement": "feed",
+        "targeting": {
+          "age": "25-34",
+          "gender": "male",
+          "interests": [
+            "ライフスタイル"
+          ],
+          "location": "福岡",
+          "device": "all"
+        },
+        "estimated_cost": {
+          "cpm": 1366.19,
+          "daily_budget": 4765.62,
+          "monthly_spend": 86637.08
+        },
+        "landing_url": "https://waocon.com/パッケージ?utm_source=linkedin&utm_medium=social&utm_campaign=パッケージ",
+        "first_seen": "2025-04-04",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comのビジネスソリューション",
+        "description": "プロフェッショナルのためのビジネスツール。無料トライアル実施中。",
+        "format": "image",
+        "placement": "inmail",
+        "targeting": {
+          "age": "35-44",
+          "gender": "all",
+          "interests": [
+            "旅行",
+            "健康",
+            "ビジネス"
+          ],
+          "location": "グローバル",
+          "device": "desktop"
+        },
+        "estimated_cost": {
+          "cpm": 1039.98,
+          "daily_budget": 3955.34,
+          "monthly_spend": 100288.27
+        },
+        "landing_url": "https://waocon.com/パッケージ?utm_source=linkedin&utm_medium=social&utm_campaign=パッケージ",
+        "first_seen": "2025-05-05",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comの専門家に相談",
+        "description": "プロフェッショナルのためのビジネスツール。無料トライアル実施中。",
+        "format": "carousel",
+        "placement": "inmail",
+        "targeting": {
+          "age": "55-64",
+          "gender": "male",
+          "interests": [
+            "ライフスタイル"
+          ],
+          "location": "グローバル",
+          "device": "desktop"
+        },
+        "estimated_cost": {
+          "cpm": 910.2,
+          "daily_budget": 1443.64,
+          "monthly_spend": 112564.92
+        },
+        "landing_url": "https://waocon.com/ソリューション?utm_source=linkedin&utm_medium=social&utm_campaign=ソリューション",
+        "first_seen": "2025-05-24",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comの最新事例",
+        "description": "専門家チームが貴社のビジネスをサポート。今すぐ相談。",
+        "format": "video",
+        "placement": "feed",
+        "targeting": {
+          "age": "18-24",
+          "gender": "male",
+          "interests": [
+            "ライフスタイル",
+            "ビジネス"
+          ],
+          "location": "アジア",
+          "device": "all"
+        },
+        "estimated_cost": {
+          "cpm": 1479.88,
+          "daily_budget": 1296.34,
+          "monthly_spend": 85425.91
+        },
+        "landing_url": "https://waocon.com/パッケージ?utm_source=linkedin&utm_medium=social&utm_campaign=パッケージ",
+        "first_seen": "2025-05-16",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comの最新事例",
+        "description": "業界をリードするwaocon.comのサービス。詳細はこちら。",
+        "format": "text",
+        "placement": "sidebar",
+        "targeting": {
+          "age": "65+",
+          "gender": "male",
+          "interests": [
+            "旅行",
+            "教育"
+          ],
+          "location": "日本",
+          "device": "tablet"
+        },
+        "estimated_cost": {
+          "cpm": 1114.07,
+          "daily_budget": 2627.23,
+          "monthly_spend": 111757.63
+        },
+        "landing_url": "https://waocon.com/ソリューション?utm_source=linkedin&utm_medium=social&utm_campaign=ソリューション",
+        "first_seen": "2025-04-03",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comの専門家に相談",
+        "description": "専門家チームが貴社のビジネスをサポート。今すぐ相談。",
+        "format": "video",
+        "placement": "inmail",
+        "targeting": {
+          "age": "55-64",
+          "gender": "male",
+          "interests": [
+            "エンターテイメント",
+            "ライフスタイル"
+          ],
+          "location": "大阪",
+          "device": "tablet"
+        },
+        "estimated_cost": {
+          "cpm": 1237.47,
+          "daily_budget": 2718.73,
+          "monthly_spend": 50511.58
+        },
+        "landing_url": "https://waocon.com/プラン?utm_source=linkedin&utm_medium=social&utm_campaign=プラン",
+        "first_seen": "2025-05-09",
+        "last_seen": "2025-05-28"
+      },
+      {
+        "headline": "waocon.comの最新事例",
+        "description": "プロフェッショナルのためのビジネスツール。無料トライアル実施中。",
+        "format": "image",
+        "placement": "sidebar",
+        "targeting": {
+          "age": "45-54",
+          "gender": "female",
+          "interests": [
+            "健康"
+          ],
+          "location": "名古屋",
+          "device": "all"
+        },
+        "estimated_cost": {
+          "cpm": 745.54,
+          "daily_budget": 1284.95,
+          "monthly_spend": 143012.32
+        },
+        "landing_url": "https://waocon.com/サービス?utm_source=linkedin&utm_medium=social&utm_campaign=サービス",
+        "first_seen": "2025-05-20",
+        "last_seen": "2025-05-28"
+      }
+    ]
+  }
+}

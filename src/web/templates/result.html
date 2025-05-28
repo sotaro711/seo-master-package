@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分析結果 - SEOマスターツール</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SEOマスターツール</h1>
+            <p>分析結果</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="result-header">
+            <h2>{{ result.url }} の分析結果</h2>
+            <p class="timestamp">分析日時: {{ result.timestamp }}</p>
+            <div class="action-buttons">
+                <a href="{{ url_for('download_result', filename=filename) }}" class="btn-secondary">
+                    <i class="fas fa-download"></i> JSONダウンロード
+                </a>
+                <a href="{{ url_for('index') }}" class="btn-outline">
+                    <i class="fas fa-arrow-left"></i> 新しい分析
+                </a>
+            </div>
+        </div>
+
+        {% if analysis_type == 'seo' %}
+        <!-- SEO分析結果 -->
+        <div class="result-section">
+            <div class="score-overview">
+                <div class="score-card overall">
+                    <h3>総合スコア</h3>
+                    <div class="score">{{ result.overall_score }}/100</div>
+                    <div class="score-bar">
+                        <div class="score-fill" style="width: {{ result.overall_score }}%;"></div>
+                    </div>
+                </div>
+                <div class="score-categories">
+                    <div class="score-card">
+                        <h4>コンテンツ</h4>
+                        <div class="score">{{ result.content_score }}/100</div>
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: {{ result.content_score }}%;"></div>
+                        </div>
+                    </div>
+                    <div class="score-card">
+                        <h4>技術的SEO</h4>
+                        <div class="score">{{ result.technical_score }}/100</div>
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: {{ result.technical_score }}%;"></div>
+                        </div>
+                    </div>
+                    <div class="score-card">
+                        <h4>リンク</h4>
+                        <div class="score">{{ result.link_score }}/100</div>
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: {{ result.link_score }}%;"></div>
+                        </div>
+                    </div>
+                    <div class="score-card">
+                        <h4>キーワード</h4>
+                        <div class="score">{{ result.keyword_score }}/100</div>
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: {{ result.keyword_score }}%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- メタ情報 -->
+            <div class="result-card">
+                <h3><i class="fas fa-info-circle"></i> メタ情報</h3>
+                <div class="meta-info">
+                    <div class="meta-item">
+                        <h4>タイトル</h4>
+                        <p>{{ result.technical_analysis.meta_tags.title }}</p>
+                        <div class="meta-evaluation">
+                            {% if result.technical_analysis.meta_tags.title|length <= 60 %}
+                            <span class="good"><i class="fas fa-check-circle"></i> 適切な長さです</span>
+                            {% else %}
+                            <span class="warning"><i class="fas fa-exclamation-triangle"></i> 長すぎます ({{ result.technical_analysis.meta_tags.title|length }}文字)</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="meta-item">
+                        <h4>メタディスクリプション</h4>
+                        <p>{{ result.technical_analysis.meta_tags.description }}</p>
+                        <div class="meta-evaluation">
+                            {% if result.technical_analysis.meta_tags.description|length <= 160 %}
+                            <span class="good"><i class="fas fa-check-circle"></i> 適切な長さです</span>
+                            {% else %}
+                            <span class="warning"><i class="fas fa-exclamation-triangle"></i> 長すぎます ({{ result.technical_analysis.meta_tags.description|length }}文字)</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="meta-item">
+                        <h4>canonical URL</h4>
+                        <p>{{ result.technical_analysis.meta_tags.canonical }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- コンテンツ分析 -->
+            <div class="result-card">
+                <h3><i class="fas fa-file-alt"></i> コンテンツ分析</h3>
+                <div class="content-analysis">
+                    <div class="content-stats">
+                        <div class="stat-item">
+                            <h4>文字数</h4>
+                            <p>{{ result.content_analysis.word_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>段落数</h4>
+                            <p>{{ result.content_analysis.paragraph_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>画像数</h4>
+                            <p>{{ result.content_analysis.image_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>見出し数</h4>
+                            <p>{{ result.content_analysis.heading_count }}</p>
+                        </div>
+                    </div>
+                    
+                    <div class="heading-structure">
+                        <h4>見出し構造</h4>
+                        <ul class="heading-list">
+                            {% for heading in result.content_analysis.headings %}
+                            <li class="heading-item h{{ heading.level }}">{{ heading.text }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- キーワード分析 -->
+            <div class="result-card">
+                <h3><i class="fas fa-key"></i> キーワード分析</h3>
+                <div class="keyword-analysis">
+                    <div class="keyword-list">
+                        <h4>主要キーワード</h4>
+                        <div class="keyword-tags">
+                            {% for keyword in result.keyword_analysis.top_keywords %}
+                            <span class="keyword-tag">{{ keyword.text }} <small>({{ keyword.count }})</small></span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    
+                    <div class="keyword-density">
+                        <h4>キーワード密度</h4>
+                        <div class="density-chart">
+                            {% for keyword in result.keyword_analysis.keyword_density %}
+                            <div class="density-item">
+                                <div class="density-label">{{ keyword.text }}</div>
+                                <div class="density-bar">
+                                    <div class="density-fill" style="width: {{ keyword.density * 100 }}%;"></div>
+                                </div>
+                                <div class="density-value">{{ "%.2f"|format(keyword.density * 100) }}%</div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- リンク分析 -->
+            <div class="result-card">
+                <h3><i class="fas fa-link"></i> リンク分析</h3>
+                <div class="link-analysis">
+                    <div class="link-summary">
+                        <div class="link-stat">
+                            <h4>内部リンク</h4>
+                            <p>{{ result.link_analysis.internal_links|length }}</p>
+                        </div>
+                        <div class="link-stat">
+                            <h4>外部リンク</h4>
+                            <p>{{ result.link_analysis.external_links|length }}</p>
+                        </div>
+                        <div class="link-stat">
+                            <h4>リンク切れ</h4>
+                            <p>{{ result.link_analysis.broken_links|length }}</p>
+                        </div>
+                    </div>
+                    
+                    {% if result.link_analysis.broken_links %}
+                    <div class="broken-links">
+                        <h4>リンク切れ</h4>
+                        <ul class="link-list">
+                            {% for link in result.link_analysis.broken_links %}
+                            <li>
+                                <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text or link.url }}</a>
+                                <span class="error-code">{{ link.status_code }}</span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- 技術的SEO分析 -->
+            <div class="result-card">
+                <h3><i class="fas fa-cogs"></i> 技術的SEO分析</h3>
+                <div class="technical-analysis">
+                    <div class="checklist">
+                        {% for check in result.technical_analysis.checks %}
+                        <div class="check-item {{ 'passed' if check.passed else 'failed' }}">
+                            <div class="check-icon">
+                                {% if check.passed %}
+                                <i class="fas fa-check-circle"></i>
+                                {% else %}
+                                <i class="fas fa-times-circle"></i>
+                                {% endif %}
+                            </div>
+                            <div class="check-content">
+                                <h4>{{ check.name }}</h4>
+                                <p>{{ check.description }}</p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- 改善提案 -->
+            <div class="result-card">
+                <h3><i class="fas fa-lightbulb"></i> 改善提案</h3>
+                <div class="recommendations">
+                    <ul class="recommendation-list">
+                        {% for recommendation in result.recommendations %}
+                        <li class="recommendation-item">
+                            <div class="recommendation-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="recommendation-content">
+                                <p>{{ recommendation }}</p>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+            {% if result.competitors %}
+            <!-- 競合分析 -->
+            <div class="result-card">
+                <h3><i class="fas fa-chart-line"></i> 競合分析</h3>
+                <div class="competitor-analysis">
+                    <div class="competitor-list">
+                        {% for competitor in result.competitors %}
+                        <div class="competitor-item">
+                            <h4>{{ competitor.domain }}</h4>
+                            <div class="competitor-stats">
+                                <div class="stat-item">
+                                    <span class="stat-label">スコア</span>
+                                    <span class="stat-value">{{ competitor.score }}/100</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">キーワード一致</span>
+                                    <span class="stat-value">{{ competitor.keyword_overlap }}%</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">被リンク数</span>
+                                    <span class="stat-value">{{ competitor.backlinks }}</span>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- 戦略的洞察 -->
+            <div class="result-card">
+                <h3><i class="fas fa-lightbulb"></i> 戦略的洞察</h3>
+                <div class="insights">
+                    <ul class="insight-list">
+                        {% for insight in result.insights %}
+                        <li class="insight-item">
+                            <div class="insight-icon">
+                                <i class="fas fa-{{ insight.icon }}"></i>
+                            </div>
+                            <div class="insight-content">
+                                <h4>{{ insight.title }}</h4>
+                                <p>{{ insight.description }}</p>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% elif analysis_type == 'ad' %}
+        <!-- 広告分析結果 -->
+        <div class="result-section">
+            <div class="score-overview">
+                <div class="score-card overall">
+                    <h3>広告活用スコア</h3>
+                    <div class="score">{{ result.ad_score }}/100</div>
+                    <div class="score-bar">
+                        <div class="score-fill" style="width: {{ result.ad_score }}%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 広告概要 -->
+            <div class="result-card">
+                <h3><i class="fas fa-ad"></i> 広告概要</h3>
+                <div class="ad-summary">
+                    <div class="ad-stats">
+                        <div class="stat-item">
+                            <h4>検出広告数</h4>
+                            <p>{{ result.ad_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>広告ネットワーク</h4>
+                            <p>{{ result.ad_networks|length }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>推定月間広告費</h4>
+                            <p>{{ result.estimated_monthly_spend }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 広告ネットワーク分布 -->
+            <div class="result-card">
+                <h3><i class="fas fa-chart-pie"></i> 広告ネットワーク分布</h3>
+                <div class="ad-networks">
+                    <div class="network-distribution">
+                        {% for network in result.ad_networks %}
+                        <div class="network-item">
+                            <div class="network-name">{{ network.name }}</div>
+                            <div class="network-bar">
+                                <div class="network-fill" style="width: {{ network.percentage }}%;"></div>
+                            </div>
+                            <div class="network-value">{{ network.percentage }}%</div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- 広告キーワード分析 -->
+            <div class="result-card">
+                <h3><i class="fas fa-key"></i> 広告キーワード分析</h3>
+                <div class="ad-keywords">
+                    <div class="keyword-list">
+                        <h4>主要キーワード</h4>
+                        <div class="keyword-tags">
+                            {% for keyword in result.ad_keywords %}
+                            <span class="keyword-tag">{{ keyword.text }} <small>({{ keyword.count }})</small></span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 広告テキスト分析 -->
+            <div class="result-card">
+                <h3><i class="fas fa-file-alt"></i> 広告テキスト分析</h3>
+                <div class="ad-text-analysis">
+                    <div class="text-patterns">
+                        <h4>頻出フレーズ</h4>
+                        <ul class="phrase-list">
+                            {% for phrase in result.ad_text_patterns %}
+                            <li>{{ phrase.text }} <small>({{ phrase.count }}回)</small></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 広告サンプル -->
+            <div class="result-card">
+                <h3><i class="fas fa-eye"></i> 広告サンプル</h3>
+                <div class="ad-samples">
+                    {% for sample in result.ad_samples %}
+                    <div class="ad-sample">
+                        <div class="ad-header">
+                            <span class="ad-type">{{ sample.type }}</span>
+                            <span class="ad-network">{{ sample.network }}</span>
+                        </div>
+                        <div class="ad-content">
+                            {% if sample.image_url %}
+                            <div class="ad-image">
+                                <img src="{{ sample.image_url }}" alt="広告画像">
+                            </div>
+                            {% endif %}
+                            <div class="ad-text">
+                                <h4>{{ sample.headline }}</h4>
+                                <p>{{ sample.description }}</p>
+                                <a href="{{ sample.landing_url }}" target="_blank" rel="noopener">{{ sample.display_url }}</a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- 改善提案 -->
+            <div class="result-card">
+                <h3><i class="fas fa-lightbulb"></i> 改善提案</h3>
+                <div class="recommendations">
+                    <ul class="recommendation-list">
+                        {% for recommendation in result.recommendations %}
+                        <li class="recommendation-item">
+                            <div class="recommendation-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="recommendation-content">
+                                <p>{{ recommendation }}</p>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% elif analysis_type == 'mobile' %}
+        <!-- モバイルフレンドリー分析結果 -->
+        <div class="result-section">
+            <div class="score-overview">
+                <div class="score-card overall">
+                    <h3>モバイルフレンドリースコア</h3>
+                    <div class="score">{{ result.mobile_friendly_score }}/100</div>
+                    <div class="score-bar">
+                        <div class="score-fill" style="width: {{ result.mobile_friendly_score }}%;"></div>
+                    </div>
+                    <div class="score-label">{{ result.mobile_friendly_status }}</div>
+                </div>
+            </div>
+
+            <!-- 分析概要 -->
+            <div class="result-card">
+                <h3><i class="fas fa-mobile-alt"></i> 分析概要</h3>
+                <div class="mobile-summary">
+                    <div class="summary-stats">
+                        <div class="stat-item">
+                            <h4>合格チェック</h4>
+                            <p>{{ result.summary.passed_checks }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>警告チェック</h4>
+                            <p>{{ result.summary.warning_checks }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>失敗チェック</h4>
+                            <p>{{ result.summary.failed_checks }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>総問題数</h4>
+                            <p>{{ result.summary.total_issues }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ビューポート設定 -->
+            <div class="result-card">
+                <h3><i class="fas fa-tablet-alt"></i> ビューポート設定</h3>
+                <div class="viewport-analysis">
+                    <div class="check-status {{ result.viewport.status }}">
+                        {% if result.viewport.status == 'ok' %}
+                        <i class="fas fa-check-circle"></i> ビューポートが適切に設定されています
+                        {% elif result.viewport.status == 'warning' %}
+                        <i class="fas fa-exclamation-triangle"></i> ビューポート設定に問題があります
+                        {% else %}
+                        <i class="fas fa-times-circle"></i> ビューポートが設定されていません
+                        {% endif %}
+                    </div>
+                    
+                    {% if result.viewport.has_viewport %}
+                    <div class="viewport-content">
+                        <h4>ビューポート設定:</h4>
+                        <code>{{ result.viewport.viewport_content }}</code>
+                    </div>
+                    {% endif %}
+                    
+                    {% if result.viewport.issues %}
+                    <div class="viewport-issues">
+                        <h4>検出された問題:</h4>
+                        <ul>
+                            {% for issue in result.viewport.issues %}
+                            <li>{{ issue }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    
+                    {% if result.viewport.recommendation %}
+                    <div class="viewport-recommendation">
+                        <h4>推奨設定:</h4>
+                        <code>{{ result.viewport.recommendation }}</code>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- レスポンシブデザイン -->
+            <div class="result-card">
+                <h3><i class="fas fa-arrows-alt"></i> レスポンシブデザイン</h3>
+                <div class="responsive-analysis">
+                    <div class="check-status {{ result.responsive_design.status }}">
+                        {% if result.responsive_design.status == 'ok' %}
+                        <i class="fas fa-check-circle"></i> レスポンシブデザインが適切に実装されています
+                        {% else %}
+                        <i class="fas fa-exclamation-triangle"></i> レスポンシブデザインに問題があります
+                        {% endif %}
+                    </div>
+                    
+                    <div class="responsive-stats">
+                        <div class="stat-item">
+                            <h4>メディアクエリ</h4>
+                            <p>{{ result.responsive_design.media_queries_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>固定幅要素</h4>
+                            <p>{{ result.responsive_design.fixed_width_elements_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>非レスポンシブ画像</h4>
+                            <p>{{ result.responsive_design.non_responsive_images_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>フレキシブルグリッド</h4>
+                            <p>{{ 'あり' if result.responsive_design.has_flexible_grid else 'なし' }}</p>
+                        </div>
+                    </div>
+                    
+                    {% if result.responsive_design.issues %}
+                    <div class="responsive-issues">
+                        <h4>検出された問題:</h4>
+                        <ul>
+                            {% for issue in result.responsive_design.issues %}
+                            <li>{{ issue }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    
+                    {% if result.responsive_design.recommendations %}
+                    <div class="responsive-recommendations">
+                        <h4>推奨事項:</h4>
+                        <ul>
+                            {% for rec in result.responsive_design.recommendations %}
+                            <li>{{ rec }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- タッチ要素 -->
+            <div class="result-card">
+                <h3><i class="fas fa-hand-pointer"></i> タッチ要素</h3>
+                <div class="touch-analysis">
+                    <div class="check-status {{ result.touch_elements.status }}">
+                        {% if result.touch_elements.status == 'ok' %}
+                        <i class="fas fa-check-circle"></i> タッチ要素のサイズと間隔は適切です
+                        {% else %}
+                        <i class="fas fa-exclamation-triangle"></i> タッチ要素に問題があります
+                        {% endif %}
+                    </div>
+                    
+                    <div class="touch-stats">
+                        <div class="stat-item">
+                            <h4>クリック可能要素</h4>
+                            <p>{{ result.touch_elements.clickable_elements_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>小さい要素</h4>
+                            <p>{{ result.touch_elements.small_elements_count }}</p>
+                        </div>
+                    </div>
+                    
+                    {% if result.touch_elements.issues %}
+                    <div class="touch-issues">
+                        <h4>検出された問題:</h4>
+                        <ul>
+                            {% for issue in result.touch_elements.issues %}
+                            <li>{{ issue }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    
+                    {% if result.touch_elements.recommendations %}
+                    <div class="touch-recommendations">
+                        <h4>推奨事項:</h4>
+                        <ul>
+                            {% for rec in result.touch_elements.recommendations %}
+                            <li>{{ rec }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- フォントサイズ -->
+            <div class="result-card">
+                <h3><i class="fas fa-text-height"></i> フォントサイズ</h3>
+                <div class="font-analysis">
+                    <div class="check-status {{ result.font_size.status }}">
+                        {% if result.font_size.status == 'ok' %}
+                        <i class="fas fa-check-circle"></i> フォントサイズは適切です
+                        {% else %}
+                        <i class="fas fa-exclamation-triangle"></i> フォントサイズに問題があります
+                        {% endif %}
+                    </div>
+                    
+                    {% if result.font_size.small_font_elements_count > 0 %}
+                    <div class="font-issues">
+                        <h4>小さいフォントの要素数:</h4>
+                        <p>{{ result.font_size.small_font_elements_count }}個</p>
+                    </div>
+                    {% endif %}
+                    
+                    {% if result.font_size.recommendations %}
+                    <div class="font-recommendations">
+                        <h4>推奨事項:</h4>
+                        <ul>
+                            {% for rec in result.font_size.recommendations %}
+                            <li>{{ rec }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- コンテンツ幅 -->
+            <div class="result-card">
+                <h3><i class="fas fa-arrows-alt-h"></i> コンテンツ幅</h3>
+                <div class="content-width-analysis">
+                    <div class="check-status {{ result.content_width.status }}">
+                        {% if result.content_width.status == 'ok' %}
+                        <i class="fas fa-check-circle"></i> コンテンツ幅は適切です
+                        {% else %}
+                        <i class="fas fa-exclamation-triangle"></i> コンテンツ幅に問題があります
+                        {% endif %}
+                    </div>
+                    
+                    <div class="width-stats">
+                        <div class="stat-item">
+                            <h4>画面幅を超える要素</h4>
+                            <p>{{ result.content_width.overflow_elements_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>非レスポンシブテーブル</h4>
+                            <p>{{ result.content_width.non_responsive_tables_count }}</p>
+                        </div>
+                    </div>
+                    
+                    {% if result.content_width.issues %}
+                    <div class="width-issues">
+                        <h4>検出された問題:</h4>
+                        <ul>
+                            {% for issue in result.content_width.issues %}
+                            <li>{{ issue }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    
+                    {% if result.content_width.recommendations %}
+                    <div class="width-recommendations">
+                        <h4>推奨事項:</h4>
+                        <ul>
+                            {% for rec in result.content_width.recommendations %}
+                            <li>{{ rec }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% elif analysis_type == 'pagespeed' %}
+        <!-- ページ速度分析結果 -->
+        <div class="result-section">
+            <div class="score-overview">
+                <div class="score-card overall">
+                    <h3>ページ速度スコア</h3>
+                    <div class="score">{{ result.page_speed_score }}/100</div>
+                    <div class="score-bar">
+                        <div class="score-fill" style="width: {{ result.page_speed_score }}%;"></div>
+                    </div>
+                    <div class="score-label">{{ result.speed_rating }}</div>
+                </div>
+            </div>
+
+            <!-- 速度概要 -->
+            <div class="result-card">
+                <h3><i class="fas fa-tachometer-alt"></i> 速度概要</h3>
+                <div class="speed-summary">
+                    <div class="summary-stats">
+                        <div class="stat-item">
+                            <h4>推定読み込み時間</h4>
+                            <p>{{ result.estimated_load_time }}秒</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>総ページサイズ</h4>
+                            <p>{{ result.page_size.total_size_kb }}KB</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>リソース数</h4>
+                            <p>{{ result.resources_count.total }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>総問題数</h4>
+                            <p>{{ result.summary.total_issues }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ページサイズ分析 -->
+            <div class="result-card">
+                <h3><i class="fas fa-weight"></i> ページサイズ分析</h3>
+                <div class="page-size-analysis">
+                    <div class="size-distribution">
+                        <div class="size-item">
+                            <div class="size-label">JavaScript</div>
+                            <div class="size-bar">
+                                <div class="size-fill js-fill" style="width: {{ (result.page_size.js_size_kb / result.page_size.total_size_kb * 100)|round }}%;"></div>
+                            </div>
+                            <div class="size-value">{{ result.page_size.js_size_kb }}KB</div>
+                        </div>
+                        <div class="size-item">
+                            <div class="size-label">CSS</div>
+                            <div class="size-bar">
+                                <div class="size-fill css-fill" style="width: {{ (result.page_size.css_size_kb / result.page_size.total_size_kb * 100)|round }}%;"></div>
+                            </div>
+                            <div class="size-value">{{ result.page_size.css_size_kb }}KB</div>
+                        </div>
+                        <div class="size-item">
+                            <div class="size-label">画像</div>
+                            <div class="size-bar">
+                                <div class="size-fill img-fill" style="width: {{ (result.page_size.images_size_kb / result.page_size.total_size_kb * 100)|round }}%;"></div>
+                            </div>
+                            <div class="size-value">{{ result.page_size.images_size_kb }}KB</div>
+                        </div>
+                        <div class="size-item">
+                            <div class="size-label">フォント</div>
+                            <div class="size-bar">
+                                <div class="size-fill font-fill" style="width: {{ (result.page_size.fonts_size_kb / result.page_size.total_size_kb * 100)|round }}%;"></div>
+                            </div>
+                            <div class="size-value">{{ result.page_size.fonts_size_kb }}KB</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- レンダリングブロックリソース -->
+            <div class="result-card">
+                <h3><i class="fas fa-ban"></i> レンダリングブロックリソース</h3>
+                <div class="render-blocking-analysis">
+                    <div class="blocking-stats">
+                        <div class="stat-item">
+                            <h4>ブロックするJS</h4>
+                            <p>{{ result.render_blocking.blocking_js_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>ブロックするCSS</h4>
+                            <p>{{ result.render_blocking.blocking_css_count }}</p>
+                        </div>
+                    </div>
+                    
+                    {% if result.render_blocking.issues %}
+                    <div class="blocking-issues">
+                        <h4>検出された問題:</h4>
+                        <ul>
+                            {% for issue in result.render_blocking.issues %}
+                            {% if issue %}
+                            <li>{{ issue }}</li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    
+                    {% if result.render_blocking.recommendations %}
+                    <div class="blocking-recommendations">
+                        <h4>推奨事項:</h4>
+                        <ul>
+                            {% for rec in result.render_blocking.recommendations %}
+                            <li>{{ rec }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- 画像最適化 -->
+            <div class="result-card">
+                <h3><i class="fas fa-image"></i> 画像最適化</h3>
+                <div class="image-optimization-analysis">
+                    <div class="image-stats">
+                        <div class="stat-item">
+                            <h4>総画像数</h4>
+                            <p>{{ result.image_optimization.total_images }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>大きい画像</h4>
+                            <p>{{ result.image_optimization.large_images_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>サイズ未指定画像</h4>
+                            <p>{{ result.image_optimization.missing_dimensions_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>遅延読み込みなし</h4>
+                            <p>{{ result.image_optimization.non_lazy_images_count }}</p>
+                        </div>
+                    </div>
+                    
+                    {% if result.image_optimization.issues %}
+                    <div class="image-issues">
+                        <h4>検出された問題:</h4>
+                        <ul>
+                            {% for issue in result.image_optimization.issues %}
+                            {% if issue %}
+                            <li>{{ issue }}</li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    
+                    {% if result.image_optimization.recommendations %}
+                    <div class="image-recommendations">
+                        <h4>推奨事項:</h4>
+                        <ul>
+                            {% for rec in result.image_optimization.recommendations %}
+                            <li>{{ rec }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- ファイル最小化 -->
+            <div class="result-card">
+                <h3><i class="fas fa-compress-arrows-alt"></i> ファイル最小化</h3>
+                <div class="minification-analysis">
+                    <div class="minification-stats">
+                        <div class="stat-item">
+                            <h4>非最小化JS</h4>
+                            <p>{{ result.minification.non_minified_js_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>非最小化CSS</h4>
+                            <p>{{ result.minification.non_minified_css_count }}</p>
+                        </div>
+                    </div>
+                    
+                    {% if result.minification.issues %}
+                    <div class="minification-issues">
+                        <h4>検出された問題:</h4>
+                        <ul>
+                            {% for issue in result.minification.issues %}
+                            {% if issue %}
+                            <li>{{ issue }}</li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    
+                    {% if result.minification.recommendations %}
+                    <div class="minification-recommendations">
+                        <h4>推奨事項:</h4>
+                        <ul>
+                            {% for rec in result.minification.recommendations %}
+                            <li>{{ rec }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- キャッシュ設定 -->
+            <div class="result-card">
+                <h3><i class="fas fa-hdd"></i> キャッシュ設定</h3>
+                <div class="caching-analysis">
+                    <div class="caching-stats">
+                        <div class="stat-item">
+                            <h4>キャッシュなし</h4>
+                            <p>{{ result.caching.non_cached_count }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>短期キャッシュ</h4>
+                            <p>{{ result.caching.short_cache_count }}</p>
+                        </div>
+                    </div>
+                    
+                    {% if result.caching.issues %}
+                    <div class="caching-issues">
+                        <h4>検出された問題:</h4>
+                        <ul>
+                            {% for issue in result.caching.issues %}
+                            {% if issue %}
+                            <li>{{ issue }}</li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    
+                    {% if result.caching.recommendations %}
+                    <div class="caching-recommendations">
+                        <h4>推奨事項:</h4>
+                        <ul>
+                            {% for rec in result.caching.recommendations %}
+                            <li>{{ rec }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% elif analysis_type == 'searchconsole' %}
+        <!-- Google Search Console分析結果 -->
+        <div class="result-section">
+            <div class="score-overview">
+                <div class="score-card overall">
+                    <h3>検索パフォーマンス評価</h3>
+                    <div class="score-label">{{ result.search_performance.rating }}</div>
+                </div>
+            </div>
+
+            <!-- 検索パフォーマンス概要 -->
+            <div class="result-card">
+                <h3><i class="fas fa-search"></i> 検索パフォーマンス概要</h3>
+                <div class="search-performance-summary">
+                    <div class="performance-stats">
+                        <div class="stat-item">
+                            <h4>クリック数</h4>
+                            <p>{{ result.search_performance.summary.clicks }}</p>
+                            <span class="trend {{ 'positive' if result.search_performance.trends.clicks > 0 else 'negative' }}">
+                                {{ result.search_performance.trends.clicks }}%
+                            </span>
+                        </div>
+                        <div class="stat-item">
+                            <h4>表示回数</h4>
+                            <p>{{ result.search_performance.summary.impressions }}</p>
+                            <span class="trend {{ 'positive' if result.search_performance.trends.impressions > 0 else 'negative' }}">
+                                {{ result.search_performance.trends.impressions }}%
+                            </span>
+                        </div>
+                        <div class="stat-item">
+                            <h4>CTR</h4>
+                            <p>{{ result.search_performance.summary.ctr }}%</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>平均掲載順位</h4>
+                            <p>{{ result.search_performance.summary.position }}</p>
+                            <span class="trend {{ 'positive' if result.search_performance.trends.position > 0 else 'negative' }}">
+                                {{ result.search_performance.trends.position }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 上位キーワード -->
+            <div class="result-card">
+                <h3><i class="fas fa-key"></i> 上位キーワード</h3>
+                <div class="top-queries">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>キーワード</th>
+                                <th>クリック数</th>
+                                <th>表示回数</th>
+                                <th>CTR</th>
+                                <th>平均順位</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for query in result.search_performance.top_queries %}
+                            <tr>
+                                <td>{{ query.dimension_value }}</td>
+                                <td>{{ query.clicks }}</td>
+                                <td>{{ query.impressions }}</td>
+                                <td>{{ query.ctr }}%</td>
+                                <td>{{ query.position }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 上位ページ -->
+            <div class="result-card">
+                <h3><i class="fas fa-file"></i> 上位ページ</h3>
+                <div class="top-pages">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>ページURL</th>
+                                <th>クリック数</th>
+                                <th>表示回数</th>
+                                <th>CTR</th>
+                                <th>平均順位</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for page in result.search_performance.top_pages %}
+                            <tr>
+                                <td>{{ page.dimension_value }}</td>
+                                <td>{{ page.clicks }}</td>
+                                <td>{{ page.impressions }}</td>
+                                <td>{{ page.ctr }}%</td>
+                                <td>{{ page.position }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- デバイス別データ -->
+            <div class="result-card">
+                <h3><i class="fas fa-mobile-alt"></i> デバイス別データ</h3>
+                <div class="device-data">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>デバイス</th>
+                                <th>クリック数</th>
+                                <th>表示回数</th>
+                                <th>CTR</th>
+                                <th>平均順位</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for device in result.search_performance.device_data %}
+                            <tr>
+                                <td>{{ device.dimension_value }}</td>
+                                <td>{{ device.clicks }}</td>
+                                <td>{{ device.impressions }}</td>
+                                <td>{{ device.ctr }}%</td>
+                                <td>{{ device.position }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- インデックスカバレッジ -->
+            <div class="result-card">
+                <h3><i class="fas fa-sitemap"></i> インデックスカバレッジ</h3>
+                <div class="index-coverage">
+                    <div class="coverage-summary">
+                        <h4>カバレッジ評価: {{ result.index_coverage.rating }}</h4>
+                        <div class="coverage-stats">
+                            <div class="stat-item">
+                                <h4>総URL数</h4>
+                                <p>{{ result.index_coverage.summary.total_urls }}</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>有効</h4>
+                                <p>{{ result.index_coverage.summary.valid.count }} ({{ result.index_coverage.summary.valid.percentage }}%)</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>除外</h4>
+                                <p>{{ result.index_coverage.summary.excluded.count }} ({{ result.index_coverage.summary.excluded.percentage }}%)</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>エラー</h4>
+                                <p>{{ result.index_coverage.summary.error.count }} ({{ result.index_coverage.summary.error.percentage }}%)</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>警告</h4>
+                                <p>{{ result.index_coverage.summary.warning.count }} ({{ result.index_coverage.summary.warning.percentage }}%)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- モバイルユーザビリティ -->
+            <div class="result-card">
+                <h3><i class="fas fa-tablet-alt"></i> モバイルユーザビリティ</h3>
+                <div class="mobile-usability">
+                    <div class="usability-summary">
+                        <h4>ユーザビリティ評価: {{ result.mobile_usability.rating }}</h4>
+                        <div class="usability-stats">
+                            <div class="stat-item">
+                                <h4>総ページ数</h4>
+                                <p>{{ result.mobile_usability.summary.total_pages }}</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>有効</h4>
+                                <p>{{ result.mobile_usability.summary.valid.count }} ({{ result.mobile_usability.summary.valid.percentage }}%)</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>問題あり</h4>
+                                <p>{{ result.mobile_usability.summary.issues.count }} ({{ result.mobile_usability.summary.issues.percentage }}%)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 改善提案 -->
+            <div class="result-card">
+                <h3><i class="fas fa-lightbulb"></i> 改善提案</h3>
+                <div class="recommendations">
+                    <ul class="recommendation-list">
+                        {% for recommendation in result.recommendations %}
+                        <li class="recommendation-item">
+                            <div class="recommendation-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="recommendation-content">
+                                <p>{{ recommendation }}</p>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% elif analysis_type == 'analytics' %}
+        <!-- Google Analytics分析結果 -->
+        <div class="result-section">
+            <div class="score-overview">
+                <div class="score-card overall">
+                    <h3>トラフィック評価</h3>
+                    <div class="score-label">{{ result.traffic.rating }}</div>
+                </div>
+                <div class="score-card">
+                    <h3>エンゲージメント評価</h3>
+                    <div class="score-label">{{ result.engagement.rating }}</div>
+                </div>
+            </div>
+
+            <!-- トラフィック概要 -->
+            <div class="result-card">
+                <h3><i class="fas fa-chart-line"></i> トラフィック概要</h3>
+                <div class="traffic-summary">
+                    <div class="traffic-stats">
+                        <div class="stat-item">
+                            <h4>セッション数</h4>
+                            <p>{{ result.traffic.summary.sessions }}</p>
+                            <span class="trend {{ 'positive' if result.traffic.trends.sessions > 0 else 'negative' }}">
+                                {{ result.traffic.trends.sessions }}%
+                            </span>
+                        </div>
+                        <div class="stat-item">
+                            <h4>ユーザー数</h4>
+                            <p>{{ result.traffic.summary.users }}</p>
+                            <span class="trend {{ 'positive' if result.traffic.trends.users > 0 else 'negative' }}">
+                                {{ result.traffic.trends.users }}%
+                            </span>
+                        </div>
+                        <div class="stat-item">
+                            <h4>新規ユーザー</h4>
+                            <p>{{ result.traffic.summary.new_users }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>ページビュー数</h4>
+                            <p>{{ result.traffic.summary.pageviews }}</p>
+                            <span class="trend {{ 'positive' if result.traffic.trends.pageviews > 0 else 'negative' }}">
+                                {{ result.traffic.trends.pageviews }}%
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- エンゲージメント指標 -->
+            <div class="result-card">
+                <h3><i class="fas fa-user-clock"></i> エンゲージメント指標</h3>
+                <div class="engagement-metrics">
+                    <div class="engagement-stats">
+                        <div class="stat-item">
+                            <h4>直帰率</h4>
+                            <p>{{ result.engagement.bounce_rate }}%</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>ページ/セッション</h4>
+                            <p>{{ result.engagement.pages_per_session }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>平均セッション時間</h4>
+                            <p>{{ result.engagement.avg_session_duration }}秒</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>エンゲージメントスコア</h4>
+                            <p>{{ result.engagement.score }}/100</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- トラフィックソース -->
+            <div class="result-card">
+                <h3><i class="fas fa-sign-in-alt"></i> トラフィックソース</h3>
+                <div class="traffic-sources">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>ソース</th>
+                                <th>メディア</th>
+                                <th>セッション数</th>
+                                <th>ユーザー数</th>
+                                <th>直帰率</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for source in result.traffic.top_sources %}
+                            <tr>
+                                <td>{{ source.source }}</td>
+                                <td>{{ source.medium }}</td>
+                                <td>{{ source.sessions }}</td>
+                                <td>{{ source.users }}</td>
+                                <td>{{ source.bounce_rate }}%</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- デバイス別データ -->
+            <div class="result-card">
+                <h3><i class="fas fa-mobile-alt"></i> デバイス別データ</h3>
+                <div class="device-data">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>デバイス</th>
+                                <th>セッション数</th>
+                                <th>ユーザー数</th>
+                                <th>直帰率</th>
+                                <th>ページ/セッション</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for device in result.traffic.devices %}
+                            <tr>
+                                <td>{{ device.device_category }}</td>
+                                <td>{{ device.sessions }}</td>
+                                <td>{{ device.users }}</td>
+                                <td>{{ device.bounce_rate }}%</td>
+                                <td>{{ device.pages_per_session }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 上位ページ -->
+            <div class="result-card">
+                <h3><i class="fas fa-file"></i> 上位ページ</h3>
+                <div class="top-pages">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>ページパス</th>
+                                <th>ページビュー数</th>
+                                <th>ユニークページビュー数</th>
+                                <th>平均滞在時間</th>
+                                <th>直帰率</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for page in result.pages.top_pages %}
+                            <tr>
+                                <td>{{ page.page_path }}</td>
+                                <td>{{ page.pageviews }}</td>
+                                <td>{{ page.unique_pageviews }}</td>
+                                <td>{{ page.avg_time_on_page }}秒</td>
+                                <td>{{ page.bounce_rate }}%</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- イベント分析 -->
+            <div class="result-card">
+                <h3><i class="fas fa-bolt"></i> イベント分析</h3>
+                <div class="events-analysis">
+                    <div class="events-summary">
+                        <div class="stat-item">
+                            <h4>総イベント数</h4>
+                            <p>{{ result.events.total_events }}</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>ユニークイベント数</h4>
+                            <p>{{ result.events.unique_events }}</p>
+                        </div>
+                    </div>
+                    
+                    <div class="top-events">
+                        <h4>主要イベント</h4>
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>カテゴリ</th>
+                                    <th>アクション</th>
+                                    <th>イベント数</th>
+                                    <th>ユニーク数</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for event in result.events.top_events %}
+                                <tr>
+                                    <td>{{ event.event_category }}</td>
+                                    <td>{{ event.event_action }}</td>
+                                    <td>{{ event.total_events }}</td>
+                                    <td>{{ event.unique_events }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 改善提案 -->
+            <div class="result-card">
+                <h3><i class="fas fa-lightbulb"></i> 改善提案</h3>
+                <div class="recommendations">
+                    <ul class="recommendation-list">
+                        {% for recommendation in result.recommendations %}
+                        <li class="recommendation-item">
+                            <div class="recommendation-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="recommendation-content">
+                                <p>{{ recommendation }}</p>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% elif analysis_type == 'comprehensive' %}
+        <!-- 総合分析結果 -->
+        <div class="result-section">
+            <div class="score-overview">
+                <div class="score-card overall">
+                    <h3>総合スコア</h3>
+                    <div class="score">{{ result.comprehensive_score }}/100</div>
+                    <div class="score-bar">
+                        <div class="score-fill" style="width: {{ result.comprehensive_score }}%;"></div>
+                    </div>
+                    <div class="score-label">{{ result.comprehensive_rating }}</div>
+                </div>
+                <div class="score-categories">
+                    {% if result.detailed_results.seo.overall_score %}
+                    <div class="score-card">
+                        <h4>SEO基本</h4>
+                        <div class="score">{{ result.detailed_results.seo.overall_score }}/100</div>
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: {{ result.detailed_results.seo.overall_score }}%;"></div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if result.detailed_results.mobile.mobile_friendly_score %}
+                    <div class="score-card">
+                        <h4>モバイル</h4>
+                        <div class="score">{{ result.detailed_results.mobile.mobile_friendly_score }}/100</div>
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: {{ result.detailed_results.mobile.mobile_friendly_score }}%;"></div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if result.detailed_results.pagespeed.page_speed_score %}
+                    <div class="score-card">
+                        <h4>ページ速度</h4>
+                        <div class="score">{{ result.detailed_results.pagespeed.page_speed_score }}/100</div>
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: {{ result.detailed_results.pagespeed.page_speed_score }}%;"></div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- 優先改善提案 -->
+            <div class="result-card">
+                <h3><i class="fas fa-lightbulb"></i> 優先改善提案</h3>
+                <div class="recommendations">
+                    <ul class="recommendation-list">
+                        {% for recommendation in result.recommendations %}
+                        <li class="recommendation-item">
+                            <div class="recommendation-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="recommendation-content">
+                                <p>{{ recommendation }}</p>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 詳細分析へのリンク -->
+            <div class="result-card">
+                <h3><i class="fas fa-list"></i> 詳細分析</h3>
+                <div class="detailed-analysis-links">
+                    <p>以下のリンクから各分析の詳細結果を確認できます：</p>
+                    <div class="analysis-links">
+                        <a href="#seo-section" class="analysis-link" onclick="toggleSection('seo-section')">
+                            <i class="fas fa-search"></i> SEO基本分析
+                        </a>
+                        <a href="#mobile-section" class="analysis-link" onclick="toggleSection('mobile-section')">
+                            <i class="fas fa-mobile-alt"></i> モバイルフレンドリー分析
+                        </a>
+                        <a href="#pagespeed-section" class="analysis-link" onclick="toggleSection('pagespeed-section')">
+                            <i class="fas fa-tachometer-alt"></i> ページ速度分析
+                        </a>
+                        <a href="#ads-section" class="analysis-link" onclick="toggleSection('ads-section')">
+                            <i class="fas fa-ad"></i> 広告分析
+                        </a>
+                        <a href="#searchconsole-section" class="analysis-link" onclick="toggleSection('searchconsole-section')">
+                            <i class="fab fa-google"></i> Search Console分析
+                        </a>
+                        <a href="#analytics-section" class="analysis-link" onclick="toggleSection('analytics-section')">
+                            <i class="fas fa-chart-line"></i> Analytics分析
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 詳細セクション（初期状態では非表示） -->
+            <div id="seo-section" class="detailed-section" style="display: none;">
+                <h3>SEO基本分析の詳細</h3>
+                <div class="section-content">
+                    <!-- SEO分析の詳細内容 -->
+                </div>
+            </div>
+
+            <div id="mobile-section" class="detailed-section" style="display: none;">
+                <h3>モバイルフレンドリー分析の詳細</h3>
+                <div class="section-content">
+                    <!-- モバイル分析の詳細内容 -->
+                </div>
+            </div>
+
+            <div id="pagespeed-section" class="detailed-section" style="display: none;">
+                <h3>ページ速度分析の詳細</h3>
+                <div class="section-content">
+                    <!-- ページ速度分析の詳細内容 -->
+                </div>
+            </div>
+
+            <div id="ads-section" class="detailed-section" style="display: none;">
+                <h3>広告分析の詳細</h3>
+                <div class="section-content">
+                    <!-- 広告分析の詳細内容 -->
+                </div>
+            </div>
+
+            <div id="searchconsole-section" class="detailed-section" style="display: none;">
+                <h3>Search Console分析の詳細</h3>
+                <div class="section-content">
+                    <!-- Search Console分析の詳細内容 -->
+                </div>
+            </div>
+
+            <div id="analytics-section" class="detailed-section" style="display: none;">
+                <h3>Analytics分析の詳細</h3>
+                <div class="section-content">
+                    <!-- Analytics分析の詳細内容 -->
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 SEOマスターツール</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/result.js') }}"></script>
+</body>
+</html>
