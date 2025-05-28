@@ -741,3 +741,16 @@
 2025-05-28 18:30:54,849 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:30:54] "GET / HTTP/1.1" 200 -
 2025-05-28 18:30:54,870 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:30:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2025-05-28 18:30:54,874 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 18:30:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-29 02:18:55,077 - __main__ - INFO - WebÉCÉìÉ^Å[ÉtÉFÅ[ÉXÇãNìÆ: É|Å[Ég 5000
+2025-05-29 02:18:55,204 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2025-05-29 02:18:55,204 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 02:18:55,217 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 02:18:57,322 - __main__ - INFO - WebÉCÉìÉ^Å[ÉtÉFÅ[ÉXÇãNìÆ: É|Å[Ég 5000
+2025-05-29 02:18:57,334 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 02:18:57,338 - werkzeug - INFO -  * Debugger PIN: 133-804-867
+2025-05-29 02:19:21,893 - werkzeug - INFO - 127.0.0.1 - - [29/May/2025 02:19:21] "GET / HTTP/1.1" 200 -
+2025-05-29 02:19:21,932 - werkzeug - INFO - 127.0.0.1 - - [29/May/2025 02:19:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 02:19:21,951 - werkzeug - INFO - 127.0.0.1 - - [29/May/2025 02:19:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
